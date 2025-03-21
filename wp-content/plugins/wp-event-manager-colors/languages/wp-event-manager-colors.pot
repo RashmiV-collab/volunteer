@@ -1,0 +1,154 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Event Manager - Event Colors\n"
+"POT-Creation-Date: 2019-08-02 20:36+0530\n"
+"PO-Revision-Date: 2019-08-02 20:36+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-colors.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wp-event-manager-color-settings.php:44
+msgid "Event Type"
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:45
+#: admin/wp-event-manager-color-settings.php:82
+msgid "Color will apply on ?"
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:54
+#, php-format
+msgid "<strong>%s - Text Color</strong>"
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:55
+msgid "Hex value for the text color of this event type."
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:65
+#: admin/wp-event-manager-color-settings.php:106
+#, php-format
+msgid "<strong>%s - Background</strong>"
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:66
+msgid "Hex value for the background color of this event type."
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:81
+msgid "Event Category"
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:85
+msgid "Background"
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:86
+msgid "Text"
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:95
+#, php-format
+msgid "<strong>%s - Text Color </strong>"
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:96
+msgid "Hex value for the text color of this event category."
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:107
+msgid "Hex value for the background color of this event category."
+msgstr ""
+
+#: admin/wp-event-manager-color-settings.php:116
+msgid "Type & Category Colors"
+msgstr ""
+
+#: autoupdater/gam-plugin-updater.php:408
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr ""
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr ""
+
+#: autoupdater/templates/key-input.php:4
+msgid "Licence"
+msgstr ""
+
+#: autoupdater/templates/key-input.php:7
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr ""
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: wp-event-manager-colors.php:37
+msgid "WP Event Manager is require to use WP Event Manager - Colors"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Event Manager - Event Colors"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Manage event types and category with colors"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.wp-eventmanager.com/"
+msgstr ""

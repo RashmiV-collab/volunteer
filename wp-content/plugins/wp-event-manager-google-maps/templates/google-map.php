@@ -1,0 +1,1 @@
+<div id='googleMap' class="google-map-loadmore" style="width:<?php echo $maps_width; ?>;height:<?php echo $maps_height; ?>";></div>

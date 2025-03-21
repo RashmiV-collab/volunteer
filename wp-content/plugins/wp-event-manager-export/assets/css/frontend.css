@@ -1,0 +1,42 @@
+.modal-header h4 {
+  font-size: 26px !important;
+  margin: 0 0 0.5em;
+}
+#custom_events_form {
+  display: none;
+}
+#wpem-export-modal-popup .wpem-theme-button:focus {
+  color: #fff;
+}
+
+
+#custom_organizer_form{
+  display: none;
+}
+
+#custom_venue_form{
+  display: none;
+}
+.error{
+	color:red;
+}
+.wpem-export-dashboard-download-wrapper {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  background-color: var(--wpem-gray-bg-color);
+  padding: 20px;
+  border-radius: 4px;
+}
+.wpem-export-dashboard-download-wrapper .wpem-theme-text {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.wpem-export-dashboard-download-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wpem-export-dashboard-download-wrapper .wpem-modal-button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

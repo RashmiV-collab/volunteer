@@ -1,0 +1,56 @@
+/** custom css **/
+#wpem-crom-mail-section .btn.active.save_event_cron {
+    padding : 0px 30px;
+}
+
+#wpem-crom-mail-section .wpem-cron-ajax-loader {
+   height: 50px;
+}
+
+.wpem-cron-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wpem-cron-box-text-section:not(.active){
+    display: none;
+}
+
+.note-editor .btn-toolbar button[data-data-original-title="Picture"] {
+    display: none !important;
+}
+
+.note-editor .btn-toolbar button[data-data-original-title="Video"] {
+    display: none !important;
+}
+
+.volunteer_thankyou_page{
+    text-align:right;
+}
+
+.volunteer_thankyou_page a{
+    font-family: "Lexend", Sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff !important;
+    background-color: #5BBF59;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--e-global-color-secondary);
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 25px 10px 25px;
+}
+
+.volunteer_thankyou_page a:hover, .volunteer_thankyou_page a:focus{
+    color: var(--e-global-color-f002f48);
+    background-color: var(--e-global-color-primary);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--e-global-color-primary);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.volunteer_thankyou_page span {
+    margin-left: 20px;
+}

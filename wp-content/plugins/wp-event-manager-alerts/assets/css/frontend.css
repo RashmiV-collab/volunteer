@@ -1,0 +1,56 @@
+ul.event-alert-actions {
+    margin: 0;
+    padding: 0;
+}
+ul.event-alert-actions li {
+    list-style: none;
+    display: inline-block;
+    margin: 2px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+ul.event-alert-actions li a {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: normal;
+    font-size: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+ul.event-alert-actions li a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    font-family: wp-event-manager;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+ul.event-alert-actions li a.event-alerts-action-view:before {content: "\e9ce";}
+
+ul.event-alert-actions li a.event-alerts-action-email:before {content: "\ea84";}
+ul.event-alert-actions li a.event-alerts-action-alerts_edit:before {content: "\e906";}
+ul.event-alert-actions li a.event-alerts-action-toggle_status:before {content: "\ea0e";}
+ul.event-alert-actions li a.event-alerts-action-delete:before {content: "\e9ac";}
+
+.wpem-single-alert-link{
+    border: 0px !important;
+    padding-left: 0px !important;
+    margin: 0px !important;
+}
+
+
+@media (max-width: 767px){
+    .wpem-main-vmenu-dashboard-nav-menu {
+        margin-bottom: 20px;
+    }
+}

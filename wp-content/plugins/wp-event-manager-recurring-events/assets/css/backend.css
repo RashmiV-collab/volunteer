@@ -1,0 +1,6 @@
+.widefat .column-action a.button.button-icon{display: inline-block; margin: 0 0 2px 4px;cursor: pointer;font-size: 1em!important;line-height: 2em!important;overflow: hidden;width: 2em!important;padding: 0!important;}
+.widefat .column-action a.button.button-icon:before { font-family: wp-event-manager!important; font-style: normal;font-weight: 400;speak: none;display: inline-block; text-decoration: inherit;text-align: center;font-variant: normal; text-transform: none;float: left;width: 2em!important;line-height: 2em;}
+.widefat .column-action a.button.button-icon.view:before {content: "\e9ce";}
+.widefat .column-action a.button.button-icon.recurring-now-btn:before {content: "\e92c";}
+.widefat .column-action a.button.button-icon.recurring-delete-btn:before {content: "\e9ac";}
+.event_listing_page_event-manager-recurring .action .spinner{float: unset;}

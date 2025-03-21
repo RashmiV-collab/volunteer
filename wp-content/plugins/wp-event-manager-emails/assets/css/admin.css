@@ -1,0 +1,80 @@
+.wp-event-emails-email-content-wrapper .nav-tab-wrapper {
+  margin-bottom: 15px
+}
+.wp-event-emails-email-content-wrapper table td input.input-text{
+  width: 100%;
+  min-width: 100px
+}
+.wp-event-emails-email-content-wrapper .save-actions {
+  text-align: right
+}
+.wp-event-emails-email-content-wrapper .save-actions input {
+  margin-left: 1em
+}
+.wp-event-emails-email-content-wrapper .save-actions .reset {
+  color: #bbb;
+  text-decoration: none
+}
+.wp-event-emails-email-content-wrapper .save-actions .reset:hover {
+  color: red
+}
+.wp-event-emails-email-content-wrapper .wp-event-emails-email-content {
+  width: 100%;
+  display: block;
+  float: left
+}
+.wp-event-emails-email-content-wrapper .wp-event-emails-email-content input {
+  width: 100%;
+  font-size: 1.3em;
+  padding: 3px 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.wp-event-emails-email-content-wrapper .wp-event-emails-email-content textarea {
+  min-height: 400px;
+  width: 100%;
+  font-family: monospace;
+  padding: 15px;
+}
+.wp-event-emails fieldset {
+  margin-bottom: 15px;
+}
+.wp-event-emails fieldset label {
+  margin: 5px 0px;
+  display: block;
+}
+.wp-event-emails-email-content-wrapper .wp-event-emails-email-content label {
+  margin-bottom: 5px;
+  display: block;
+}
+.wrap .wp-event-manager-emails-notifications h2.nav-tab-wrapper {
+  margin: 0 0 20px;
+}
+@media screen and (max-width: 782px) {
+  .wp-event-manager-emails-notifications .admin-setting-left,
+  .wp-event-manager-emails-notifications .box-info {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+.wp-event-add-email-template {
+    padding: 0 10px;
+}
+.wp-event-add-email-template .wrap {
+    margin: 0;
+}
+.wp-event-add-email-template .wp_event_manager_meta_data{
+    padding-left: 0;
+    padding-right: 0;
+}
+.wp-event-add-email-template textarea{
+    width: 100%;
+}
+.wp-event-add-email-template .form-feild-w-100{
+    width: 100%;
+    flex: inherit;
+    padding: 0 !important;
+}

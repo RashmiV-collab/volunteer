@@ -1,0 +1,82 @@
+# Copyright (C) 2017 WP Event Manager - Google Analytics
+# This file is distributed under the same license as the WP Event Manager - Google Analytics.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Event Manager - Google Analytics 1.0.0\n"
+"Report-Msgid-Bugs-To: http://www.wp-eventmanager.com/forums/forum/wordpress-plugins/wp-event-manager-add-ons/-"
+"Google Analytics\n"
+"POT-Creation-Date: 2017-12-29 21:03:26+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: autoupdater
+#: autoupdater/templates/
+#: autoupdater/templates/key-input.php:4
+msgid "Licence"
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: autoupdater
+#: autoupdater/templates
+#: autoupdater/templates/activated-key.php:2
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr ""
+
+#: autoupdater/templates/deactivated-key.php:2
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr ""
+
+#: autoupdater/templates/key-input.php:7
+msgid "Enter your licence key and email and hit return. A valid key is required for automatic updates."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:3
+msgid "<a href="%s">Please enter your licence key</a> in the plugin list below to get updates for "%s"."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:4
+msgid "Lost your key? <a href="%s">Retrieve it here</a>.', esc_url( 'http://www.wp-eventmanager.com/lost-license-key/')"
+msgstr ""
+
+#: autoupdater/templates/ms-update.php:6
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=""\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s""\">update now</a>."
+msgstr ""
+
+#: wp-event-manager-google-analytics.php:38
+msgid "WP Event Manager is require to use WP Event Manager - Google Analytics"
+msgstr ""
+
+#: wp-event-manager-google-analytics.php:103
+msgid "Please enter your google analytics tracking code"
+msgstr ""
+
+#: wp-event-manager-google-analytics.php:104
+msgid "Please enter your google analytics tracking code with script tag."
+msgstr ""
+
+#: admin
+#: admin/wp-event-manager-google-analytics-settings.php:31
+msgid "Google Analytics"
+msgstr ""
+
+#: admin/wp-event-manager-google-analytics-settings.php:36
+msgid "Tracking Code"
+msgstr ""
+
+#: admin/wp-event-manager-google-analytics-settings.php:37
+msgid "Please enter your google analytics tracking code, <script>..your code..</script>. It will contain tracking id, something like UA-XXXXXXXX-XX"
+msgstr ""
+
+#: admin/wp-event-manager-google-analytics-settings.php:38
+msgid "This google analytics tracking code will insert at footer of the every page of your site."
+msgstr ""
+
+
+

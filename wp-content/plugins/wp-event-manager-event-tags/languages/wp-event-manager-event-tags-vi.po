@@ -1,0 +1,395 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: WP Event Manager - Event Tags\n"
+"POT-Creation-Date: 2022-12-30 11:36+0530\n"
+"PO-Revision-Date: 2022-12-30 11:52+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-event-tags.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: vi\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-event-tags-settings.php:31
+msgid "Tag Archives"
+msgstr "Thẻ ghi lưu trữ"
+
+#: admin/wpem-event-tags-settings.php:32
+
+msgid "Enable Tag Archives"
+msgstr "Bật lưu trữ thẻ"
+
+#: admin/wpem-event-tags-settings.php:33 admin/wpem-event-tags-settings.php:63
+
+msgid ""
+"Enabling tag archives will make event tags (inside events and tag clouds) "
+"link through to an archive of all events with said tag. Please note, tag "
+"archives will look like your post archives unless you create a special "
+"template to handle the display of event listings called <code>taxonomy-"
+"event_listing_tag.php</code> inside your theme. See <a href=\"http://codex."
+"wordpress.org/Template_Hierarchy#Custom_Taxonomies_display\">Template "
+"Hierarchy</a> for more information."
+msgstr ""
+"Bật lưu trữ thẻ sẽ làm cho các thẻ sự kiện (bên trong sự kiện và đám mây "
+"thẻ) liên kết đến kho lưu trữ tất cả các sự kiện có thẻ đã nói. Xin lưu ý, "
+"lưu trữ thẻ sẽ trông giống như kho lưu trữ bài đăng của bạn trừ khi bạn tạo "
+"một mẫu đặc biệt để xử lý việc hiển thị danh sách sự kiện được gọi bên "
+"<code>taxonomy-event_listing_tag.php</code> trong chủ đề của bạn. Xem <a "
+"href=\"http://codex.wordpress.org/"
+"Template_Hierarchy#Custom_Taxonomies_display\">Cấu trúc phân cấp mẫu</a> để "
+"biết thêm thông tin."
+
+#: admin/wpem-event-tags-settings.php:39
+
+msgid "Tags Filter Type"
+msgstr "Tag Loại bộ lọc"
+
+#: admin/wpem-event-tags-settings.php:40
+
+msgid "Determines how events are queried when selecting tags."
+msgstr "Xác định cách các sự kiện được truy vấn khi chọn thẻ."
+
+#: admin/wpem-event-tags-settings.php:43
+
+msgid "Events will be shown if within ANY chosen tag"
+msgstr "Các sự kiện sẽ được hiển thị nếu trong BẤT KỲ thẻ nào đã chọn"
+
+#: admin/wpem-event-tags-settings.php:44
+
+msgid "Events will be shown if within ALL chosen tags"
+msgstr "Sự kiện sẽ được hiển thị nếu trong TẤT CẢ các thẻ đã chọn"
+
+#: admin/wpem-event-tags-settings.php:50
+
+msgid "Maximum Event Tags"
+msgstr "Thẻ sự kiện tối đa"
+
+#: admin/wpem-event-tags-settings.php:51
+
+msgid ""
+"Enter the number of tags per event submission you wish to allow, or leave "
+"blank for unlimited tags."
+msgstr ""
+"Nhập số lượng thẻ cho mỗi lần gửi sự kiện bạn muốn cho phép hoặc để trống "
+"cho các thẻ không giới hạn."
+
+#: admin/wpem-event-tags-settings.php:57
+
+msgid "Tag Input"
+msgstr "Đầu vào thẻ"
+
+#: admin/wpem-event-tags-writepanels.php:27
+msgid "Tags"
+msgstr "Thẻ"
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Giấy phép <strong>%s</strong> của bạn đã được kích hoạt. Cảm ơn!"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+msgid "License"
+msgstr "Giấy phép"
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr "Email"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "Địa chỉ email"
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr "Hủy kích hoạt giấy phép"
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr "Kích hoạt Giấy phép"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Giấy phép <strong>%s</strong> của bạn đã bị vô hiệu hóa."
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr "Ẩn thông báo"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\">Vui lòng nhập khóa cấp phép của bạn</a> vào danh sách "
+"plugin bên dưới để nhận bản cập nhật cho \"%2$s\"."
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Bạn bị mất chìa khóa? <a href=\"%s\">Truy xuất nó ở đây</a>."
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Có một phiên bản mới của %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">Xem phiên bản %3$s chi tiết</a> hoặc <a href=\"%4$s\">nâng cấp</a>."
+
+#: autoupdater/wpem-updater-license.php:76
+
+msgid "Lost your license key?"
+msgstr "Bạn bị mất khóa cấp phép?"
+
+#: autoupdater/wpem-updater-license.php:76
+
+msgid "Retrieve it here"
+msgstr "Truy xuất nó ở đây"
+
+#: autoupdater/wpem-updater.php:266
+
+msgid "Activate licence"
+msgstr "Giấy phép Activate"
+
+#: autoupdater/wpem-updater.php:274
+
+msgid "Deactivate licence"
+msgstr "Hủy kích hoạt giấy phép"
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+"Không thể tìm thấy khóa cấp phép cho %1$s. Có thể bạn quên nhập khóa cấp "
+"phép khi thiết lập %2$s."
+
+#: external/elementor-widgets/elementor-events-by-tag.php:36
+#: external/elementor-widgets/elementor-events-by-tag.php:90
+
+msgid "Event By Tags"
+msgstr "Sự kiện theo thẻ"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:97
+#: external/elementor-widgets/elementor-events-by-tag.php:110
+msgid "Show Pagination"
+msgstr "Hiện Đánh số trang"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:101
+
+msgid "Ascending (ASC)"
+msgstr "Tăng dần (ASC)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:102
+
+msgid "Descending  (DESC)"
+msgstr "Giảm dần (DESC)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:114
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:115
+msgid "ID"
+msgstr "ID"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:116
+msgid "Name"
+msgstr "Tên"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:117
+msgid "Parent"
+msgstr "Gốc"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:118
+msgid "Rand"
+msgstr "Ngẫu nhiên"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:126
+msgid "Tags "
+msgstr "Thẻ"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:128
+
+msgid "Enter Tags by comma separate"
+msgstr "Nhập Thẻ bằng dấu phẩy riêng biệt"
+
+#: forms/wpem-event-tags-form-submit.php:36
+#, php-format
+msgid "Please enter no more than %d tags."
+msgstr "Vui lòng nhập không quá %d thẻ."
+
+#: forms/wpem-event-tags-forms.php:20
+#, php-format
+msgid "Maximum of %d."
+msgstr "Tối đa %d."
+
+#: forms/wpem-event-tags-forms.php:25 forms/wpem-event-tags-forms.php:35
+#: forms/wpem-event-tags-forms.php:45
+
+msgid "Event tags"
+msgstr "Thẻ sự kiện"
+
+#: forms/wpem-event-tags-forms.php:26
+
+msgid "Choose some tags, such as required drama or festival, for this event."
+msgstr ""
+"Chọn một số thẻ, chẳng hạn như phim truyền hình hoặc lễ hội bắt buộc, cho "
+"sự kiện này."
+
+#: forms/wpem-event-tags-forms.php:36
+
+msgid ""
+"Comma separate tags, such as required drama, festival or technologies, for "
+"this event."
+msgstr ""
+"Dấu phẩy các thẻ riêng biệt, chẳng hạn như kịch tính, lễ hội hoặc công nghệ "
+"bắt buộc, cho sự kiện này."
+
+#: forms/wpem-event-tags-forms.php:46
+
+msgid ""
+"Comma separate tags, such as required like event type or content for this "
+"event."
+msgstr ""
+"Dấu phẩy các thẻ riêng biệt, chẳng hạn như bắt buộc như loại sự kiện hoặc "
+"nội dung cho sự kiện này."
+
+#: forms/wpem-event-tags-forms.php:49
+
+msgid "e.g. Meeting or Networking Events , Drama"
+msgstr "ví dụ: Cuộc họp hoặc Sự kiện kết nối , Kịch"
+
+#: includes/wpem-event-tags-category.php:26
+
+msgid "Event Tag"
+msgstr "Thẻ sự kiện"
+
+#: includes/wpem-event-tags-category.php:27
+#: wp-event-manager-event-tags-template.php:44
+msgid "Event Tags"
+msgstr "Thẻ sự kiện"
+
+#: includes/wpem-event-tags-category.php:39
+#, php-format
+msgid "Search %s"
+msgstr "Tìm kiếm %s"
+
+#: includes/wpem-event-tags-category.php:40
+#, php-format
+msgid "All %s"
+msgstr "Hiển thị tất cả  %s"
+
+#: includes/wpem-event-tags-category.php:41
+#, php-format
+msgid "Parent %s"
+msgstr "Cha %s"
+
+#: includes/wpem-event-tags-category.php:42
+#, php-format
+msgid "Parent %s:"
+msgstr "Gốc %s:"
+
+#: includes/wpem-event-tags-category.php:43
+#, php-format
+msgid "Edit %s"
+msgstr "Chỉnh sửa %s"
+
+#: includes/wpem-event-tags-category.php:44
+#, php-format
+msgid "Update %s"
+msgstr "Cập nhật %s"
+
+#: includes/wpem-event-tags-category.php:45
+#, php-format
+msgid "Add New %s"
+msgstr "Thêm mới %s"
+
+#: includes/wpem-event-tags-category.php:46
+#, php-format
+msgid "New %s Name"
+msgstr "Tên %s mới"
+
+#: includes/wpem-event-tags-category.php:57
+
+msgctxt "permalink"
+msgid "event-tag"
+msgstr "thẻ sự kiện"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:75
+msgid "Filter by tag:"
+msgstr "Lọc theo thẻ:"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:196
+msgid "tagged"
+msgstr "Gắn thẻ"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:274
+#, php-format
+msgid "No events found tagged with %s."
+msgstr "Không tìm thấy sự kiện nào được gắn thẻ với %s."
+
+#: shortcodes/wpem-event-tags-shortcodes.php:314
+#, php-format
+msgid "%s event"
+msgid_plural "%s events"
+msgstr[0] "%s kiện"
+
+#: wp-event-manager-event-tags.php:36
+
+msgid "WP Event Manager is require to use WP Event Manager - Event Tags"
+msgstr ""
+"Trình quản lý sự kiện WP được yêu cầu sử dụng Trình quản lý sự kiện WP - "
+"Thẻ sự kiện"
+
+#: wp-event-manager-event-tags.php:123
+
+msgid "Tagged as:"
+msgstr "Tagged như:"
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Event Tags"
+msgstr "WP Event Manager - Event Tags"
+
+#. Plugin URI of the plugin/theme
+
+msgid "http://www.wp-eventmanager.com/plugins/"
+msgstr "http://www.wp-eventmanager.com/plugins/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Adds tags to Event Manager for tagging events with requried place and event "
+"flavour. Also adds some extra shortcodes."
+msgstr ""
+"Thêm thẻ vào Trình quản lý sự kiện để gắn thẻ các sự kiện với địa điểm và "
+"hương vị sự kiện được yêu cầu lại. Cũng thêm một số mã ngắn bổ sung."
+
+#. Author of the plugin/theme
+
+msgid "WP Event Manager"
+msgstr "Trình quản lý sự kiện WP"
+
+#. Author URI of the plugin/theme
+
+msgid "http://www.wp-eventmanager.com/"
+msgstr "http://www.wp-eventmanager.com/"

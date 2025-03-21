@@ -1,0 +1,594 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Event Manager - Stripe Split Payment\n"
+"POT-Creation-Date: 2020-12-09 19:18+0530\n"
+"PO-Revision-Date: 2020-12-09 19:17+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-stripe-split-payment.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:38
+#: autoupdater/wpem-updater-license.php:63
+msgid "License"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr ""
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr ""
+
+#: autoupdater/templates/key-input.php:4
+msgid "Licence"
+msgstr ""
+
+#: autoupdater/templates/key-input.php:7
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr ""
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:90
+msgid "Lost your license key?"
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:90
+msgid "Retrieve it here"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:267
+msgid "Activate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:275
+msgid "Deactivate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:420
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-api.php:309
+msgid "There was a problem connecting to the payment gateway."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-customer.php:151
+msgid "Could not create Stripe customer."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-customer.php:173
+msgid "Unable to create stripe customer"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-customer.php:239
+#: includes/wpem-stripe-split-payment-customer.php:269
+msgid "Unable to add card"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-dashboard.php:31
+msgid "Stripe"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:17
+msgid "WPEM Stripe Split Payment"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:18
+msgid ""
+"WPEM Stripe Split Payment works by adding credit card fields on the checkout "
+"and then sending the details to Stripe for verification."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:79
+#, php-format
+msgid ""
+"TEST MODE ENABLED. In test mode, you can use the card number "
+"4242424242424242 with any CVC and a valid expiration date or check the "
+"documentation \"<a href=\"%s\" target=\"_blank\">Testing Stripe</a>\" for "
+"more card numbers."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:131
+msgid "Configure the stripe settings"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:133
+#: includes/wpem-stripe-split-payment-gateway.php:211
+msgid "Please configure the requested settings."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:136
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:137
+msgid "Enable Stripe"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:143
+msgid "Stripe Gateway Title"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:145
+msgid "Title of Stripe Gateway will shown on checkout page."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:146
+msgid "Credit card (Stripe)"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:150
+msgid "Enter your display details settings"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:152
+#: includes/wpem-stripe-split-payment-gateway.php:163
+msgid "Enter All requested information given below."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:155
+msgid "Description"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:157
+msgid "Description of Stripe Gateway on checkout page."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:158
+msgid "Pay with your credit card via Stripe."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:161
+msgid "Enter your API Details"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:166
+msgid "Test mode"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:167
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:169
+msgid "This will enable the test mode of Stripe using test API keys."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:173
+msgid "Test Client ID"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:175
+#: includes/wpem-stripe-split-payment-gateway.php:193
+#, php-format
+msgid ""
+"Get your Client ID from your <a href=\"%s\" target=\"_blank\">Stripe "
+"account</a>."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:179
+msgid "Test Publishable Key"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:181
+#: includes/wpem-stripe-split-payment-gateway.php:199
+#, php-format
+msgid ""
+"Get your Publishable keys from your <a href=\"%s\" target=\"_blank\">Stripe "
+"account</a>."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:185
+msgid "Test Secret Key"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:187
+#: includes/wpem-stripe-split-payment-gateway.php:205
+#, php-format
+msgid ""
+"Get your Secret keys from your <a href=\"%s\" target=\"_blank\">Stripe "
+"account</a>."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:191
+msgid "Live Client ID"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:197
+msgid "Live Publishable Key"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:203
+msgid "Live Secret Key"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:209
+msgid "Configure the other settings"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:229
+msgid "Enable Shipping Address"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:231
+msgid "Enable sending shipping address to stripe (Active If Checked)"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:232
+msgid "If enabled, will send shipping address to stripe."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:237
+msgid "Logging"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:238
+msgid "Log debug messages"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:240
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:265
+msgid "Please accept the terms and conditions first"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:266
+msgid "Please fill in required checkout fields first"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:326
+#, php-format
+msgid ""
+"Stripe is enabled, but the <a href=\"%s\">force SSL option</a> is disabled; "
+"your checkout may not be secure! Please enable SSL and ensure your server "
+"has a valid SSL certificate - Stripe will only work in test mode."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:334
+#, php-format
+msgid "Stripe error: Please enter your test secret key <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:339
+#, php-format
+msgid ""
+"Stripe error: Please enter your test publishable key <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:344
+#, php-format
+msgid "Stripe error: Please enter your test client id <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:350
+msgid ""
+"Stripe error: Your test secret and publishable keys match. Please check."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:359
+#, php-format
+msgid "Stripe error: Please enter your live secret key <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:364
+#, php-format
+msgid ""
+"Stripe error: Please enter your live publishable key <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:369
+#, php-format
+msgid "Stripe error: Please enter your live client id <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:375
+msgid ""
+"Stripe error: Your live secret and publishable keys match. Please check."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:517
+msgid "Confirm and Pay"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:518
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:589
+#: includes/wpem-stripe-split-payment-gateway.php:771
+msgid "Please enter your card details to make a payment."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:590
+#: includes/wpem-stripe-split-payment-gateway.php:772
+msgid ""
+"Developers: Please make sure that you are including jQuery and there are no "
+"JavaScript errors on the page."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:603
+msgid ""
+"Sorry, the minimum allowed order total is 0.50 to use this payment method."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:646
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:665
+#, php-format
+msgid "%s - Order %s"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:908
+#: includes/wpem-stripe-split-payment-gateway.php:944
+msgid "Charge "
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:919
+#, php-format
+msgid "Stripe charge captured complete (Charge ID: %s)"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:933
+#, php-format
+msgid "Stripe charge authorized complete (Charge ID: %s)"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:936
+#, php-format
+msgid ""
+"Stripe charge authorized (Charge ID: %s). Process order to take payment, or "
+"cancel to remove the pre-authorization."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:1000
+msgid "There was a problem adding the card."
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:1066
+#, php-format
+msgid "Refunded %s - Refund ID: %s - Reason: %s"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:1099
+msgid "Unable to capture charge!"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:1103
+#, php-format
+msgid "Stripe charge complete (Charge ID: %s)"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:1142
+msgid "Unable to refund charge!"
+msgstr ""
+
+#: includes/wpem-stripe-split-payment-gateway.php:1146
+#, php-format
+msgid "Stripe charge refunded (Charge ID: %s)"
+msgstr ""
+
+#: shortcodes/wpem-stripe-split-payment-shortcodes.php:60
+msgid "Please login to platform for further usage."
+msgstr ""
+
+#: shortcodes/wpem-stripe-split-payment-shortcodes.php:64
+msgid "As an Admin, you are not allowed to connect to Stripe."
+msgstr ""
+
+#: shortcodes/wpem-stripe-split-payment-shortcodes.php:102
+msgid "Your stripe account has been connected"
+msgstr ""
+
+#: shortcodes/wpem-stripe-split-payment-shortcodes.php:133
+msgid "Processing please wait..."
+msgstr ""
+
+#: shortcodes/wpem-stripe-split-payment-shortcodes.php:134
+msgid "There was an unexpected error."
+msgstr ""
+
+#: shortcodes/wpem-stripe-split-payment-shortcodes.php:148
+msgid "WPEM Stripe split payment is not enabled."
+msgstr ""
+
+#: shortcodes/wpem-stripe-split-payment-shortcodes.php:263
+msgid "Connect Stripe"
+msgstr ""
+
+#: templates/connect-with-stripe.php:13 templates/connect-with-stripe.php:35
+msgid "Use Stripe Payments"
+msgstr ""
+
+#: templates/connect-with-stripe.php:14 templates/connect-with-stripe.php:36
+msgid "Connect your Stripe account to take payments through Stripe"
+msgstr ""
+
+#: templates/connect-with-stripe.php:19
+msgid "Connect"
+msgstr ""
+
+#: templates/connect-with-stripe.php:43
+msgid "Disconnect"
+msgstr ""
+
+#: templates/payment-details.php:13
+msgid "Manage cards"
+msgstr ""
+
+#: templates/payment-details.php:25
+#, php-format
+msgid "%s card ending in %s (Expires %s/%s)"
+msgstr ""
+
+#: templates/payment-details.php:33
+msgid "Use a new credit card"
+msgstr ""
+
+#: templates/payment-details.php:58
+msgid "Card Number"
+msgstr ""
+
+#: templates/payment-details.php:62
+msgid "Expiry (MM/YY)"
+msgstr ""
+
+#: templates/payment-details.php:63
+msgid "MM / YY"
+msgstr ""
+
+#: templates/payment-details.php:66
+msgid "Card Code"
+msgstr ""
+
+#: templates/payment-details.php:67
+msgid "CVC"
+msgstr ""
+
+#: templates/reset-stripe.php:3
+msgid "Reset All Card from this website"
+msgstr ""
+
+#: templates/reset-stripe.php:8
+msgid "Reset your saved card data"
+msgstr ""
+
+#: templates/reset-stripe.php:10
+msgid "Reset Card"
+msgstr ""
+
+#: templates/saved-cards.php:1
+msgid "Saved cards"
+msgstr ""
+
+#: templates/saved-cards.php:5
+msgid "Card"
+msgstr ""
+
+#: templates/saved-cards.php:6
+msgid "Expires"
+msgstr ""
+
+#: templates/saved-cards.php:19
+#, php-format
+msgid "%s card ending in %s"
+msgstr ""
+
+#: templates/saved-cards.php:20
+msgid "(Default)"
+msgstr ""
+
+#: templates/saved-cards.php:22
+#, php-format
+msgid "Expires %s/%s"
+msgstr ""
+
+#: templates/saved-cards.php:27
+msgid "Delete card"
+msgstr ""
+
+#: templates/saved-cards.php:34
+msgid "Make Default"
+msgstr ""
+
+#: wp-event-manager-stripe-split-payment.php:41
+msgid "WP Event Manager Stripe Split Payment require WP Event Manager plugin."
+msgstr ""
+
+#: wp-event-manager-stripe-split-payment.php:56
+msgid ""
+"WP Event Manager Stripe Split Payment add-on require WP Event Manager Sell "
+"Tickets."
+msgstr ""
+
+#: wp-event-manager-stripe-split-payment.php:71
+msgid "Woocommerce is require to use WP Event Manager Stripe Split Payment"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Event Manager - Stripe Split Payment"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Manage dynamic payments, collect commissions in a secure and compliant "
+"environment for organizers and admins for all your events tickets using "
+"Split payment. Split Payment allows users to split order payments, using "
+"Stripe."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr ""

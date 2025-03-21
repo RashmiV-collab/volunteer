@@ -1,0 +1,395 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: WP Event Manager - Event Tags\n"
+"POT-Creation-Date: 2022-12-30 11:36+0530\n"
+"PO-Revision-Date: 2022-12-30 11:44+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-event-tags.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en_CA\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-event-tags-settings.php:31
+
+msgid "Tag Archives"
+msgstr "Tag Archives"
+
+#: admin/wpem-event-tags-settings.php:32
+
+msgid "Enable Tag Archives"
+msgstr "Enable Tag Archives"
+
+#: admin/wpem-event-tags-settings.php:33 admin/wpem-event-tags-settings.php:63
+msgid ""
+"Enabling tag archives will make event tags (inside events and tag clouds) "
+"link through to an archive of all events with said tag. Please note, tag "
+"archives will look like your post archives unless you create a special "
+"template to handle the display of event listings called <code>taxonomy-"
+"event_listing_tag.php</code> inside your theme. See <a href=\"http://codex."
+"wordpress.org/Template_Hierarchy#Custom_Taxonomies_display\">Template "
+"Hierarchy</a> for more information."
+msgstr ""
+
+#: admin/wpem-event-tags-settings.php:39
+
+msgid "Tags Filter Type"
+msgstr "Tags Filter Type"
+
+#: admin/wpem-event-tags-settings.php:40
+
+msgid "Determines how events are queried when selecting tags."
+msgstr "Determines how events are queried when selecting tags."
+
+#: admin/wpem-event-tags-settings.php:43
+
+msgid "Events will be shown if within ANY chosen tag"
+msgstr "Events will be shown if within ANY chosen tag"
+
+#: admin/wpem-event-tags-settings.php:44
+
+msgid "Events will be shown if within ALL chosen tags"
+msgstr "Events will be shown if within ALL chosen tags"
+
+#: admin/wpem-event-tags-settings.php:50
+
+msgid "Maximum Event Tags"
+msgstr "Maximum Event Tags"
+
+#: admin/wpem-event-tags-settings.php:51
+
+msgid ""
+"Enter the number of tags per event submission you wish to allow, or leave "
+"blank for unlimited tags."
+msgstr ""
+"Enter the number of tags per event submission you wish to allow, or leave "
+"blank for unlimited tags."
+
+#: admin/wpem-event-tags-settings.php:57
+
+msgid "Tag Input"
+msgstr "Tag Input"
+
+#: admin/wpem-event-tags-writepanels.php:27
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Your licence for <strong>%s</strong> has been activated. Thanks!"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+
+msgid "License"
+msgstr "License"
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr "Email"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "Email address"
+
+#: autoupdater/templates/addon-licence.php:19
+
+msgid "Deactivate License"
+msgstr "Deactivate License"
+
+#: autoupdater/templates/addon-licence.php:21
+
+msgid "Activate License"
+msgstr "Activate License"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Your licence for <strong>%s</strong> has been deactivated."
+
+#: autoupdater/templates/key-notice.php:2
+
+msgid "Hide notice"
+msgstr "Hide this notice"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+
+#: autoupdater/wpem-updater-license.php:76
+
+msgid "Lost your license key?"
+msgstr "Lost your license key?"
+
+#: autoupdater/wpem-updater-license.php:76
+
+msgid "Retrieve it here"
+msgstr "Retrieve it here"
+
+#: autoupdater/wpem-updater.php:266
+
+msgid "Activate licence"
+msgstr "Activate licence"
+
+#: autoupdater/wpem-updater.php:274
+
+msgid "Deactivate licence"
+msgstr "Deactivate licence"
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+
+#: external/elementor-widgets/elementor-events-by-tag.php:36
+#: external/elementor-widgets/elementor-events-by-tag.php:90
+
+msgid "Event By Tags"
+msgstr "Event By Tags"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:97
+#: external/elementor-widgets/elementor-events-by-tag.php:110
+
+msgid "Show Pagination"
+msgstr "Show Pagination"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:101
+
+msgid "Ascending (ASC)"
+msgstr "Ascending (ASC)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:102
+
+msgid "Descending  (DESC)"
+msgstr "Descending  (DESC)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:114
+msgid "Title"
+msgstr "Başlık"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:115
+msgid "ID"
+msgstr "ID"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:116
+msgid "Name"
+msgstr "İsim"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:117
+
+msgid "Parent"
+msgstr "Parent"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:118
+
+msgid "Rand"
+msgstr "Rand"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:126
+msgid "Tags "
+msgstr "برچسب ها"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:128
+
+msgid "Enter Tags by comma separate"
+msgstr "Enter Tags by comma separate"
+
+#: forms/wpem-event-tags-form-submit.php:36
+#, php-format
+msgid "Please enter no more than %d tags."
+msgstr "Please enter no more than %d tags."
+
+#: forms/wpem-event-tags-forms.php:20
+#, php-format
+msgid "Maximum of %d."
+msgstr "Maximum of %d."
+
+#: forms/wpem-event-tags-forms.php:25 forms/wpem-event-tags-forms.php:35
+#: forms/wpem-event-tags-forms.php:45
+
+msgid "Event tags"
+msgstr "Event tags"
+
+#: forms/wpem-event-tags-forms.php:26
+
+msgid "Choose some tags, such as required drama or festival, for this event."
+msgstr "Choose some tags, such as required drama or festival, for this event."
+
+#: forms/wpem-event-tags-forms.php:36
+
+msgid ""
+"Comma separate tags, such as required drama, festival or technologies, for "
+"this event."
+msgstr ""
+"Comma separate tags, such as required drama, festival or technologies, for "
+"this event."
+
+#: forms/wpem-event-tags-forms.php:46
+
+msgid ""
+"Comma separate tags, such as required like event type or content for this "
+"event."
+msgstr ""
+"Comma separate tags, such as required like event type or content for this "
+"event."
+
+#: forms/wpem-event-tags-forms.php:49
+
+msgid "e.g. Meeting or Networking Events , Drama"
+msgstr "e.g. Meeting or Networking Events , Drama"
+
+#: includes/wpem-event-tags-category.php:26
+
+msgid "Event Tag"
+msgstr "Event Tag"
+
+#: includes/wpem-event-tags-category.php:27
+#: wp-event-manager-event-tags-template.php:44
+
+msgid "Event Tags"
+msgstr "Event Tags"
+
+#: includes/wpem-event-tags-category.php:39
+#, php-format
+msgid "Search %s"
+msgstr "جستجو  %s"
+
+#: includes/wpem-event-tags-category.php:40
+#, php-format
+msgid "All %s"
+msgstr "همه  %s"
+
+#: includes/wpem-event-tags-category.php:41
+#, php-format
+msgid "Parent %s"
+msgstr "Parent %s"
+
+#: includes/wpem-event-tags-category.php:42
+#, php-format
+msgid "Parent %s:"
+msgstr "Parent %s:"
+
+#: includes/wpem-event-tags-category.php:43
+#, php-format
+msgid "Edit %s"
+msgstr "Edit"
+
+#: includes/wpem-event-tags-category.php:44
+#, php-format
+msgid "Update %s"
+msgstr "به روز رسانی  %s"
+
+#: includes/wpem-event-tags-category.php:45
+#, php-format
+msgid "Add New %s"
+msgstr "افزودن %s"
+
+#: includes/wpem-event-tags-category.php:46
+#, php-format
+msgid "New %s Name"
+msgstr "اسم %s تازه"
+
+#: includes/wpem-event-tags-category.php:57
+
+msgctxt "permalink"
+msgid "event-tag"
+msgstr "event-tag"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:75
+
+msgid "Filter by tag:"
+msgstr "Filter by tag:"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:196
+
+msgid "tagged"
+msgstr "برچسب:"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:274
+#, php-format
+msgid "No events found tagged with %s."
+msgstr "No events found tagged with %s."
+
+#: shortcodes/wpem-event-tags-shortcodes.php:314
+#, php-format
+msgid "%s event"
+msgid_plural "%s events"
+msgstr[0] "You have no previous events."
+msgstr[1] "%s events"
+
+#: wp-event-manager-event-tags.php:36
+
+msgid "WP Event Manager is require to use WP Event Manager - Event Tags"
+msgstr "WP Event Manager is require to use WP Event Manager - Event Tags"
+
+#: wp-event-manager-event-tags.php:123
+
+msgid "Tagged as:"
+msgstr "Tagged as:"
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Event Tags"
+msgstr "WP Event Manager - Event Tags"
+
+#. Plugin URI of the plugin/theme
+
+msgid "http://www.wp-eventmanager.com/plugins/"
+msgstr "http://www.wp-eventmanager.com/plugins/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Adds tags to Event Manager for tagging events with requried place and event "
+"flavour. Also adds some extra shortcodes."
+msgstr ""
+"Adds tags to Event Manager for tagging events with requried place and event "
+"flavour. Also adds some extra shortcodes."
+
+#. Author of the plugin/theme
+
+msgid "WP Event Manager"
+msgstr "WP Event Manager"
+
+#. Author URI of the plugin/theme
+
+msgid "http://www.wp-eventmanager.com/"
+msgstr "http://www.wp-eventmanager.com/"

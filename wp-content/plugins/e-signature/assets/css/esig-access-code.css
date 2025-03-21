@@ -1,0 +1,497 @@
+
+.esig-verified-logo 
+{
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field:focus 
+{
+    border:3px solid #3F7FCC;
+}
+
+.esig-access-form
+{
+    width: 70%;
+    align-items: center;
+    margin:0px auto;
+}
+
+.esig-slv-row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.esig-documentation
+{
+    border: 2px #EAEAEA solid;
+    padding:10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    margin: auto;
+}
+
+.document-section-title{
+   
+    position: relative;
+    left: 7px !important; 
+}
+
+.esig-documentationcon
+{
+    border: 2px #EAEAEA solid;
+    height:140px;
+    position: relative;
+}
+
+.esig-documentation-popup{
+
+    border: 2px #EAEAEA solid;
+    height:120px;
+    position: relative;
+    top:10px;
+    left: 15px;
+    width:420px;
+   
+}
+
+.esig-documentation-confirmation
+{
+    border: 2px #EAEAEA solid;
+    height:120px;
+    position: relative;
+    left: 15px;
+    width:400px;
+}
+
+
+.access_code_login
+{
+    background:#3F7FCC;
+    border:none;
+    padding: 8px 40px;
+    color:white;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    display: flex;
+}
+
+#reset-password
+{
+    background:#3D7ECB;
+    padding: 8px 25px;
+    color:white;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border:none;   
+}
+
+.login
+{
+    font-size: 22px;
+    position: relative;
+}
+
+#access_code_login_popup
+{
+    background: #3D7ECB;
+    padding:5px 15px;
+    color:white;
+    font-size:20px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+
+#access_login
+{
+    background: #F9F9F9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#access_login_popup
+{
+    background: #F9F9F9;
+    padding: 11px;
+}
+
+#doc-pic
+{
+    position: relative;
+    top:7px;   
+}
+
+#esig-approveme
+{
+    position: absolute;
+    top:6px;
+    left:0px;   
+}
+
+#verify-logo
+{
+    top:10px;
+}
+
+#password-reset
+{
+    top:11px;
+    font-size:16px ;
+}
+
+#password-reset h4
+{
+    margin-left: 0px !important;
+}
+
+
+#password-resett
+{
+    position: absolute;
+    top:8px;
+    left:5px;
+}
+
+#verify-logoo
+{
+    position: absolute;
+    top:1px;
+    left:310px;
+}
+
+#sending_shortly
+{
+    position: absolute;
+    top:3px;
+    bottom: 3px;
+    left:4px;
+    right:4px;
+}
+.esig-cc-template
+{
+    position: relative;
+    top:15 px;
+}
+
+#forget_access_password
+{
+    position: relative;
+    top:1px;
+    text-decoration: none;
+    color: #787878;
+    color:#B6B6B6;font-size:12px;
+}
+
+.popup-heading
+{
+    position: absolute;
+    top:2px;
+}
+
+#go-back
+{
+    position: absolute;
+    bottom:18px;
+    left:40px;
+    text-decoration: none;
+    color:#9D9D9D;font-size:12px;
+}
+
+.input-field
+{
+    height:35px;
+    border: 2px #EAEAEA solid;
+}
+
+#document-section
+{
+    right:1px;
+    top:10px;  
+}
+
+#doc-png
+{
+    position:absolute;
+    left:4px;
+    top:12px;
+}
+
+#document-section-popup
+{
+    position:absolute;
+    right:1px;
+    top:10px;
+}
+
+#popup-field
+{
+    width:421px;
+    height:35px;
+    border: 2px #EAEAEA solid;
+}
+
+#document_text
+{
+    color:#9D9D9D;
+    font-size:12px;
+}
+
+#esig-slv-reset-password
+{
+    background:#3F7FCC;
+    border:none;
+    padding: 8px 20px;
+    color:white;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;   
+}
+
+#slv-go-back
+{
+    text-decoration: none;
+    color:#B6B6B6;
+}
+
+.esig-documentation-popupre
+{
+    border: 2px #EAEAEA solid;
+    height:120px;
+    position: relative;
+    top:50px;
+    left: 15px;
+    width:420px;
+}
+
+
+.confirm-heading
+{
+    position: relative;
+    top:50px;
+}
+
+#slv_reset_confirmation
+{
+    position: relative;
+    top:50px;
+}
+
+#document_textcon
+{
+    width:450px;
+    margin: auto;
+    font-weight: 30px;
+    color:#797878;
+}
+
+.esig-icon-esig-alert
+{ 
+    margin:12px;
+    font-size: 36px;
+}
+
+.error-email-password
+{
+    left:80px;
+    bottom:4px;
+    font-size:14px; 
+}
+
+.esigalert
+{
+    display:block;
+    left: 12px;
+    bottom:5px;
+}
+
+.error-password
+{
+    position:absolute;
+    left:80px;
+    bottom:14px; 
+}
+
+.error-reset
+{
+    display:none;
+    border:2px solid red;
+    width:440px;
+    height:70px;
+    position:relative;
+    top: 30px;
+}
+
+.sending-error
+{
+    position:relative;
+    left:45px;
+    top:10px;
+}
+
+.document-error
+{
+    position:relative;
+    left:45px;
+    top:10px;
+}
+
+.text-error
+{
+    color:red;
+    font-size: 14px;
+}
+
+.invalid-email
+{
+    position: relative;
+    left:20px !important;  
+
+}
+
+#login_text
+{
+
+    position: relative;
+    left:10px !important; 
+    font-size: 16px;
+    align-self: center;
+}
+
+#esig-show-error
+{
+    display:none;
+    border:2px solid red;
+    margin-top: 20px;
+}
+
+#esig-set-error
+{
+    display:none;
+    border:2px solid red;
+    width:440px;
+    height:70px;
+    position:relative;
+    bottom: -25px;
+}
+
+#esig-confirm-error
+{
+    display:none;
+    border:2px solid red;
+    position:relative;
+    bottom: 18px; 
+    margin-top:15px;
+    align-items: center;
+}
+
+/******** spacing ****************/
+.esig-space 
+{
+    display:block;
+    position: relative;
+    margin-top:2% !important;
+    margin-bottom:2% !important;
+}
+
+.esig-space-login{
+    display:block;
+    position: relative;
+    margin-top:4.5% !important;
+    margin-bottom:4.5% !important;
+}
+
+.esig-space-con
+{
+    display:block;
+    position: relative;
+    margin-top:3% !important;
+    margin-bottom:3% !important;   
+}
+
+.set-login
+{
+    position: relative;
+    left:10px !important;
+    font-size: 16px;
+}
+
+.password-text
+{
+    color:#797878;
+    font-size:14px;
+}
+
+.access-text
+{
+    color:#797878;
+    font-size:14px;
+}
+
+.email-text
+{
+    color:#797878;
+    font-size:12px;
+}
+
+.esig-slv-create-pass
+{
+	border: 2px solid #3F7FCC;
+    padding: 14px 25px;
+    margin: 4px 0 17px;
+    border-radius: 4px;
+    color: #3F7FCC;
+}
+
+.esig-slv-login-form
+{
+    margin:0 auto;
+    width: 90%;
+}
+
+.esig-slv-form-details
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.esig-password-set-form
+{
+    margin:0 auto;
+    width: 90%;
+}
+
+@media only screen and (max-width: 450px) {
+  #access_login
+  {
+      flex-direction: column;
+  }
+  .esig-documentation
+  {
+      flex-direction: column;
+  }
+  #access_login a
+  {
+      padding-bottom: 15px;
+  }
+}
+
+#reset-password-popup
+{
+    margin-top: 20px;
+}
+
+.esig-password-reset-form
+{
+    margin:0 auto;
+    width: 90%;
+}

@@ -1,0 +1,586 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Event Manager - Google Maps\n"
+"POT-Creation-Date: 2023-07-31 17:20+0530\n"
+"PO-Revision-Date: 2023-07-31 17:19+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-google-maps.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-google-maps-admin.php:86
+msgid "WP Event Manager Google Map"
+msgstr ""
+
+#: admin/wpem-google-maps-admin.php:100
+msgid "Events Map"
+msgstr ""
+
+#: admin/wpem-google-maps-admin.php:101
+msgid "This will be used to display all events location on single map"
+msgstr ""
+
+#: admin/wpem-google-maps-admin.php:102 admin/wpem-google-maps-admin.php:108
+msgid "View Details"
+msgstr ""
+
+#: admin/wpem-google-maps-admin.php:106
+msgid "Single Event Location on Map"
+msgstr ""
+
+#: admin/wpem-google-maps-admin.php:107
+msgid ""
+"This is used when you want to show particular event location in google map."
+msgstr ""
+
+#: admin/wpem-google-maps-admin.php:129
+msgid "Google Geocoder API enabled correctly."
+msgstr ""
+
+#: admin/wpem-google-maps-admin.php:139
+msgid "Google Places API enabled correctly."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:35
+msgid "Google Maps General Settings"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:40
+msgid "Google API Language"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:41
+msgid ""
+"This feature controls the language of the autocomplete results and Google "
+"maps. Enter the language code of the langauge you would like to use. List of "
+"avaliable langauges can be found <a href=\"https://developers.google.com/"
+"admin-sdk/directory/v1/languages\" target=\"_blank\"> here</a>."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:48
+msgid "Google API Default Region"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:49
+msgid ""
+"This feature controls the regions of Goole API. Enter a country code; for "
+"example for United States enter US. you can find your country code <a href="
+"\"https://countrycode.org/\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:56
+msgid " Google Address Autocomplete(For Backend Submission Form)"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:57
+msgid ""
+"Display suggested results by Google when typing an address in the location "
+"field of the new/edit WP Event Manager Google Maps screen."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:58
+#: admin/wpem-google-maps-settings.php:66
+#: admin/wpem-google-maps-settings.php:107
+#: admin/wpem-google-maps-settings.php:132
+#: admin/wpem-google-maps-settings.php:170
+#: admin/wpem-google-maps-settings.php:184
+#: admin/wpem-google-maps-settings.php:222
+msgid "Yes"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:65
+msgid "Google Address Autocomplete(For Frontend Submission Form)."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:67
+msgid ""
+"Display suggested results by Google when typing an address in the location "
+"field of the new/edit Google Maps form in the front end."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:74
+msgid "Autocomplete Country Restriction."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:75
+msgid ""
+"Enter the country code of the country which you would like to restrict the "
+"autocomplete results to. Leave it empty to show all countries. <b>For "
+"example: us,in,uk</b> (add multiple with comma separated)."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:82
+msgid "Location Marker"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:84
+msgid "Url to the marker represents locations on the map."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:91
+msgid "Map Style JSON"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:93
+msgid ""
+"Generate style json from <a href=\"https://mapstyle.withgoogle.com/\" target="
+"\"_blank\">here</a>."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:101
+msgid "Google Maps Search Form Settings"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:106
+msgid "Google Address Autocomplete"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:108
+msgid ""
+"Display suggested results by Google when typing an address in the location "
+"field of the event listing filter."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:116
+msgid "Radius"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:117
+msgid ""
+"Enter the first value as a default radius, proceeded by multiple values, "
+"separated by comma, that would appear in the dropdown."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:124 templates/google-maps-filters.php:39
+msgid "Order By"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:125
+msgid ""
+"Enter the values you want to use in the \"Sort by\" dropdown select box. "
+"Enter, comma separated, in the order that you want the values to appear any "
+"of the values: distance, title, date and featured."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:131
+#: admin/wpem-google-maps-settings.php:183
+msgid "Display Maps"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:133
+msgid "Display google map on the event listing page."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:141
+#: admin/wpem-google-maps-settings.php:193
+msgid "Maps Width"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:142
+#: admin/wpem-google-maps-settings.php:194
+#, php-format
+msgid "Maps width in pixels or percentage (ex. 100% or 250px)."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:149
+#: admin/wpem-google-maps-settings.php:201
+msgid "Maps Height"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:150
+#: admin/wpem-google-maps-settings.php:202
+#, php-format
+msgid "Maps height in pixels or percentage (ex. 100% or 250px)."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:156
+#: admin/wpem-google-maps-settings.php:208
+msgid "Maps Type"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:157
+#: admin/wpem-google-maps-settings.php:209
+msgid "Choose the maps type."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:160
+#: admin/wpem-google-maps-settings.php:212
+msgid "ROADMAP"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:161
+#: admin/wpem-google-maps-settings.php:213
+msgid "SATELLITE"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:162
+#: admin/wpem-google-maps-settings.php:214
+msgid "HYBRID"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:163
+#: admin/wpem-google-maps-settings.php:215
+msgid "TERRAIN"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:169
+msgid "Enable Maps Scroll Wheel Control?"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:171
+#: admin/wpem-google-maps-settings.php:223
+msgid "Zoom maps in/out using mouse wheel?"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:178
+msgid "Google Maps Single Page Settings"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:185
+msgid "Display maps showing the location in a single event page."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:221
+msgid "Enable Maps Scroll-wheel Control?"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:230
+msgid "Zoom Level"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:232
+msgid ""
+"Add valid zoom level.<a href=\"https://developers.google.com/maps/"
+"documentation/javascript/tutorial#MapOptions\" target=\"_blank\">Click here</"
+"a> for more zoom level."
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:239
+msgid "Check Googel API"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:240
+msgid "Test API"
+msgstr ""
+
+#: admin/wpem-google-maps-settings.php:242
+msgid "Click to test if all the required APIs are enabled properly."
+msgstr ""
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+msgid "License"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr ""
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr ""
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:76
+msgid "Lost your license key?"
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:76
+msgid "Retrieve it here"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:266
+msgid "Activate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:274
+msgid "Deactivate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:36
+#: external/elementor-widgets/elementor-event-map.php:90
+msgid "Event Map"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:96
+#: external/elementor-widgets/elementor-single-event-map.php:141
+msgid "Map Type"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:100
+#: external/elementor-widgets/elementor-single-event-map.php:145
+msgid "Roadmap"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:101
+#: external/elementor-widgets/elementor-single-event-map.php:146
+msgid "Satellite"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:102
+#: external/elementor-widgets/elementor-single-event-map.php:147
+msgid "Hybrid "
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:103
+#: external/elementor-widgets/elementor-single-event-map.php:148
+msgid "Terrain"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:111
+#: external/elementor-widgets/elementor-single-event-map.php:155
+msgid "Map Height"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:119
+#: external/elementor-widgets/elementor-single-event-map.php:163
+msgid "Map Width"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:127
+msgid "Show Featured"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:131
+#: external/elementor-widgets/elementor-event-map.php:145
+msgid "All Events"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:132
+#: external/elementor-widgets/elementor-event-map.php:146
+msgid "False"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:133
+#: external/elementor-widgets/elementor-event-map.php:147
+msgid "True"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:141
+msgid "Show Cancelled"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:155
+msgid "Location"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:157
+msgid "Enter Location"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:165
+msgid "Keywords "
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:167
+msgid "Enter Keywords "
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:175
+msgid "Categories "
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:177
+msgid "Enter Categories by comma separate"
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:185
+msgid "Event Types "
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-map.php:187
+msgid "Enter Event Types by comma separate"
+msgstr ""
+
+#: external/elementor-widgets/elementor-single-event-map.php:36
+#: external/elementor-widgets/elementor-single-event-map.php:90
+msgid "Single Event Map"
+msgstr ""
+
+#: external/elementor-widgets/elementor-single-event-map.php:111
+#: external/elementor-widgets/elementor-single-event-map.php:125
+msgid "Not Found Event"
+msgstr ""
+
+#: external/elementor-widgets/elementor-single-event-map.php:131
+msgid "Select Event"
+msgstr ""
+
+#: includes/wpem-google-maps-fillters.php:28
+#: templates/google-maps-filters.php:24
+msgid "Miles"
+msgstr ""
+
+#: includes/wpem-google-maps-fillters.php:29
+msgid "Kilometers"
+msgstr ""
+
+#: shortcodes/wpem-google-maps-shortcodes.php:55
+msgid "There is no event found with the Event ID mentioned."
+msgstr ""
+
+#: shortcodes/wpem-google-maps-shortcodes.php:60
+msgid "Event is online."
+msgstr ""
+
+#: shortcodes/wpem-google-maps-shortcodes.php:127
+msgid "Event Location"
+msgstr ""
+
+#: templates/google-map-event-tooltip.php:31
+msgid " to "
+msgstr ""
+
+#: templates/google-maps-filters.php:10 templates/google-maps-filters.php:12
+msgid "Within"
+msgstr ""
+
+#: templates/google-maps-filters.php:11 templates/google-maps-filters.php:25
+#: templates/google-maps-filters.php:38
+msgid "No results match"
+msgstr ""
+
+#: templates/google-maps-filters.php:11 templates/google-maps-filters.php:25
+#: templates/google-maps-filters.php:38
+msgid "Select Some Options"
+msgstr ""
+
+#: templates/google-maps-filters.php:15 templates/google-maps-filters.php:28
+#: templates/google-maps-filters.php:44
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: templates/google-maps-filters.php:37
+msgid "Sort By"
+msgstr ""
+
+#: wp-event-manager-google-maps.php:36
+msgid "WP Event Manager is require to use WP Event Manager Google Map"
+msgstr ""
+
+#: wpem-google-maps-functions.php:87 wpem-google-maps-functions.php:135
+#: wpem-google-maps-functions.php:181
+msgid "No location found for the entered address."
+msgstr ""
+
+#: wpem-google-maps-functions.php:89 wpem-google-maps-functions.php:137
+#: wpem-google-maps-functions.php:183
+msgid "This API project is not authorized to use this API."
+msgstr ""
+
+#: wpem-google-maps-functions.php:91 wpem-google-maps-functions.php:139
+#: wpem-google-maps-functions.php:185
+msgid "Invalid request. Did you enter an address?"
+msgstr ""
+
+#: wpem-google-maps-functions.php:93 wpem-google-maps-functions.php:95
+#: wpem-google-maps-functions.php:141 wpem-google-maps-functions.php:143
+#: wpem-google-maps-functions.php:187 wpem-google-maps-functions.php:189
+msgid "Something went wrong while retrieving your location."
+msgstr ""
+
+#: wpem-google-maps-functions.php:98 wpem-google-maps-functions.php:146
+#: wpem-google-maps-functions.php:192
+msgid "Unable to contact Google API service."
+msgstr ""
+
+#: wpem-google-maps-functions.php:240
+msgid "No results found"
+msgstr ""
+
+#: wpem-google-maps-functions.php:244
+msgid "Query limit reached"
+msgstr ""
+
+#: wpem-google-maps-functions.php:247
+msgid ""
+"Request denied from google map api key please enable geolocation and "
+"gecoding api"
+msgstr ""
+
+#: wpem-google-maps-functions.php:325 wpem-google-maps-functions.php:329
+#: wpem-google-maps-functions.php:333
+msgid "Geocoding error"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Event Manager - Google Maps"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wp-eventmanager.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Use Google Maps addon to display and highlight event locations in Google "
+"Maps."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr ""

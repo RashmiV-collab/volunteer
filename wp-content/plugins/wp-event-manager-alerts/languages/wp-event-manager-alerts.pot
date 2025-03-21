@@ -1,0 +1,653 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Event Manager - Event Alerts\n"
+"POT-Creation-Date: 2023-07-12 16:43+0530\n"
+"PO-Revision-Date: 2023-07-12 16:43+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-alerts.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-alerts-admin.php:32
+msgid "WP Event Manager Alerts"
+msgstr ""
+
+#: admin/wpem-alerts-admin.php:46
+msgid "Event Alert List"
+msgstr ""
+
+#: admin/wpem-alerts-admin.php:47
+msgid "This will return alert list of current logged-in user."
+msgstr ""
+
+#: admin/wpem-alerts-admin.php:48
+msgid "View Details"
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:50
+msgid "Event Alerts"
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:57
+msgid "Alert Email Content"
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:58
+msgid ""
+"Enter the content for your email alerts. Leave blank to use the default "
+"message. The following tags can be used to insert data dynamically:"
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:59
+msgid "The users display name in WP."
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:60
+msgid "The name of the alert being sent."
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:61
+msgid "A sentance explaining if an alert will be stopped automatically."
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:62
+msgid "The date this alert will next be sent."
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:63
+msgid "The url to your alerts page."
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:64
+msgid "The name of the events being sent."
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:72
+msgid "Alert Duration"
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:73
+msgid ""
+"Enter the number of days before alerts are automatically disabled, or leave "
+"blank to disable this feature. By default, alerts will be turned off for a "
+"search after 90 days."
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:79
+msgid "Alert Matches"
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:80
+msgid "Send alerts with matches only"
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:81
+msgid ""
+"Only send an alert when events are found matching its criteria. When "
+"disabled, an alert is sent regardless."
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:87
+msgid "Alerts Page Name"
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:88
+msgid ""
+"So that the plugin knows where to link users to view their alerts, you must "
+"select the page where you have placed the [event_alerts] shortcode."
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:94
+msgid "Delete Data On Uninstall"
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:95
+msgid ""
+"Delete WP Event Manager Alert data when the plugin is deleted. Once removed, "
+"this data cannot be restored."
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:117
+msgid "Enable reCAPTCHA for Alert Form"
+msgstr ""
+
+#: admin/wpem-alerts-settings.php:118
+msgid "Disable this to remove reCAPTCHA for Alert Form."
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:42
+msgid "Event Alert Setup"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:128
+msgid "Error in nonce. Try again."
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:144
+msgid "WP Event Manager Alerts Setup"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:150 admin/wpem-alerts-setup.php:155
+#: admin/wpem-alerts-setup.php:160
+msgid "1. Introduction"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:151 admin/wpem-alerts-setup.php:156
+#: admin/wpem-alerts-setup.php:161
+msgid "2. Page Setup"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:152 admin/wpem-alerts-setup.php:157
+#: admin/wpem-alerts-setup.php:162
+msgid "3. Done"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:167
+msgid "Setup Wizard Introduction"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:168
+msgid "Thanks for installing <em>WP Event Manager Alerts</em>!"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:169
+msgid ""
+"This setup wizard will help you get started by creating the pages for event "
+"alert."
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:170
+#, php-format
+msgid ""
+"If you want to skip the wizard and setup the pages and shortcodes yourself "
+"manually, the process is still relatively simple. Refer to the "
+"%sdocumentation%s for help."
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:173
+msgid "Continue to page setup"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:174
+msgid "Skip setup. I will setup the plugin manually"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:179
+msgid "Page Setup"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:180
+#, php-format
+msgid ""
+"<em>WP Event Manager</em> includes %1$sshortcodes%2$s which can be used "
+"within your %3$spages%2$s to output content. These can be created for you "
+"below. For more information on the event shortcodes view the %4$sshortcode "
+"documentation%2$s."
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:189
+msgid "Page Title"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:190
+msgid "Page Description"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:191
+msgid "Content Shortcode"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:198
+msgctxt "Default page title (wizard)"
+msgid "Event Alerts"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:200
+msgid ""
+"This page allows peoples to manage and edit their own Event Alerts the front-"
+"end."
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:210
+msgid "Skip this step"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:223
+msgid "All Done!"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:226
+msgid ""
+"Looks like you're all set to start using the plugin. In case you're "
+"wondering where to go next:"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:228
+msgid "Tweak the plugin settings"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:230
+msgid "Event Alerts via the front-end"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:233
+#, php-format
+msgid ""
+"And don't forget, if you need any more help using <em>WP Event Manager</em> "
+"you can consult the %1$sdocumentation%2$s or %3$spost on the forums%2$s!"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:236
+msgid "Support the Ongoing Development of this Plugin"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:237
+msgid ""
+"There are many ways to support open-source projects such as WP Event "
+"Manager, for example code contribution, translation, or even telling your "
+"friends how awesome the plugin (hopefully) is. Thanks in advance for your "
+"support - it is much appreciated!"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:239
+msgid "Leave a positive review"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:240
+msgid "Contribute a localization"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:241
+msgid "Contribute code or report a bug"
+msgstr ""
+
+#: admin/wpem-alerts-setup.php:242
+msgid "Help other users on the forums"
+msgstr ""
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+msgid "License"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:14 templates/my-alerts.php:41
+msgid "Email"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr ""
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr ""
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:77
+msgid "Lost your license key?"
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:77
+msgid "Retrieve it here"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:266
+msgid "Activate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:274
+msgid "Deactivate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+
+#: external/elementor-widgets/elementor-event-alert-dashboard.php:36
+#: external/elementor-widgets/elementor-event-alert-dashboard.php:90
+msgid "Event Alert Dashboard"
+msgstr ""
+
+#: includes/wpem-alerts-notifier.php:25
+msgid "Once Weekly"
+msgstr ""
+
+#: includes/wpem-alerts-notifier.php:29
+msgid "Once every fortnight"
+msgstr ""
+
+#: includes/wpem-alerts-notifier.php:53
+#, php-format
+msgid "Event Alert Results Matching \"%s\""
+msgstr ""
+
+#: includes/wpem-alerts-notifier.php:152
+msgid ""
+"No events were found matching your search. Login to your account to change "
+"your alert criteria"
+msgstr ""
+
+#: includes/wpem-alerts-notifier.php:169
+#, php-format
+msgid "This event alert will automatically stop sending after %s."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:44
+msgid "Alerts"
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:88
+msgid "Please name your alert."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:97
+msgid "Alert name is already exist. Please choose another name for your alert."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:111
+#, php-format
+msgid "Your %s alert has been added."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:113
+msgid "Could not create the alert."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:123
+#: shortcodes/wpem-alerts-shortcodes.php:223
+msgid "Invalid Alert."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:128
+#, php-format
+msgid "Your %s alert has been updated."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:186
+msgid "Invalid Alert"
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:215
+#, php-format
+msgid "%s has been %s"
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:215 templates/my-alerts.php:120
+msgid "Enabled"
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:215 templates/my-alerts.php:120
+msgid "Disabled"
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:235
+#, php-format
+msgid "Your %s have been deleted"
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:243
+#, php-format
+msgid "%s has been triggered. Check your mail."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:267
+msgid "You need to be signed in to manage your alerts."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:268
+msgid "Sign in"
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:279
+msgid "Your alerts have been updated."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:281
+msgid "Your alerts have been added successfully."
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:375
+#, php-format
+msgid "Events matching your \"%s\" alert:"
+msgstr ""
+
+#: shortcodes/wpem-alerts-shortcodes.php:392
+msgid "No events found"
+msgstr ""
+
+#: templates/alert-form.php:4 templates/my-alerts.php:11
+#: templates/my-alerts.php:31
+msgid "Alert Name"
+msgstr ""
+
+#: templates/alert-form.php:6
+msgid "Enter a name for your alert"
+msgstr ""
+
+#: templates/alert-form.php:10
+msgid "Keyword"
+msgstr ""
+
+#: templates/alert-form.php:12
+msgid "Optionally add a keyword to match events against"
+msgstr ""
+
+#: templates/alert-form.php:16 templates/my-alerts.php:19
+#: templates/my-alerts.php:94
+msgid "Location"
+msgstr ""
+
+#: templates/alert-form.php:18
+msgid "Optionally define a location to search against"
+msgstr ""
+
+#: templates/alert-form.php:23
+msgid "Event Categories"
+msgstr ""
+
+#: templates/alert-form.php:25
+msgid "Choose an Event Category"
+msgstr ""
+
+#: templates/alert-form.php:37
+msgid "Event Tags"
+msgstr ""
+
+#: templates/alert-form.php:49
+msgid "Choose an Event Tag"
+msgstr ""
+
+#: templates/alert-form.php:56
+msgid "Event Types"
+msgstr ""
+
+#: templates/alert-form.php:58
+msgid "Choose an Event Type"
+msgstr ""
+
+#: templates/alert-form.php:68
+msgid "Email Frequency"
+msgstr ""
+
+#: templates/alert-form.php:71 templates/my-alerts.php:110
+msgid "Daily"
+msgstr ""
+
+#: templates/alert-form.php:72 templates/my-alerts.php:113
+msgid "Weekly"
+msgstr ""
+
+#: templates/alert-form.php:73
+msgid "Fortnightly"
+msgstr ""
+
+#: templates/alert-form.php:81
+msgid "Save alert"
+msgstr ""
+
+#: templates/content-email_event_listing.php:17
+#, php-format
+msgid "Location: %s"
+msgstr ""
+
+#: templates/content-email_event_listing.php:20
+#, php-format
+msgid "Organizer: %s"
+msgstr ""
+
+#: templates/content-email_event_listing.php:24
+#, php-format
+msgid "View Details: %s"
+msgstr ""
+
+#: templates/my-alerts.php:2
+#, php-format
+msgid ""
+"Your event alerts are shown in the table below. Your alerts will be sent to "
+"%s."
+msgstr ""
+
+#: templates/my-alerts.php:4 wp-event-manager-alerts.php:249
+msgid "Add alert"
+msgstr ""
+
+#: templates/my-alerts.php:12 templates/my-alerts.php:74
+msgid "Keywords"
+msgstr ""
+
+#: templates/my-alerts.php:14 templates/my-alerts.php:83
+msgid "Categories"
+msgstr ""
+
+#: templates/my-alerts.php:17 templates/my-alerts.php:89
+msgid "Tags"
+msgstr ""
+
+#: templates/my-alerts.php:20 templates/my-alerts.php:102
+msgid "Frequency"
+msgstr ""
+
+#: templates/my-alerts.php:21 templates/my-alerts.php:120
+msgid "Status"
+msgstr ""
+
+#: templates/my-alerts.php:22 templates/my-alerts.php:121
+msgid "Date Created"
+msgstr ""
+
+#: templates/my-alerts.php:37
+msgid "Show Results"
+msgstr ""
+
+#: templates/my-alerts.php:45
+msgid "Edit"
+msgstr ""
+
+#: templates/my-alerts.php:49
+msgid "Enable"
+msgstr ""
+
+#: templates/my-alerts.php:49
+msgid "Disable"
+msgstr ""
+
+#: templates/my-alerts.php:53
+msgid "Delete"
+msgstr ""
+
+#: templates/my-alerts.php:116
+msgid "Fornightly"
+msgstr ""
+
+#: templates/my-alerts.php:127
+msgid "Currently you have no alerts"
+msgstr ""
+
+#: templates/single-event-alert-link.php:4
+msgid "Alert me like this event"
+msgstr ""
+
+#: wp-event-manager-alerts.php:44
+msgid "WP Event Manager is require to use WP Event Manager - Event Alerts"
+msgstr ""
+
+#: wp-event-manager-alerts.php:212
+msgid "Are you sure you want to delete this alert?"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Event Manager - Event Alerts"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/product-category/plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allow users to subscribe to event alerts for their searches. Once "
+"registered, users can access a 'My Alerts' page which you can create with "
+"the shortcode [event_alerts]."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.wp-eventmanager.com/"
+msgstr ""

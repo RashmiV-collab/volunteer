@@ -1,0 +1,62 @@
+# Copyright (C) 2022 WP Sheet Editor
+# This file is distributed under the same license as the WP Sheet Editor - Custom Tables plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Sheet Editor - Custom Tables 1.1.17\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/custom-tables\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-03-01T04:52:46+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#. Plugin Name of the plugin
+msgid "WP Sheet Editor - Custom Tables"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpsheeteditor.com/extensions/custom-database-tables-spreadsheet/?utm_source=wp-admin&utm_medium=plugins-list&utm_campaign=custom-tables"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create spreadsheet editors for custom database tables"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP Sheet Editor"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-list&utm_campaign=wc-orders"
+msgstr ""
+
+#: custom-tables.php:79
+msgid "Please update the WP Sheet Editor plugin and all its extensions to the latest version. The features of the plugin \""
+msgstr ""
+
+#: inc/bootstrap.php:18
+msgid "Edit custom database tables"
+msgstr ""
+
+#: inc/bootstrap.php:42
+msgid "ID"
+msgstr ""
+
+#: inc/sheet.php:281
+msgid "Status"
+msgstr ""
+
+#: views/welcome-page-content.php:4
+msgid "Thank you for installing our plugin."
+msgstr ""
+
+#: views/welcome-page-content.php:26
+msgid "We could not find any custom tables in your database."
+msgstr ""
+
+#: views/welcome-page-content.php:28
+msgid "We have generated spreadsheets for the custom tables below. Just click on the table you want to edit:  %s"
+msgstr ""

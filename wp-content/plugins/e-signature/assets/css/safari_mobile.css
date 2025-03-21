@@ -1,0 +1,8 @@
+/*working only in ipad portrait device*/
+@media only screen and (width: 768px) and (height: 1024px){
+    .checkbox.esig-checkbox {
+        padding-left: 9% !important;
+    }
+         
+}
+    

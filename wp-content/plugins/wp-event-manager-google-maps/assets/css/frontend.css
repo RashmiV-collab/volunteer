@@ -1,0 +1,145 @@
+:root {
+  --wpem-primary-color: #0096ff;
+  --wpem-dark-color: #111111;
+  --wpem-gray-color: #555555;
+  --wpem-white-color: #ffffff;
+  --wpem-gray-border-color: #e4e4e4;
+  --wpem-gray-bg-color: #f5f5f5;
+}
+
+.gm-style .gm-style-iw-c {
+  padding: 15px !important;
+}
+.gm-style .gm-style-iw-c button.gm-ui-hover-effect {
+  top: 0 !important;
+  right: 0 !important;
+}
+
+.gm-style .gm-style-iw-c button.gm-ui-hover-effect img {
+  transform: scale(1.5);
+}
+.wpem-google-tooltip-event-wrapper {
+  margin: 0;
+  border-bottom: 1px solid var(--wpem-gray-border-color);
+  display: inline-flex;
+  width: 100%;
+  padding: 10px;
+  transition: 0.2s all ease-in-out;
+}
+.wpem-google-tooltip-event-wrapper .wpem-event-banner {
+  float: left;
+  padding-right: 20px;
+}
+.wpem-google-tooltip-event-wrapper .wpem-event-banner .wpem-event-banner-img {
+  height: 90px;
+  width: 90px;
+  background-size: cover !important;
+  background-position: center !important;
+  border-radius: 5px;
+  background-color: var(--wpem-gray-bg-color);
+}
+.wpem-google-tooltip-event-wrapper .wpem-google-tooltip-event-date-time,
+.wpem-google-tooltip-event-wrapper .wpem-google-tooltip-location {
+  margin: 0;
+  min-height: 22px;
+  font-size: 14px;
+  position: relative;
+  padding-left: 20px;
+  color: var(--wpem-gray-color);
+  width: 100%;
+}
+.wpem-google-tooltip-event-wrapper .wpem-google-tooltip-event-date-time:before {
+  content: "\e94e";
+  font-family: wp-event-manager;
+  position: absolute;
+  left: 0;
+  font-size: 14px;
+  line-height: 23px;
+}
+.wpem-google-tooltip-event-wrapper .wpem-google-tooltip-location:before {
+  content: "\e947";
+  font-family: wp-event-manager;
+  position: absolute;
+  left: 0;
+  font-size: 15px;
+  line-height: 23px;
+}
+.wpem-google-tooltip-event-wrapper:hover {
+  background: var(--wpem-gray-bg-color);
+}
+.wpem-google-tooltip-event-wrapper:hover .wpem-google-tooltip-event-title {
+  color:var(--wpem-primary-color);
+}
+.wpem-google-tooltip-event-wrapper:last-child {
+  border-bottom: 0;
+}
+.wpem-google-tooltip-event-wrapper .wpem-google-tooltip-event-title {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: var(--wpem-dark-color);
+}
+.wpem-google-tooltip-event-wrapper .wpem-google-tooltip-event-title a {
+  color: var(--wpem-dark-color);
+}
+.wpem-google-tooltip-event-wrapper .wpem-google-tooltip-event-title a:hover {
+  color: var(--wpem-primary-color);
+}
+.wpem-google-tooltip-event-wrapper .wpem-google-tooltip-event-event-type{
+  margin-top: 5px;
+}
+.wpem-google-tooltip-event-wrapper .wpem-google-tooltip-event-event-type .wpem-event-type-text {
+  padding: 5px 7px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 12px;
+  background: var(--wpem-gray-bg-color);
+  border-radius: 3px;
+  margin: 0 5px 5px 0;
+}
+.wpem-form-wrapper .wpem-form-group.wpem-location-container {
+  display: flex;
+  position: relative;
+}
+.wpem-form-wrapper .wpem-form-group.wpem-location-container button.wpem-my-location {
+  background: 0 0;
+  opacity: 0.6;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 45px;
+  position: absolute;
+  margin: 0;
+  right: 10px;
+  top: 0;
+  padding: 10px;
+  height: 45px;
+}
+.wpem-form-wrapper .wpem-form-group.wpem-location-container button.wpem-my-location:hover {
+  opacity: 1;
+}
+.wpem-form-wrapper .wpem-form-group.wpem-location-container button.wpem-my-location img.wpem-my-location-img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.wpem-form-wrapper .wpem-form-group.wpem-location-container input[type=text]#search_location {
+  padding-right: 45px;
+}
+
+.wpem-event-listings #googleMap{
+  margin-bottom: 25px;
+}
+.googlemap-container{
+  width: 100%;
+}
+.wpem-event-listings.wpem-event-listing-box-view .googlemap-container,
+.wpem-event-listings.wpem-event-listing-box-view .google-map-loadmore,
+.wpem-event-listings.wpem-event-listing-calendar-view .googlemap-container,
+.wpem-event-listings.wpem-event-listing-calendar-view .google-map-loadmore{
+    margin: 0 15px;
+}

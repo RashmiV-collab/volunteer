@@ -1,0 +1,213 @@
+/* This stylesheet is used for the public-facing components of the plugin. */
+
+input.esig-sif-textfield
+{
+    background-color: #FFFFFF;
+    height: 2.5em !important;
+    border: 1px solid #CDCDCD;
+    margin: 4px 0;
+    display: inline-block!important;
+    padding: 0 7px;
+}
+
+input.esig-sif-textfield.esig-error
+{
+    border-color:#c00;
+}
+
+.esig-sif-textfield.signed
+{
+
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding:10px;
+
+}
+
+/*input.esig-sif-todaydate
+{
+    height:2.5em !important;
+
+} */
+input.esig-sif-todaydate.signed
+{
+    border-width: 0 0 1px 0 !important;
+}
+.document-sign-page .radio
+{
+    display:block;	
+    margin-left:25px;
+    height:1em;	
+
+}
+.esig-sif-radio input[type="radio"]
+{
+    height:1em !important;
+    float:none;
+    margin-left:0px;
+    width:1.5em !important;	
+}
+.document-sign-page .radio .esig-sif-radio
+{
+    margin-left: 10px;
+
+}
+.document-sign-page .radio-horizental
+{
+    display:inline-block;
+    padding-right:1em;
+    height:1em;	
+}
+
+.document-sign-page .radio-horizental .esig-sif-radio
+{
+    margin-left: 10px;
+}
+
+/*checkbox style start here */
+
+
+
+.sifreadonly
+{
+    opacity: 0.5!important;
+    border: 1px solid #E7DEDE!important;
+    background: #e9f4ff!important;
+}
+.esig-sif-none 
+{
+    opacity:0.4;
+    padding-right:5px;
+}
+.sif-file-container{
+    border: 2px solid #DFDFDF;
+    padding: 18px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    background: #F6F6F6;
+}
+
+.sif-file-container label{
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .sif-file-container label
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .esig-datepicker-display
+    {
+            display: flex;
+            flex-direction: column;
+    }
+    
+}
+    .esig-datepicker-display
+    {
+        font-weight: normal !important;
+    }
+/* error msg start hree */
+
+.sif-icon-size
+{
+    padding-left: 10px; 
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.sif-textarea-border {
+    border:1px solid #ccc;
+    display:block;
+
+    text-align:left;
+    padding:3px;
+}
+
+#ui-datepicker-div {display: none;}
+
+#ui-datepicker-div .ui-state-disabled .ui-state-default {
+    opacity: 0.3 !important;   
+}
+
+.document-sign-page label 
+{
+    display:inline-flex; 
+}
+
+.document-sign-page label.radio-inline, .document-sign-page label.checkbox-inline {
+    display: inline !important;
+    padding-right: 1.5%;
+}
+
+.document-sign-page label span
+{
+    display:inline-flex;
+    margin:0 5px ;
+}
+
+.document-sign-page .radio-inline , .checkbox-inline
+{
+    vertical-align: unset !important;
+}
+
+.esig-sif-email, .esig-sif-email:hover
+{
+    text-decoration: none;
+    color:inherit !important;
+}
+
+.esig-sif-url, .esig-sif-url:hover
+{
+    text-decoration: none;
+    color:inherit !important;
+}
+
+
+.checkbox input[type=radio] 
+{
+    margin-right: 7px;
+    margin-left: -19px;
+    margin-top: 2px;
+}
+.checkbox input[type=checkbox] 
+{
+    margin-top: 5px;
+}
+
+
+.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline{
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+.checkbox-inline+.checkbox-inline,
+    .radio-inline+.radio-inline {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+.button-inline {
+    padding-right: 10px;
+}  
+.checkbox-inline, .radio-inline {
+    padding-left: 20px;
+    display:inline-flex !important;
+}
+
+.checkbox-inline input[type=checkbox], .radio-inline input[type=radio]
+{
+    margin-right:10px;
+}
+
+.glyphicon-trash:before {
+    content: "\e020";
+} 
+
+select {
+    max-width: 100%;
+}

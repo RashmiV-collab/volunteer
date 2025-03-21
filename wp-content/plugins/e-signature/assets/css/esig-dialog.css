@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 17, 2016, 5:42:25 PM
+    Author     : Rupom
+*/
+
+#TB_closeWindowButton > span.screen-reader-text { 
+      display:none !important; 
+      
+}
+
+#TB_closeWindowButton:focus .tb-close-icon {
+	-webkit-box-shadow:none !important;
+	box-shadow:none !important;
+}
+
+
+
+#TB_ajaxWindowTitle
+{
+    float:left;
+    position:absolute;
+    top:-50px;
+    left:-15px;
+    color:#ffffff;
+    font-size:1.7em;
+    font-weight:100!important;
+    text-align: left;
+    overflow: visible !important;
+}
+
+
+
+/* Custom CSS for Signature Popup */
+
+#TB_window #TB_title 
+{
+    background-color: transparent;
+    border-bottom: none;
+    width:auto !important ; 
+}
+
+ #TB_window
+{
+    border-radius: 6px;
+    border: 7px solid transparent!important;
+    text-align:center ; 
+    width:500px !important;
+    min-width: 720px !important;
+    left:25% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#TB_ajaxContent {
+    min-width: 500px !important;
+    height: 88% !important;
+}
+
+/**
+    WP E-Signature pophover start here 
+**/
+.esig-pophover
+{
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    border-radius: 6px;
+    width: 200px;
+    flex-direction: column;
+    border:1px solid gray;
+    z-index:101;
+}
+
+.type-warning .modal-header
+{
+    display: block !important;
+}
+
+.type-warning .modal-header .bootstrap-dialog-header
+{
+   margin-top: 20px;
+}
+
+.esig-template-page #TB_window {
+    min-width: 500px !important;
+}
+
+.e-signature_page_esign-settings #TB_window {
+    min-width: 510px !important;
+    max-width: 510px !important;   
+}
+
+
+
+.e-signature_page_esign-view-document #esig-view-form {
+    margin-left: 4%;
+}
+.e-signature_page_esign-view-document input[type="checkbox"]{
+    margin-top: 1%;
+}
+
+.admin_page_esign-edit-document .invitations-container_ajax{
+    width: 530px !important;
+    margin-left: unset !important;
+}
+
+#cc-signer_main {
+    padding-bottom: 15px !important;
+}
+.admin_page_esign-edit-document #esig-view-form {
+    margin-left: 2%;
+}
+
+.stMain ul.tabAnchor li
+{
+    padding: unset !important;
+    margin: unset !important;
+}
+
+a#esig-tab-type {
+    width: 190px;
+}
+
+#esig_signer_reminder_settings .setting_box_all {
+   
+    text-align: left;
+    padding-left: 2.5%;
+}
+
+.e-signature_page_esign-view-document #TB_window {
+    min-width: 40% !important;
+    width:auto !important;
+    left: 28% !important;
+    right: 28% !important;
+    min-height: 350px !important;
+    max-height: 450px !important;
+}
+
+.admin_page_esign-edit-document #TB_window, .admin_page_esign-add-document #TB_window {
+    
+    height: 55% !important;
+   
+}
+
+.e-signature_page_esign-view-document .esig-access-dialog {
+    left: 30% !important;
+}
+
+.toplevel_page_esign-docs #TB_window {
+    left: 22% !important;
+    right: 22% !important;
+}

@@ -1,0 +1,29 @@
+li.embeddable-event-widget-listing table tr td{
+    border:none !important;
+    background-color: transparent !important;
+}
+
+li.embeddable-event-widget-listing table tr:hover td , li.embeddable-event-widget-listing table tr td:hover{
+    border:none !important;
+    background-color: transparent !important;
+}
+
+li.embeddable-event-widget-listing table  .wpem-event-ticket-type .wpem-event-ticket-type-text {
+    background-color: transparent !important;
+}
+
+#embeddable-event-widget ul li {
+    border-left: 5px solid transparent !important;
+}
+
+@media screen and (max-width : 767px) {
+    li.embeddable-event-widget-listing table tr{
+        flex-direction: column;
+    }
+
+    li.embeddable-event-widget-listing table .wpem-event-banner-img{
+        height: 185px !important;
+        width : auto !important;
+        margin-bottom: 15px !important;
+    }
+}

@@ -1,0 +1,695 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: WP Event Manager - Google Maps\n"
+"POT-Creation-Date: 2023-07-31 17:20+0530\n"
+"PO-Revision-Date: 2023-07-31 17:21+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-google-maps.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: hi_IN\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-google-maps-admin.php:86
+
+msgid "WP Event Manager Google Map"
+msgstr "WP इवेंट मैनेजर गूगल मैप"
+
+#: admin/wpem-google-maps-admin.php:100
+
+msgid "Events Map"
+msgstr "घटनाओं का नक्शा"
+
+#: admin/wpem-google-maps-admin.php:101
+
+msgid "This will be used to display all events location on single map"
+msgstr ""
+"इसका उपयोग एकल मानचित्र पर सभी घटनाओं के स्थान को प्रदर्शित करने के लिए किया जाएगा।"
+
+#: admin/wpem-google-maps-admin.php:102 admin/wpem-google-maps-admin.php:108
+msgid "View Details"
+msgstr "विवरण देखें"
+
+#: admin/wpem-google-maps-admin.php:106
+
+msgid "Single Event Location on Map"
+msgstr "मानचित्र पर एकल इवेंट स्थान"
+
+#: admin/wpem-google-maps-admin.php:107
+
+msgid ""
+"This is used when you want to show particular event location in google map."
+msgstr ""
+"इसका उपयोग तब किया जाता है जब आप Google मानचित्र में विशेष ईवेंट स्थान दिखाना चाहते हैं।"
+
+#: admin/wpem-google-maps-admin.php:129
+
+msgid "Google Geocoder API enabled correctly."
+msgstr "Google जियोकोडर API सही तरीके से सक्षम किया गया."
+
+#: admin/wpem-google-maps-admin.php:139
+
+msgid "Google Places API enabled correctly."
+msgstr "Google स्थान API सही तरीके से सक्षम किया गया है।"
+
+#: admin/wpem-google-maps-settings.php:35
+
+msgid "Google Maps General Settings"
+msgstr "गूगल मानचित्र सामान्य सेटिंग्स"
+
+#: admin/wpem-google-maps-settings.php:40
+
+msgid "Google API Language"
+msgstr "गूगल API भाषा"
+
+#: admin/wpem-google-maps-settings.php:41
+
+msgid ""
+"This feature controls the language of the autocomplete results and Google "
+"maps. Enter the language code of the langauge you would like to use. List of "
+"avaliable langauges can be found <a href=\"https://developers.google.com/"
+"admin-sdk/directory/v1/languages\" target=\"_blank\"> here</a>."
+msgstr ""
+"यह फीचर ऑटोकम्प्लीट रिजल्ट ्स और गूगल मैप्स की लैंग्वेज को कंट्रोल करता है। उस भाषा का "
+"भाषा कोड दर्ज करें जिसका आप उपयोग करना चाहते हैं। उपलब्ध लंगेज की सूची <a href="
+"\"https://developers.google.com/admin-sdk/directory/v1/languages\" target="
+"\"_blank\"> यहां</a> पाई जा सकती है।"
+
+#: admin/wpem-google-maps-settings.php:48
+
+msgid "Google API Default Region"
+msgstr "Google API डिफ़ॉल्ट क्षेत्र"
+
+#: admin/wpem-google-maps-settings.php:49
+
+msgid ""
+"This feature controls the regions of Goole API. Enter a country code; for "
+"example for United States enter US. you can find your country code <a href="
+"\"https://countrycode.org/\" target=\"_blank\">here</a>."
+msgstr ""
+"यह सुविधा Goole API के क्षेत्रों को नियंत्रित करती है। एक देश कोड दर्ज करें; उदाहरण के "
+"लिए, संयुक्त राज्य अमेरिका में प्रवेश करें। आप <a href=\"https://countrycode.org/\" "
+"target=\"_blank\">यहां</a> अपना देश कोड पा सकते हैं।"
+
+#: admin/wpem-google-maps-settings.php:56
+
+msgid " Google Address Autocomplete(For Backend Submission Form)"
+msgstr " Google पता स्वत: पूर्ण (बैकएंड सबमिशन फॉर्म के लिए)"
+
+#: admin/wpem-google-maps-settings.php:57
+
+msgid ""
+"Display suggested results by Google when typing an address in the location "
+"field of the new/edit WP Event Manager Google Maps screen."
+msgstr ""
+"नए/संपादित WP इवेंट मैनेजर Google मानचित्र स्क्रीन के स्थान फ़ील्ड में पता टाइप करते समय "
+"Google द्वारा सुझाए गए परिणाम प्रदर्शित करें."
+
+#: admin/wpem-google-maps-settings.php:58
+#: admin/wpem-google-maps-settings.php:66
+#: admin/wpem-google-maps-settings.php:107
+#: admin/wpem-google-maps-settings.php:132
+#: admin/wpem-google-maps-settings.php:170
+#: admin/wpem-google-maps-settings.php:184
+#: admin/wpem-google-maps-settings.php:222
+msgid "Yes"
+msgstr "हाँ"
+
+#: admin/wpem-google-maps-settings.php:65
+
+msgid "Google Address Autocomplete(For Frontend Submission Form)."
+msgstr "Google पता स्वत: पूर्ण (फ्रंटएंड सबमिशन फॉर्म के लिए)."
+
+#: admin/wpem-google-maps-settings.php:67
+
+msgid ""
+"Display suggested results by Google when typing an address in the location "
+"field of the new/edit Google Maps form in the front end."
+msgstr ""
+"नए/संपादित करें Google मानचित्र फ़ॉर्म के स्थान फ़ील्ड में पता टाइप करते समय Google द्वारा "
+"सुझाए गए परिणाम प्रदर्शित करें."
+
+#: admin/wpem-google-maps-settings.php:74
+
+msgid "Autocomplete Country Restriction."
+msgstr "स्वत: पूर्ण देश प्रतिबंध।"
+
+#: admin/wpem-google-maps-settings.php:75
+
+msgid ""
+"Enter the country code of the country which you would like to restrict the "
+"autocomplete results to. Leave it empty to show all countries. <b>For "
+"example: us,in,uk</b> (add multiple with comma separated)."
+msgstr ""
+"उस देश का देश कोड दर्ज करें जिस पर आप स्वत: पूर्ण परिणामों को प्रतिबंधित करना चाहते हैं। "
+"इसे सभी देशों को दिखाने के लिए खाली छोड़ दें। <b>उदाहरण के लिए: हम, इन, यूके</b> "
+"(अल्पविराम के साथ एकाधिक को अलग करें)।"
+
+#: admin/wpem-google-maps-settings.php:82
+
+msgid "Location Marker"
+msgstr "स्थान मार्कर"
+
+#: admin/wpem-google-maps-settings.php:84
+
+msgid "Url to the marker represents locations on the map."
+msgstr "मार्कर का URL मानचित्र पर स्थानों का प्रतिनिधित्व करता है."
+
+#: admin/wpem-google-maps-settings.php:91
+
+msgid "Map Style JSON"
+msgstr "मानचित्र शैली JSON"
+
+#: admin/wpem-google-maps-settings.php:93
+
+msgid ""
+"Generate style json from <a href=\"https://mapstyle.withgoogle.com/\" target="
+"\"_blank\">here</a>."
+msgstr ""
+"<a href=\"https://mapstyle.withgoogle.com/\" target=\"_blank\">यहां</a> से "
+"स्टाइल जेसन जेनरेट करें।"
+
+#: admin/wpem-google-maps-settings.php:101
+
+msgid "Google Maps Search Form Settings"
+msgstr "Google मानचित्र खोज प्रपत्र सेटिंग"
+
+#: admin/wpem-google-maps-settings.php:106
+
+msgid "Google Address Autocomplete"
+msgstr "गूगल पता स्वत: पूर्ण"
+
+#: admin/wpem-google-maps-settings.php:108
+
+msgid ""
+"Display suggested results by Google when typing an address in the location "
+"field of the event listing filter."
+msgstr ""
+"ईवेंट प्रविष्टि फ़िल्टर के स्थान फ़ील्ड में पता लिखते समय Google द्वारा सुझाए गए परिणाम "
+"प्रदर्शित करें."
+
+#: admin/wpem-google-maps-settings.php:116
+
+msgid "Radius"
+msgstr "त्रिज्या"
+
+#: admin/wpem-google-maps-settings.php:117
+
+msgid ""
+"Enter the first value as a default radius, proceeded by multiple values, "
+"separated by comma, that would appear in the dropdown."
+msgstr ""
+"पहले मान को डिफ़ॉल्ट त्रिज्या के रूप में दर्ज करें, जो कई मानों द्वारा आगे बढ़ाया जाता है, "
+"अल्पविराम द्वारा अलग किया जाता है, जो ड्रॉपडाउन में दिखाई देगा।"
+
+#: admin/wpem-google-maps-settings.php:124 templates/google-maps-filters.php:39
+msgid "Order By"
+msgstr "द्वारा आदेश"
+
+#: admin/wpem-google-maps-settings.php:125
+
+msgid ""
+"Enter the values you want to use in the \"Sort by\" dropdown select box. "
+"Enter, comma separated, in the order that you want the values to appear any "
+"of the values: distance, title, date and featured."
+msgstr ""
+"\"सॉर्ट बाय\" ड्रॉपडाउन चयन बॉक्स में वे मान दर्ज करें जिनका आप उपयोग करना चाहते हैं. "
+"दर्ज करें, अल्पविराम पृथक करें, इस क्रम में कि आप मान में से किसी एक को दिखाना चाहते हैं: "
+"दूरी, शीर्षक, दिनांक और चित्रित."
+
+#: admin/wpem-google-maps-settings.php:131
+#: admin/wpem-google-maps-settings.php:183
+
+msgid "Display Maps"
+msgstr "मानचित्र प्रदर्शित करें"
+
+#: admin/wpem-google-maps-settings.php:133
+
+msgid "Display google map on the event listing page."
+msgstr "इवेंट लिस्टिंग पेज पर Google मानचित्र प्रदर्शित करें."
+
+#: admin/wpem-google-maps-settings.php:141
+#: admin/wpem-google-maps-settings.php:193
+
+msgid "Maps Width"
+msgstr "मानचित्र की चौड़ाई"
+
+#: admin/wpem-google-maps-settings.php:142
+#: admin/wpem-google-maps-settings.php:194
+#, php-format
+msgid "Maps width in pixels or percentage (ex. 100% or 250px)."
+msgstr "पिक्सेल या प्रतिशत में चौड़ाई मैप करें (उदा. 100% or 250px)."
+
+#: admin/wpem-google-maps-settings.php:149
+#: admin/wpem-google-maps-settings.php:201
+
+msgid "Maps Height"
+msgstr "मानचित्र ऊंचाई"
+
+#: admin/wpem-google-maps-settings.php:150
+#: admin/wpem-google-maps-settings.php:202
+#, php-format
+msgid "Maps height in pixels or percentage (ex. 100% or 250px)."
+msgstr "पिक्सेल या प्रतिशत में ऊंचाई मैप करें (उदा. 100% or 250px)."
+
+#: admin/wpem-google-maps-settings.php:156
+#: admin/wpem-google-maps-settings.php:208
+
+msgid "Maps Type"
+msgstr "मानचित्र का प्रकार"
+
+#: admin/wpem-google-maps-settings.php:157
+#: admin/wpem-google-maps-settings.php:209
+
+msgid "Choose the maps type."
+msgstr "मानचित्र प्रकार चुनें."
+
+#: admin/wpem-google-maps-settings.php:160
+#: admin/wpem-google-maps-settings.php:212
+
+msgid "ROADMAP"
+msgstr "रोडमैप"
+
+#: admin/wpem-google-maps-settings.php:161
+#: admin/wpem-google-maps-settings.php:213
+
+msgid "SATELLITE"
+msgstr "उपग्रह"
+
+#: admin/wpem-google-maps-settings.php:162
+#: admin/wpem-google-maps-settings.php:214
+
+msgid "HYBRID"
+msgstr "संकर"
+
+#: admin/wpem-google-maps-settings.php:163
+#: admin/wpem-google-maps-settings.php:215
+
+msgid "TERRAIN"
+msgstr "भूभाग"
+
+#: admin/wpem-google-maps-settings.php:169
+
+msgid "Enable Maps Scroll Wheel Control?"
+msgstr "मानचित्र स्क्रॉल व्हील नियंत्रण सक्षम करें?"
+
+#: admin/wpem-google-maps-settings.php:171
+#: admin/wpem-google-maps-settings.php:223
+
+msgid "Zoom maps in/out using mouse wheel?"
+msgstr "माउस व्हील का उपयोग करके ज़ूम मैप अंदर/बाहर?"
+
+#: admin/wpem-google-maps-settings.php:178
+
+msgid "Google Maps Single Page Settings"
+msgstr "Google मानचित्र एकल पृष्ठ सेटिंग"
+
+#: admin/wpem-google-maps-settings.php:185
+
+msgid "Display maps showing the location in a single event page."
+msgstr "एकल ईवेंट पृष्ठ में स्थान दिखाने वाले मानचित्र प्रदर्शित करें."
+
+#: admin/wpem-google-maps-settings.php:221
+
+msgid "Enable Maps Scroll-wheel Control?"
+msgstr "मानचित्र स्क्रॉल-व्हील नियंत्रण सक्षम करें?"
+
+#: admin/wpem-google-maps-settings.php:230
+
+msgid "Zoom Level"
+msgstr "ज़ूम स्तर"
+
+#: admin/wpem-google-maps-settings.php:232
+
+msgid ""
+"Add valid zoom level.<a href=\"https://developers.google.com/maps/"
+"documentation/javascript/tutorial#MapOptions\" target=\"_blank\">Click here</"
+"a> for more zoom level."
+msgstr ""
+"मान्य ज़ूम स्तर जोड़ें. अधिक ज़ूम स्तर के लिए <a href=\"https://developers.google.com/"
+"maps/documentation/javascript/tutorial#MapOptions\" target=\"_blank\">यहाँ "
+"क्लिक करें</a> ."
+
+#: admin/wpem-google-maps-settings.php:239
+
+msgid "Check Googel API"
+msgstr "Googel API की जाँच करें"
+
+#: admin/wpem-google-maps-settings.php:240
+
+msgid "Test API"
+msgstr "परीक्षण API"
+
+#: admin/wpem-google-maps-settings.php:242
+
+msgid "Click to test if all the required APIs are enabled properly."
+msgstr "यह परीक्षण करने के लिए क्लिक करें कि क्या सभी आवश्यक API ठीक से सक्षम हैं."
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "के लिए <strong>%s</strong> आपका लाइसेंस सक्रिय कर दिया गया है. धन्यवाद!"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+msgid "License"
+msgstr "लाइसेंस"
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr "ईमेल"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "ईमेल पता"
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr "लायसेंस सक्रिय करें"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "के लिए <strong>%s</strong> आपका लाइसेंस निष्क्रिय कर दिया गया है."
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr "सूचना छुपाएँ"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"कृपया \"%2$s\" के लिए अपडेट प्राप्त करने के लिए नीचे दी गई प्लगइन सूची में <a href=\"%1$s"
+"\">अपनी लाइसेंस कुंजी दर्ज करें</a>।"
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "अपनी चाबी खो दी है? <a href=\"%s\">इसे यहाँ पुनर्प्राप्त करें</a>।"
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"%1$s का नया संस्करण उपलब्ध है. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">संस्करण देखें%3$s विवरण</a> या <a href=\"%4$s\">अब अद्यतन</a>करें."
+
+#: autoupdater/wpem-updater-license.php:76
+msgid "Lost your license key?"
+msgstr "अपनी लाइसेंस कुंजी खो दी है?"
+
+#: autoupdater/wpem-updater-license.php:76
+msgid "Retrieve it here"
+msgstr "इसे यहाँ पुनर्प्राप्त करें"
+
+#: autoupdater/wpem-updater.php:266
+msgid "Activate licence"
+msgstr "लाइसेंस सक्रिय करें"
+
+#: autoupdater/wpem-updater.php:274
+msgid "Deactivate licence"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+"%1$s के लिए लाइसेंस कुंजी नहीं मिल सकी। हो सकता है कि आप %2$s सेट करते समय लाइसेंस कुंजी "
+"दर्ज करना भूल गए हों।"
+
+#: external/elementor-widgets/elementor-event-map.php:36
+#: external/elementor-widgets/elementor-event-map.php:90
+
+msgid "Event Map"
+msgstr "इवेंट मानचित्र"
+
+#: external/elementor-widgets/elementor-event-map.php:96
+#: external/elementor-widgets/elementor-single-event-map.php:141
+
+msgid "Map Type"
+msgstr "मानचित्र का प्रकार"
+
+#: external/elementor-widgets/elementor-event-map.php:100
+#: external/elementor-widgets/elementor-single-event-map.php:145
+
+msgid "Roadmap"
+msgstr "रोडमैप"
+
+#: external/elementor-widgets/elementor-event-map.php:101
+#: external/elementor-widgets/elementor-single-event-map.php:146
+
+msgid "Satellite"
+msgstr "उपग्रह"
+
+#: external/elementor-widgets/elementor-event-map.php:102
+#: external/elementor-widgets/elementor-single-event-map.php:147
+
+msgid "Hybrid "
+msgstr "संकर "
+
+#: external/elementor-widgets/elementor-event-map.php:103
+#: external/elementor-widgets/elementor-single-event-map.php:148
+
+msgid "Terrain"
+msgstr "भूभाग"
+
+#: external/elementor-widgets/elementor-event-map.php:111
+#: external/elementor-widgets/elementor-single-event-map.php:155
+
+msgid "Map Height"
+msgstr "मानचित्र ऊंचाई"
+
+#: external/elementor-widgets/elementor-event-map.php:119
+#: external/elementor-widgets/elementor-single-event-map.php:163
+
+msgid "Map Width"
+msgstr "मानचित्र की चौड़ाई"
+
+#: external/elementor-widgets/elementor-event-map.php:127
+msgid "Show Featured"
+msgstr "विशेष रुप से प्रदर्शित दिखाएँ"
+
+#: external/elementor-widgets/elementor-event-map.php:131
+#: external/elementor-widgets/elementor-event-map.php:145
+msgid "All Events"
+msgstr "सभी इवेंट"
+
+#: external/elementor-widgets/elementor-event-map.php:132
+#: external/elementor-widgets/elementor-event-map.php:146
+msgid "False"
+msgstr "गलत"
+
+#: external/elementor-widgets/elementor-event-map.php:133
+#: external/elementor-widgets/elementor-event-map.php:147
+msgid "True"
+msgstr "सच्चा"
+
+#: external/elementor-widgets/elementor-event-map.php:141
+msgid "Show Cancelled"
+msgstr "रद्द दिखाएँ"
+
+#: external/elementor-widgets/elementor-event-map.php:155
+msgid "Location"
+msgstr "स्थान"
+
+#: external/elementor-widgets/elementor-event-map.php:157
+msgid "Enter Location"
+msgstr "स्थान दर्ज करें"
+
+#: external/elementor-widgets/elementor-event-map.php:165
+msgid "Keywords "
+msgstr "खोजशब्दों "
+
+#: external/elementor-widgets/elementor-event-map.php:167
+msgid "Enter Keywords "
+msgstr "कीवर्ड दर्ज करें "
+
+#: external/elementor-widgets/elementor-event-map.php:175
+msgid "Categories "
+msgstr "श्रेणियाँ"
+
+#: external/elementor-widgets/elementor-event-map.php:177
+msgid "Enter Categories by comma separate"
+msgstr "अल्पविराम द्वारा श्रेणियाँ अलग दर्ज करें"
+
+#: external/elementor-widgets/elementor-event-map.php:185
+msgid "Event Types "
+msgstr "इवेंट प्रकार"
+
+#: external/elementor-widgets/elementor-event-map.php:187
+msgid "Enter Event Types by comma separate"
+msgstr "अल्पविराम अलग से ईवेंट प्रकार दर्ज करें"
+
+#: external/elementor-widgets/elementor-single-event-map.php:36
+#: external/elementor-widgets/elementor-single-event-map.php:90
+
+msgid "Single Event Map"
+msgstr "एकल इवेंट मानचित्र"
+
+#: external/elementor-widgets/elementor-single-event-map.php:111
+#: external/elementor-widgets/elementor-single-event-map.php:125
+msgid "Not Found Event"
+msgstr "ईवेंट नहीं मिला"
+
+#: external/elementor-widgets/elementor-single-event-map.php:131
+msgid "Select Event"
+msgstr "इवेंट का चयन करें"
+
+#: includes/wpem-google-maps-fillters.php:28
+#: templates/google-maps-filters.php:24
+
+msgid "Miles"
+msgstr "मील"
+
+#: includes/wpem-google-maps-fillters.php:29
+
+msgid "Kilometers"
+msgstr "किलोमीटर"
+
+#: shortcodes/wpem-google-maps-shortcodes.php:55
+
+msgid "There is no event found with the Event ID mentioned."
+msgstr "उल्लिखित इवेंट ID के साथ कोई ईवेंट नहीं मिला है."
+
+#: shortcodes/wpem-google-maps-shortcodes.php:60
+
+msgid "Event is online."
+msgstr "ईवेंट ऑनलाइन है."
+
+#: shortcodes/wpem-google-maps-shortcodes.php:127
+msgid "Event Location"
+msgstr "इवेंट स्थान"
+
+#: templates/google-map-event-tooltip.php:31
+
+msgid " to "
+msgstr " तक "
+
+#: templates/google-maps-filters.php:10 templates/google-maps-filters.php:12
+
+msgid "Within"
+msgstr "भीतर"
+
+#: templates/google-maps-filters.php:11 templates/google-maps-filters.php:25
+#: templates/google-maps-filters.php:38
+msgid "No results match"
+msgstr "कोई परिणाम मेल नहीं खाता"
+
+#: templates/google-maps-filters.php:11 templates/google-maps-filters.php:25
+#: templates/google-maps-filters.php:38
+msgid "Select Some Options"
+msgstr "कुछ विकल्पों का चयन करें"
+
+#: templates/google-maps-filters.php:15 templates/google-maps-filters.php:28
+#: templates/google-maps-filters.php:44
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: templates/google-maps-filters.php:37
+
+msgid "Sort By"
+msgstr "ऑब्जेक्ट विशेषता के आधार पर संग्रह सॉर्ट करें।"
+
+#: wp-event-manager-google-maps.php:36
+
+msgid "WP Event Manager is require to use WP Event Manager Google Map"
+msgstr "WP इवेंट मैनेजर को WP इवेंट मैनेजर Google मानचित्र का उपयोग करना आवश्यक है"
+
+#: wpem-google-maps-functions.php:87 wpem-google-maps-functions.php:135
+#: wpem-google-maps-functions.php:181
+
+msgid "No location found for the entered address."
+msgstr "दर्ज किए गए पते के लिए कोई स्थान नहीं मिला."
+
+#: wpem-google-maps-functions.php:89 wpem-google-maps-functions.php:137
+#: wpem-google-maps-functions.php:183
+
+msgid "This API project is not authorized to use this API."
+msgstr "यह API प्रोजेक्ट इस API का उपयोग करने के लिए अधिकृत नहीं है।"
+
+#: wpem-google-maps-functions.php:91 wpem-google-maps-functions.php:139
+#: wpem-google-maps-functions.php:185
+
+msgid "Invalid request. Did you enter an address?"
+msgstr "अमान्य अनुरोध. क्या आपने कोई पता दर्ज किया है?"
+
+#: wpem-google-maps-functions.php:93 wpem-google-maps-functions.php:95
+#: wpem-google-maps-functions.php:141 wpem-google-maps-functions.php:143
+#: wpem-google-maps-functions.php:187 wpem-google-maps-functions.php:189
+
+msgid "Something went wrong while retrieving your location."
+msgstr "अपना स्थान पुनः प्राप्त करते समय कुछ गलत हो गया."
+
+#: wpem-google-maps-functions.php:98 wpem-google-maps-functions.php:146
+#: wpem-google-maps-functions.php:192
+
+msgid "Unable to contact Google API service."
+msgstr "Google API सेवा से संपर्क करने में असमर्थ."
+
+#: wpem-google-maps-functions.php:240
+msgid "No results found"
+msgstr "कोई नतीजा नहीं प्राप्त हुआ"
+
+#: wpem-google-maps-functions.php:244
+msgid "Query limit reached"
+msgstr "क्वेरी सीमा तक पहुँच गया"
+
+#: wpem-google-maps-functions.php:247
+msgid ""
+"Request denied from google map api key please enable geolocation and "
+"gecoding api"
+msgstr "गूगल मैप एपीआई कुंजी से अनुरोध अस्वीकार जियोलोकेशन और गीकोडिंग एपीआई सक्षम कृपया"
+
+#: wpem-google-maps-functions.php:325 wpem-google-maps-functions.php:329
+#: wpem-google-maps-functions.php:333
+msgid "Geocoding error"
+msgstr "जियोकोडिंग त्रुटि"
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Google Maps"
+msgstr "WP इवेंट मैनेजर - गूगल मैप्स"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+
+msgid "https://wp-eventmanager.com/"
+msgstr "https://wp-eventmanager.com/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Use Google Maps addon to display and highlight event locations in Google "
+"Maps."
+msgstr ""
+"Google मानचित्र में ईवेंट स्थानों को प्रदर्शित करने और हाइलाइट करने के लिए Google "
+"मानचित्र ऐडऑन का उपयोग करें."
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr "डब्ल्यूपी इवेंट मैनेजर"

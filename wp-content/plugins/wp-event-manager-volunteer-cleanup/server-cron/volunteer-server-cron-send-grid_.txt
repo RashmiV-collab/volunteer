@@ -1,0 +1,160 @@
+<?php
+/*
+ ** Server Executing Bulk Alert Mail Cron (e-blast)
+ */
+add_action('rest_api_init', 
+function () {
+	register_rest_route(
+		'volunteer-cron/v1', '/alert-mail-sendGrid',
+		array(
+		  'methods'  => 'GET',
+		  'callback' => 'volunteer_send_alert_send_grid_mail',
+		  'permission_callback' => '__return_true',
+		)
+	);
+
+});
+
+/**
+ * function called by server cron
+ */
+function volunteer_send_alert_send_grid_mail(){
+   
+    //print_R(date('H:i:s'));
+    $myfile = fopen("sendGrid_code.txt", "a+");
+$txt = "-------------------------Time" . date('Y-m-d H:i')."\n";
+fwrite($myfile, $txt);
+fclose($myfile);
+print_R(date('Y-m-d H:i'));
+   die();
+        // if setting matches
+        global $wpdb;
+        //
+        // Log -- 1. log table
+        $table_name = $wpdb->prefix.'wpevents_alert_blast_log';
+        $sendgrid_table = $wpdb->prefix . 'wpevents_alert_sendgrid_log';
+        //
+        $tablename = $wpdb->prefix.'postmeta';
+        $joinPostTablename = $wpdb->prefix.'posts';
+        $joinUsersTablename = $wpdb->prefix.'users';
+        $result = $wpdb->get_results("SELECT meta_value,meta_id FROM ".$tablename." where meta_key = 'alert_location' group by meta_value order by meta_id",ARRAY_A );
+        
+        if($result){
+            $today = strtotime(date('Y-m-d H:i'));
+            $wpdb->get_results( "TRUNCATE TABLE $table_name");
+            $wpdb->get_results( "TRUNCATE TABLE $sendgrid_table");
+            update_option('volunteer_server_custom_cron_start_time',$today);
+
+            foreach($result as $index => $row){
+                // testing
+            //$postArray = $wpdb->get_results("SELECT a.meta_value,a.meta_id,a.post_id,c.user_email FROM ".$tablename." as a INNER JOIN ".$joinPostTablename." as b ON a.post_id=b.ID INNER JOIN  ".$joinUsersTablename." as c ON c.ID=b.post_author where a.meta_key = 'alert_location' and a.meta_value='".esc_sql($row['meta_value'])."' and b.post_status='publish' and b.post_author IN(6616,7554,1,2,8,11)",ARRAY_A );
+             // actual
+             $postArray = $wpdb->get_results("SELECT a.meta_value,a.meta_id,a.post_id,c.user_email FROM ".$tablename." as a INNER JOIN ".$joinPostTablename." as b ON a.post_id=b.ID INNER JOIN  ".$joinUsersTablename." as c ON c.ID=b.post_author where a.meta_key = 'alert_location' and a.meta_value='".esc_sql($row['meta_value'])."' and b.post_status='publish'",ARRAY_A );
+               if(!empty($postArray)){
+                   $email='';
+                   $to_arr = [];
+                   $alert = get_post($postArray[0]['post_id']);
+                   $wp_alert = new WPEM_Alerts_Notifier();
+                   $events  = $wp_alert->get_matching_events( $alert, true );
+                   if ($events->found_posts) {
+                       $user  = get_user_by( 'id', $alert->post_author );
+                       $email = $wp_alert->format_email( $alert, $user, $events );
+                   }
+   
+                   foreach($postArray as $post){
+                        $alert_id = $post['post_id'];
+                      if ( $email && $post['user_email']) {
+                            // send grid
+                            $to_arr[] = array('email' => $post['user_email']);
+                            //Log -- 4. logging
+                            $wpdb->insert( 
+                                $table_name, 
+                                array( 
+                                    'alert_id' => $alert_id, 
+                                    'status' => 'success', 
+                                    'reason' => 'done', 
+                                    'log_date' => date('Y-m-d H:i'),
+                                ) 
+                            ); 
+                        }else{
+                                //Log -- 4. logging
+                                $wpdb->insert( 
+                                $table_name, 
+                                array( 
+                                    'alert_id' => $alert_id, 
+                                    'status' => 'fail', 
+                                    'reason' => 'No Associated Events', 
+                                    'log_date' => date('Y-m-d H:i'),
+                                ) 
+                            ); 
+                        }
+                   }
+
+                   // for all alerts
+                    $cron_option = get_option('volunteer_alert_cron_settings');
+                    $checked = (is_array($cron_option) && isset($cron_option['enable_volunteer_send_grid']))?$cron_option['enable_volunteer_send_grid']:0;
+                  
+                    if(!empty($email) && !empty($to_arr) && $checked){
+                      send_grid_mail_curl($to_arr,$email);
+                   }                            
+               }
+           }
+            
+       }
+        // cron end-time
+        $today = strtotime(date('Y-m-d H:i'));
+        update_option('volunteer_server_custom_cron_end_time',$today);    
+}
+
+function send_grid_mail_curl($to_arr,$email){
+   
+    $jayParsedAry = [
+      "personalizations" => [
+            [
+               "to" => $to_arr
+           ] 
+         ], 
+      "from" => [
+                "email" => "outreach@volunteercleanup.org" 
+            ], 
+      "subject" => "Upcoming Shoreline Cleanups near you", 
+      "content" => [
+                    [
+                        "type" => "text/html", 
+                        "value" => $email 
+                    ] 
+                ] 
+    ]; 
+    //
+    //
+    $data = json_encode($jayParsedAry);
+   
+    $url = 'https://api.sendgrid.com/v3/mail/send';
+    $response = wp_remote_post( $url, array(
+        'body'    => $data,
+        'method'    => 'POST',
+        'headers' => array(
+        'Content-Type'   => 'application/json',
+        'Authorization' => 'Bearer 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'
+    ),
+    ) );
+
+    //
+
+  //Log -- 4. logging
+  global $wpdb;
+  $tablename = $wpdb->prefix . 'wpevents_alert_sendgrid_log';
+  $wpdb->insert( 
+        $tablename, 
+        array( 
+            'count' => count($to_arr), 
+            'email_to' => json_encode($to_arr), 
+            'email' => $data, 
+            'response' =>  json_encode($response)
+        ) 
+    );
+                              
+}
+
+
+?>

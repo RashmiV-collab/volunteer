@@ -1,0 +1,42 @@
+1. Script to modify the autofill and location field:
+
+
+<!-- Load the Google Maps JavaScript API -->
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+
+<!-- Add a zip code input field to your form or page -->
+<input type="text" id="zipCodeInput">
+
+<script>
+  // Create an instance of the Autocomplete class and bind it to the zip code input field
+  const zipCodeInput = document.getElementById('zipCodeInput');
+  const autocomplete = new google.maps.places.Autocomplete(zipCodeInput);
+
+  // Configure the autocomplete instance to only suggest valid zip codes
+  autocomplete.setTypes(['(regions)']);
+
+  // Listen to the place_changed event and retrieve the selected zip code
+  autocomplete.addListener('place_changed', () => {
+    const place = autocomplete.getPlace();
+    const zipCode = place.address_components.find(component => component.types.includes('postal_code')).long_name;
+    console.log('Selected zip code:', zipCode);
+  });
+</script>
+
+2. Code to retrieve latitude and longitude coordinates: 
+
+// Make a HTTP request to the Google Maps Geolocation API
+const zipCode = '12345'; // Replace with the selected zip code
+const geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${zipCode}&key=YOUR_API_KEY`;
+const response = await fetch(geocodeUrl);
+const data = await response.json();
+
+// Parse the response and extract the latitude and longitude coordinates
+const location = data.results[0].geometry.location;
+const latitude = location.lat;
+const longitude = location.lng;
+console.log('Latitude:', latitude, 'Longitude:', longitude);
+
+
+
+

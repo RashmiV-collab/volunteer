@@ -1,0 +1,459 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: WP Event Manager - Event Recurring\n"
+"POT-Creation-Date: 2022-11-07 14:36+0530\n"
+"PO-Revision-Date: 2022-11-07 14:37+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-recurring-events.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: hi_IN\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-recurring-events-listing.php:69
+msgid "ID"
+msgstr "आईडी"
+
+#: admin/wpem-recurring-events-listing.php:70
+msgid "Event Title"
+msgstr "इवेंट का शीर्षक"
+
+#: admin/wpem-recurring-events-listing.php:71
+msgid "Start Date"
+msgstr "प्रारंभ दिनांक"
+
+#: admin/wpem-recurring-events-listing.php:72
+msgid "End Date"
+msgstr "अंतिम दिनांक"
+
+#: admin/wpem-recurring-events-listing.php:73
+msgid "Action"
+msgstr "कार्य"
+
+#: admin/wpem-recurring-events-listing.php:111
+#: admin/wpem-recurring-events-listing.php:125
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: admin/wpem-recurring-events-listing.php:113
+#: admin/wpem-recurring-events-listing.php:127
+
+msgid "-"
+msgstr "-"
+
+#: admin/wpem-recurring-events-listing.php:133
+
+msgid "Duplicate all occurrence again"
+msgstr "सभी आवृत्तियों को पुन: डुप्लिकेट करें"
+
+#: admin/wpem-recurring-events-listing.php:133
+
+msgid "Duplicate all occurrence"
+msgstr "सभी आवृत्ति डुप्लिकेट करें"
+
+#: admin/wpem-recurring-events-listing.php:136
+
+msgid "Duplicate all occurrences"
+msgstr "सभी आवृत्तियों को डुप्लिकेट करें"
+
+#: admin/wpem-recurring-events-listing.php:139
+msgid "View"
+msgstr "देखें"
+
+#: admin/wpem-recurring-events-listing.php:140
+
+msgid "Delete occurrence"
+msgstr "आवृत्ति हटाएँ"
+
+#: admin/wpem-recurring-events-listing.php:155
+
+msgid "No record found in the database."
+msgstr "डेटाबेस में कोई रिकॉर्ड नहीं मिला."
+
+#: admin/wpem-recurring-writepanels.php:100
+
+msgid "Event Recurring"
+msgstr "इवेंट पुनरावर्ती"
+
+#: admin/wpem-recurring-writepanels.php:105
+
+msgid "Duplicate Recurring Events"
+msgstr "पुनरावर्ती ईवेंट डुप्लिकेट करें"
+
+#: admin/wpem-recurring-writepanels.php:106
+
+msgid "Enable Duplicate Recurring Events"
+msgstr "डुप्लिकेट पुनरावर्ती ईवेंट सक्षम करें"
+
+#: admin/wpem-recurring-writepanels.php:107
+
+msgid ""
+"If enabled, recurring events creates duplicate events, else Cron schedules "
+"and updates current event after event end."
+msgstr ""
+"यदि सक्षम किया गया है, तो पुनरावर्ती ईवेंट डुप्लिकेट ईवेंट बनाते हैं, अन्यथा क्रॉन ईवेंट समाप्त "
+"होने के बाद वर्तमान ईवेंट शेड्यूल और अपडेट करता है।"
+
+#: admin/wpem-recurring-writepanels.php:126
+
+msgid "Select All Events"
+msgstr "सभी ईवेंट का चयन करें"
+
+#: admin/wpem-recurring-writepanels.php:130
+
+msgid "Parent Events"
+msgstr "पैरेंट इवेंट्स"
+
+#: admin/wpem-recurring-writepanels.php:169
+#: forms/wpem-recurring-form-submit.php:26
+
+msgid "day(s)"
+msgstr "दिन (दिन)"
+
+#: admin/wpem-recurring-writepanels.php:170
+#: forms/wpem-recurring-form-submit.php:27
+
+msgid "week(s) on"
+msgstr "सप्ताह (ओं) पर"
+
+#: admin/wpem-recurring-writepanels.php:171
+#: forms/wpem-recurring-form-submit.php:28
+
+msgid "month(s) on"
+msgstr "महीना (ओं) पर"
+
+#: admin/wpem-recurring-writepanels.php:172
+#: forms/wpem-recurring-form-submit.php:29
+
+msgid "of the month(s)"
+msgstr "महीने (ओं) की"
+
+#: admin/wpem-recurring-writepanels.php:173
+#: forms/wpem-recurring-form-submit.php:30
+
+msgid "year(s) on"
+msgstr "वर्ष (ओं) पर"
+
+#: admin/wpem-recurring-writepanels.php:201
+#: forms/wpem-recurring-form-submit.php:57
+
+msgid "Event Recurrence"
+msgstr "इवेंट पुनरावृत्ति"
+
+#: admin/wpem-recurring-writepanels.php:207
+#: forms/wpem-recurring-form-submit.php:61
+
+msgid "Don't repeat"
+msgstr "दोहराएं नहीं।"
+
+#: admin/wpem-recurring-writepanels.php:208
+#: forms/wpem-recurring-form-submit.php:62
+msgid "Daily"
+msgstr "रोज"
+
+#: admin/wpem-recurring-writepanels.php:209
+#: forms/wpem-recurring-form-submit.php:63
+msgid "Weekly"
+msgstr "साप्ताहिक"
+
+#: admin/wpem-recurring-writepanels.php:210
+#: forms/wpem-recurring-form-submit.php:64
+msgid "Monthly"
+msgstr "मासिक"
+
+#: admin/wpem-recurring-writepanels.php:211
+#: forms/wpem-recurring-form-submit.php:65
+msgid "Yearly"
+msgstr "वार्षिक"
+
+#: admin/wpem-recurring-writepanels.php:215
+#: forms/wpem-recurring-form-submit.php:71
+
+msgid "Repeat Every"
+msgstr "हर दोहराएं"
+
+#: admin/wpem-recurring-writepanels.php:224
+#: forms/wpem-recurring-form-submit.php:80
+
+msgid "On The"
+msgstr "पर"
+
+#: admin/wpem-recurring-writepanels.php:229
+#: forms/wpem-recurring-form-submit.php:85
+msgid "same day"
+msgstr "उसी दिन"
+
+#: admin/wpem-recurring-writepanels.php:230
+#: forms/wpem-recurring-form-submit.php:86
+msgid "specific day"
+msgstr "विशिष्ट दिन"
+
+#: admin/wpem-recurring-writepanels.php:234
+#: forms/wpem-recurring-form-submit.php:90
+
+msgid "Day Number"
+msgstr "दिन का नंबर"
+
+#: admin/wpem-recurring-writepanels.php:239
+#: forms/wpem-recurring-form-submit.php:95
+msgid "First"
+msgstr "पहला"
+
+#: admin/wpem-recurring-writepanels.php:240
+#: forms/wpem-recurring-form-submit.php:96
+msgid "Second"
+msgstr "दूसरा"
+
+#: admin/wpem-recurring-writepanels.php:241
+#: forms/wpem-recurring-form-submit.php:97
+msgid "Third"
+msgstr "तीसरा"
+
+#: admin/wpem-recurring-writepanels.php:242
+#: forms/wpem-recurring-form-submit.php:98
+msgid "Fourth"
+msgstr "चौथा"
+
+#: admin/wpem-recurring-writepanels.php:243
+#: forms/wpem-recurring-form-submit.php:99
+msgid "Last"
+msgstr "अंतिम"
+
+#: admin/wpem-recurring-writepanels.php:248
+#: forms/wpem-recurring-form-submit.php:103
+
+msgid "Day Name"
+msgstr "दिन का नाम"
+
+#: admin/wpem-recurring-writepanels.php:253
+#: forms/wpem-recurring-form-submit.php:108
+msgid "Sunday"
+msgstr "रविवार"
+
+#: admin/wpem-recurring-writepanels.php:254
+#: forms/wpem-recurring-form-submit.php:109
+msgid "Monday"
+msgstr "सोमवार"
+
+#: admin/wpem-recurring-writepanels.php:255
+#: forms/wpem-recurring-form-submit.php:110
+msgid "Tuesday"
+msgstr "मंगलवार"
+
+#: admin/wpem-recurring-writepanels.php:256
+#: forms/wpem-recurring-form-submit.php:111
+msgid "Wednesday"
+msgstr "बुधवार"
+
+#: admin/wpem-recurring-writepanels.php:257
+#: forms/wpem-recurring-form-submit.php:112
+
+msgid "Thursday"
+msgstr "गुरूवार"
+
+#: admin/wpem-recurring-writepanels.php:258
+#: forms/wpem-recurring-form-submit.php:113
+msgid "Friday"
+msgstr "शुक्रवार"
+
+#: admin/wpem-recurring-writepanels.php:259
+#: forms/wpem-recurring-form-submit.php:114
+msgid "Saturday"
+msgstr "शानिवार"
+
+#: admin/wpem-recurring-writepanels.php:263
+#: forms/wpem-recurring-form-submit.php:118
+
+msgid "Repeat untill"
+msgstr "जब तक दोहराएं"
+
+#: admin/wpem-recurring-writepanels.php:440
+#: admin/wpem-recurring-writepanels.php:486
+
+msgid "Opps! something went wrong."
+msgstr "ओप्स! कुछ गलत हुआ है।"
+
+#: admin/wpem-recurring-writepanels.php:484
+
+msgid "Successfully! delete recurring events."
+msgstr "सफलतापूर्वक! पुनरावर्ती ईवेंट हटाएँ."
+
+#: admin/wpem-recurring-writepanels.php:496
+
+msgid "Recurring Events"
+msgstr "पुनरावर्ती ईवेंट"
+
+#: admin/wpem-recurring-writepanels.php:509
+
+msgid "Recurring Event List"
+msgstr "पुनरावर्ती इवेंट सूची"
+
+#: admin/wpem-recurring-writepanels.php:514
+
+msgid "Event duplicated successfully."
+msgstr "इवेंट सफलतापूर्वक डुप्लिकेट किया गया."
+
+#: admin/wpem-recurring-writepanels.php:519
+
+msgid "Recurrece event deleted successfully."
+msgstr "पुनरावर्ती ईवेंट सफलतापूर्वक हटाया गया."
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "के लिए <strong>%s</strong> आपका लाइसेंस सक्रिय कर दिया गया है. धन्यवाद!"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:38
+#: autoupdater/wpem-updater-license.php:63
+msgid "License"
+msgstr "लाइसेंस"
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr "ईमेल"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "ईमेल पता"
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr "लायसेंस सक्रिय करें"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "के लिए <strong>%s</strong> आपका लाइसेंस निष्क्रिय कर दिया गया है."
+
+#: autoupdater/templates/key-input.php:4
+msgid "Licence"
+msgstr ""
+"\n"
+"लाइसेंस"
+
+#: autoupdater/templates/key-input.php:7
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+"अपनी लाइसेंस कुंजी और ईमेल दर्ज करें और वापसी दबाएं। स्वचालित अद्यतनों के लिए एक मान्य कुंजी "
+"आवश्यक है."
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr "सूचना छुपाएँ"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"कृपया \"%2$s\" के लिए अपडेट प्राप्त करने के लिए नीचे दी गई प्लगइन सूची में <a href=\"%1$s"
+"\">अपनी लाइसेंस कुंजी दर्ज करें</a>।"
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "अपनी चाबी खो दी है? <a href=\"%s\">इसे यहाँ पुनर्प्राप्त करें</a>।"
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"%1$s का नया संस्करण उपलब्ध है. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">संस्करण देखें%3$s विवरण</a> या <a href=\"%4$s\">अब अद्यतन</a>करें."
+
+#: autoupdater/wpem-updater-license.php:90
+msgid "Lost your license key?"
+msgstr "अपनी लाइसेंस कुंजी खो दी है?"
+
+#: autoupdater/wpem-updater-license.php:90
+msgid "Retrieve it here"
+msgstr "इसे यहाँ पुनर्प्राप्त करें"
+
+#: autoupdater/wpem-updater.php:267
+msgid "Activate licence"
+msgstr "लाइसेंस सक्रिय करें"
+
+#: autoupdater/wpem-updater.php:275
+msgid "Deactivate licence"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+#: autoupdater/wpem-updater.php:420
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+"%1$s के लिए लाइसेंस कुंजी नहीं मिल सकी। हो सकता है कि आप %2$s सेट करते समय लाइसेंस कुंजी "
+"दर्ज करना भूल गए हों।"
+
+#: wp-event-manager-recurring-events.php:38
+
+msgid "WP Event Manager is require to use Wp Event Manager - Event Recurring"
+msgstr "WP इवेंट मैनेजर WP इवेंट मैनेजर का उपयोग करने के लिए आवश्यक है - इवेंट आवर्ती"
+
+#: wp-event-manager-recurring-events.php:151
+
+msgid "Once Weekly"
+msgstr "साप्ताहिक रूप से एक बार"
+
+#: wp-event-manager-recurring-events.php:155
+
+msgid "Once a month"
+msgstr "महीने में एक बार"
+
+#: wp-event-manager-recurring-events.php:159
+
+msgid "Once Yearly"
+msgstr "एक बार वार्षिक"
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Event Recurring"
+msgstr "WP इवेंट मैनेजर - इवेंट आवर्ती"
+
+#. Plugin URI of the plugin/theme
+
+msgid "http://www.wp-eventmanager.com/product-category/plugins/"
+msgstr "http://www.wp-eventmanager.com/product-category/plugins/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Repeated events after specific time like daily, weekly, monthly or yearly."
+"Automatically relist event.Your event will be republished after a specific "
+"time."
+msgstr ""
+"दैनिक, साप्ताहिक, मासिक या वार्षिक जैसे विशिष्ट समय के बाद दोहराई जाने वाली घटनाएं। "
+"ईवेंट को स्वचालित रूप से पुन: सूचीबद्ध करें. आपका ईवेंट एक निश्चित समय के बाद पुनर्प्रकाशित "
+"किया जाएगा।"
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr "WP इवेंट प्रबंधक ऐड-ऑन"
+
+#. Author URI of the plugin/theme
+msgid "https://www.wp-eventmanager.com/"
+msgstr "https://www.wp-eventmanager.com/"

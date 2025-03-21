@@ -1,0 +1,19 @@
+.single-event-attendee-container .wpem-event-attendee-info-title { background: #EEEDF2; border-top: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4; padding: 15px 20px; margin: 0px; }
+.single-event-attendee-container .wpem-event-attendee-info-title .wpem-heading-text { font-size: 19px; font-weight: 500; color: #222; padding: 0px; margin: 0px; }
+.single-event-attendee-container .wpem-event-registrations-list-wrapper { margin-bottom: 0px; }
+.single-event-attendee-container .event-manager-pagination { display: inline-block; padding: 0 20px 20px 20px; background: #F8F7FA; }
+.single-event-attendee-container .event-manager-pagination ul.page-numbers { display: unset; }
+
+.single-event-attendee-container .wpem-event-registrations-list-wrapper .wpem-event-regi-list-body { padding: 20px 10px; background: #F8F7FA; display: flex; width: 100%; flex-wrap: wrap; }
+.single-event-attendee-container .wpem-event-registrations-list-wrapper .wpem-event-regi-list-body .wpem-event-regi-list { padding: 20px; width: calc(50% - 20px); float: left; margin: 10px; }
+.single-event-attendee-container .wpem-event-registrations-list-wrapper .wpem-event-regi-list-body .wpem-event-regi-list header { display: inline-block; width: 100%; } 
+.single-event-attendee-container .wpem-event-registrations-list-wrapper .wpem-event-regi-list-body .wpem-event-regi-list header h3 { width: calc(100% - 60px); margin: 0px; padding: 10px 0px 0px 0px; float: right; font-weight: 600; font-size: 19px; line-height: 23px; }
+.single-event-attendee-container .wpem-event-registrations-list-wrapper .wpem-event-regi-list-body .wpem-event-regi-list img {
+    display: inline-block;
+}
+
+@media only screen and (max-width:768px){
+    .single-event-attendee-container .wpem-event-registrations-list-wrapper .wpem-event-regi-list-body .wpem-event-regi-list{
+       width:calc(100% - 20px)
+    }
+}

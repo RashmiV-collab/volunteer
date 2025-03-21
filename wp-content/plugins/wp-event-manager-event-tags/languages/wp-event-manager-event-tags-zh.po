@@ -1,0 +1,371 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: WP Event Manager - Event Tags\n"
+"POT-Creation-Date: 2022-12-30 11:36+0530\n"
+"PO-Revision-Date: 2022-12-30 11:42+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-event-tags.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: zh\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-event-tags-settings.php:31
+msgid "Tag Archives"
+msgstr "标签存档"
+
+#: admin/wpem-event-tags-settings.php:32
+
+msgid "Enable Tag Archives"
+msgstr "启用标记存档"
+
+#: admin/wpem-event-tags-settings.php:33 admin/wpem-event-tags-settings.php:63
+
+msgid ""
+"Enabling tag archives will make event tags (inside events and tag clouds) "
+"link through to an archive of all events with said tag. Please note, tag "
+"archives will look like your post archives unless you create a special "
+"template to handle the display of event listings called <code>taxonomy-"
+"event_listing_tag.php</code> inside your theme. See <a href=\"http://codex."
+"wordpress.org/Template_Hierarchy#Custom_Taxonomies_display\">Template "
+"Hierarchy</a> for more information."
+msgstr ""
+"启用标记存档将使事件标记（事件和标记云内部）链接到具有所述标记的所有事件的存"
+"档。请注意，标签存档将看起来像您的帖子存档，除非您创建一个特殊模板来处理主题"
+"中调用 <code>taxonomy-event_listing_tag.php</code> 的事件列表的显示。有关详"
+"细信息 <a href=\"http://codex.wordpress.org/"
+"Template_Hierarchy#Custom_Taxonomies_display\">，请参阅模板层次结构</a> 。"
+
+#: admin/wpem-event-tags-settings.php:39
+
+msgid "Tags Filter Type"
+msgstr "标签过滤器类型"
+
+#: admin/wpem-event-tags-settings.php:40
+
+msgid "Determines how events are queried when selecting tags."
+msgstr "确定在选择标记时如何查询事件。"
+
+#: admin/wpem-event-tags-settings.php:43
+
+msgid "Events will be shown if within ANY chosen tag"
+msgstr "如果在任何选定的标签中，将显示事件"
+
+#: admin/wpem-event-tags-settings.php:44
+
+msgid "Events will be shown if within ALL chosen tags"
+msgstr "如果在所有选定的标签中，将显示事件"
+
+#: admin/wpem-event-tags-settings.php:50
+
+msgid "Maximum Event Tags"
+msgstr "最大事件标记数"
+
+#: admin/wpem-event-tags-settings.php:51
+
+msgid ""
+"Enter the number of tags per event submission you wish to allow, or leave "
+"blank for unlimited tags."
+msgstr "输入您希望允许的每个事件提交的标签数，或留空表示无限制标签。"
+
+#: admin/wpem-event-tags-settings.php:57
+
+msgid "Tag Input"
+msgstr "标签输入"
+
+#: admin/wpem-event-tags-writepanels.php:27
+msgid "Tags"
+msgstr "标签"
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "您的<strong>%s<strong>许可证已激活。谢谢！"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+msgid "License"
+msgstr "许可证"
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr "邮箱"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "电子邮件地址"
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr "停用许可证"
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr "激活许可证"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "您的<strong>%s<strong>许可证已停用。"
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr "隐藏通知"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\">请</a>在下面的插件列表中<a href=\"%1$s\">输入您的许可证密钥"
+"</a>，以获取“ %2$s”的更新。"
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "丢了密钥？<a href=\"%s\">在这里取回</a>。"
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"有一个新版本的％1 $ s可用。 <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">查看版本％3 $ s详情</a>或<a href=\"%4$s\">立即更新</a>。"
+
+#: autoupdater/wpem-updater-license.php:76
+msgid "Lost your license key?"
+msgstr "丢失了许可证密钥？"
+
+#: autoupdater/wpem-updater-license.php:76
+msgid "Retrieve it here"
+msgstr "在这里取回"
+
+#: autoupdater/wpem-updater.php:266
+msgid "Activate licence"
+msgstr "激活许可证"
+
+#: autoupdater/wpem-updater.php:274
+msgid "Deactivate licence"
+msgstr "停用许可证"
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr "找不到%1$s的许可证密钥。设置%2$s时可能忘记了输入许可证密钥。"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:36
+#: external/elementor-widgets/elementor-events-by-tag.php:90
+
+msgid "Event By Tags"
+msgstr "事件按标签"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:97
+#: external/elementor-widgets/elementor-events-by-tag.php:110
+msgid "Show Pagination"
+msgstr "显示分页"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:101
+
+msgid "Ascending (ASC)"
+msgstr "升序 （ASC）"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:102
+
+msgid "Descending  (DESC)"
+msgstr "降序 （DESC）"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:114
+msgid "Title"
+msgstr "标题"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:115
+msgid "ID"
+msgstr "ID"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:116
+msgid "Name"
+msgstr "名称"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:117
+msgid "Parent"
+msgstr "父级"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:118
+msgid "Rand"
+msgstr "随机"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:126
+msgid "Tags "
+msgstr "标签"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:128
+
+msgid "Enter Tags by comma separate"
+msgstr "用逗号分隔输入标签"
+
+#: forms/wpem-event-tags-form-submit.php:36
+#, php-format
+msgid "Please enter no more than %d tags."
+msgstr "请输入不超过%d个标签。"
+
+#: forms/wpem-event-tags-forms.php:20
+#, php-format
+msgid "Maximum of %d."
+msgstr "最大%d。"
+
+#: forms/wpem-event-tags-forms.php:25 forms/wpem-event-tags-forms.php:35
+#: forms/wpem-event-tags-forms.php:45
+msgid "Event tags"
+msgstr "活动标签"
+
+#: forms/wpem-event-tags-forms.php:26
+
+msgid "Choose some tags, such as required drama or festival, for this event."
+msgstr "为此事件选择一些标签，例如所需的戏剧或节日。"
+
+#: forms/wpem-event-tags-forms.php:36
+
+msgid ""
+"Comma separate tags, such as required drama, festival or technologies, for "
+"this event."
+msgstr "逗号分隔此事件的标签，例如所需的戏剧、节日或技术。"
+
+#: forms/wpem-event-tags-forms.php:46
+
+msgid ""
+"Comma separate tags, such as required like event type or content for this "
+"event."
+msgstr "逗号分隔标记，例如此事件的事件类型或内容等必需标记。"
+
+#: forms/wpem-event-tags-forms.php:49
+
+msgid "e.g. Meeting or Networking Events , Drama"
+msgstr "例如会议或社交活动、戏剧"
+
+#: includes/wpem-event-tags-category.php:26
+msgid "Event Tag"
+msgstr "活动标签"
+
+#: includes/wpem-event-tags-category.php:27
+#: wp-event-manager-event-tags-template.php:44
+msgid "Event Tags"
+msgstr "活动标签"
+
+#: includes/wpem-event-tags-category.php:39
+#, php-format
+msgid "Search %s"
+msgstr "搜索 %s"
+
+#: includes/wpem-event-tags-category.php:40
+#, php-format
+msgid "All %s"
+msgstr "所有 %s"
+
+#: includes/wpem-event-tags-category.php:41
+#, php-format
+msgid "Parent %s"
+msgstr "父级 %s"
+
+#: includes/wpem-event-tags-category.php:42
+#, php-format
+msgid "Parent %s:"
+msgstr "父级 %s:"
+
+#: includes/wpem-event-tags-category.php:43
+#, php-format
+msgid "Edit %s"
+msgstr "编辑 %s"
+
+#: includes/wpem-event-tags-category.php:44
+#, php-format
+msgid "Update %s"
+msgstr "更新 %s"
+
+#: includes/wpem-event-tags-category.php:45
+#, php-format
+msgid "Add New %s"
+msgstr "添加新的 %s"
+
+#: includes/wpem-event-tags-category.php:46
+#, php-format
+msgid "New %s Name"
+msgstr "新 %s 名称"
+
+#: includes/wpem-event-tags-category.php:57
+
+msgctxt "permalink"
+msgid "event-tag"
+msgstr "事件标记"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:75
+msgid "Filter by tag:"
+msgstr "按标记筛选:"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:196
+msgid "tagged"
+msgstr "标签"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:274
+#, php-format
+msgid "No events found tagged with %s."
+msgstr "未找到标记为 %s 的事件。"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:314
+#, php-format
+msgid "%s event"
+msgid_plural "%s events"
+msgstr[0] "</strong>%s  事件 <strong> 已计划"
+
+#: wp-event-manager-event-tags.php:36
+
+msgid "WP Event Manager is require to use WP Event Manager - Event Tags"
+msgstr "WP事件管理器需要使用WP事件管理器 - 事件标签"
+
+#: wp-event-manager-event-tags.php:123
+msgid "Tagged as:"
+msgstr "标签："
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Event Tags"
+msgstr "WP 事件管理器 - 事件标签"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/plugins/"
+msgstr "http://www.wp-eventmanager.com/plugins/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Adds tags to Event Manager for tagging events with requried place and event "
+"flavour. Also adds some extra shortcodes."
+msgstr ""
+"向事件管理器添加标签，以使用所需的地点和事件风格标记事件。还添加了一些额外的"
+"短代码。"
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr "事件管理"
+
+#. Author URI of the plugin/theme
+
+msgid "http://www.wp-eventmanager.com/"
+msgstr "http://www.wp-eventmanager.com/"

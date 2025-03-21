@@ -1,0 +1,85 @@
+# Copyright (C) 2019 WP Event Manager - Google Recaptcha
+# This file is distributed under the same license as the WP Event Manager - Google Recaptcha.
+msgid ""
+msgstr ""
+"Project-Id-Version:Gam Event Manager - Google Recaptcha 1.1.0\n"
+"Report-Msgid-Bugs-To: https://www.wp-eventmanager.com/get-support/"
+"POT-Creation-Date: 2019-05-23 16:24:46+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/wp-event-manager-google-recaptcha-admin.php:30
+msgid "Google Recaptcha"
+msgstr ""
+
+#: admin/wp-event-manager-google-recaptcha-admin.php:35
+msgid "RECAPTCHA_SITE_KEY"
+msgstr ""
+
+#: admin/wp-event-manager-google-recaptcha-admin.php:36
+msgid "Please enter your google recaptcha site key"
+msgstr ""
+
+#: admin/wp-event-manager-google-recaptcha-admin.php:43
+msgid "RECAPTCHA_SECRET_KEY"
+msgstr ""
+
+#: admin/wp-event-manager-google-recaptcha-admin.php:44
+msgid "Please enter your google recaptcha secret key"
+msgstr ""
+
+#: autoupdater/templates/key-input.php:4
+msgid "Licence"
+msgstr ""
+
+#: autoupdater/templates/key-input.php:7
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: wp-event-manager-google-recaptcha.php:39
+msgid "WP Event Manager is require to use WP Event Manager - Google ReCaptcha"
+msgstr ""
+
+#: wp-event-manager-google-recaptcha.php:131
+msgid "Please verify that you are not a robot."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Event Manager - Google Recaptcha"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"To prevent a spam, you can use captcha. Google ReCaptcha will show at event "
+"submmision page."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com"
+msgstr ""

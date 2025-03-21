@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: WP Event Manager - Attendee Information\n"
+"POT-Creation-Date: 2023-07-21 10:52+0530\n"
+"PO-Revision-Date: 2023-07-21 10:53+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-attendee-information.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-attendee-information-writepanels.php:31
+
+msgid "WP Event Manager Attendee Information"
+msgstr "WP Event Manager-Teilnehmerinformationen"
+
+#: admin/wpem-attendee-information-writepanels.php:45
+
+msgid "Event Attendee List"
+msgstr "Teilnehmerliste der Veranstaltung"
+
+#: admin/wpem-attendee-information-writepanels.php:46
+
+msgid "This will return all attendee of particular event"
+msgstr ""
+"Dadurch werden alle Teilnehmer eines bestimmten Ereignisses zurückgegeben"
+
+#: admin/wpem-attendee-information-writepanels.php:71
+
+msgid "Attendee Information Collection Type"
+msgstr "Art der Erfassung von Teilnehmerinformationen"
+
+#: admin/wpem-attendee-information-writepanels.php:74
+#: forms/wpem-attendee-information-form-submit-event.php:35
+
+msgid "Buyer Only"
+msgstr "Nur für Käufer"
+
+#: admin/wpem-attendee-information-writepanels.php:75
+#: forms/wpem-attendee-information-form-submit-event.php:36
+
+msgid "Each Attendee"
+msgstr "Jeder Teilnehmer"
+
+#: admin/wpem-attendee-information-writepanels.php:83
+#: forms/wpem-attendee-information-form-submit-event.php:44
+
+msgid "There is no any field in registration form"
+msgstr "Es gibt kein Feld im Registrierungsformular"
+
+#: admin/wpem-attendee-information-writepanels.php:83
+#: forms/wpem-attendee-information-form-submit-event.php:44
+
+msgid ""
+"Based on selected fields, you will collect information from the attendee"
+msgstr ""
+"Basierend auf ausgewählten Feldern erfassen Sie Informationen vom Teilnehmer"
+
+#: admin/wpem-attendee-information-writepanels.php:85
+
+msgid "Attendee Information To Collect"
+msgstr "Zu sammelnde Teilnehmerinformationen"
+
+#: admin/wpem-attendee-information-writepanels.php:104
+#: external/elementor-widgets/elementor-event-attendee.php:36
+#: templates/attendee-listings.php:7
+msgid "Attendee Information"
+msgstr "Teilnehmerinformationen"
+
+#: admin/wpem-attendee-information-writepanels.php:109
+
+msgid "Show Attendee"
+msgstr "Teilnehmer anzeigen"
+
+#: admin/wpem-attendee-information-writepanels.php:110
+
+msgid "Show attendee Publicly"
+msgstr "Teilnehmer öffentlich anzeigen"
+
+#: admin/wpem-attendee-information-writepanels.php:111
+
+msgid "Show attendee publicly at single event page."
+msgstr ""
+"Zeigen Sie den Teilnehmer öffentlich auf einer einzelnen Veranstaltungsseite "
+"an."
+
+#: admin/wpem-attendee-information-writepanels.php:117
+
+msgid "Attendee Per Page"
+msgstr "Teilnehmer pro Seite"
+
+#: admin/wpem-attendee-information-writepanels.php:118
+
+msgid "Show attendee per page"
+msgstr "Teilnehmer pro Seite anzeigen"
+
+#: admin/wpem-attendee-information-writepanels.php:119
+
+msgid "Default 10 attendee show at single event page."
+msgstr ""
+"Standardmäßig werden 10 Teilnehmer auf einer einzelnen Veranstaltungsseite "
+"angezeigt."
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Deine Lizenz für <strong>%s</strong> wurde aktiviert. Danke!"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+msgid "License"
+msgstr "Lizenz"
+
+#: autoupdater/templates/addon-licence.php:14
+#: shortcodes/wpem-attendee-information-shortcodes.php:90
+msgid "Email"
+msgstr "E-Mail"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr "Lizenz deaktivieren"
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Deine Lizenz für <strong>%s</strong> wurde deaktiviert."
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr "Nachricht ausblenden"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\">Bitte geben Sie Ihren Lizenzschlüssel</a> in die Plugin-"
+"Liste unten ein, um Updates für \"\"%2$s zu erhalten."
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr ""
+"Hast du deinen Schlüssel verloren? <a href=\"%s\">Holen Sie ihn sich hier</"
+"a>."
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Es ist eine neue Version von %1$s verfügbar. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Anzeige der Version %3$s Details</a> oder <a href="
+"\"%4$s\">Jetzt aktualisieren</a>."
+
+#: autoupdater/wpem-updater-license.php:77
+msgid "Lost your license key?"
+msgstr "Sie haben Ihren Lizenzschlüssel verloren?"
+
+#: autoupdater/wpem-updater-license.php:77
+msgid "Retrieve it here"
+msgstr "Hier abrufen"
+
+#: autoupdater/wpem-updater.php:266
+msgid "Activate licence"
+msgstr "Lizenz aktivieren"
+
+#: autoupdater/wpem-updater.php:274
+msgid "Deactivate licence"
+msgstr "Lizenz deaktivieren"
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+"Ein Lizenzschlüssel für %1$s konnte nicht gefunden werden. Vielleicht hast "
+"du vergessen, einen Lizenzschlüssel einzugeben, wenn du %2$s einrichtest."
+
+#: external/elementor-widgets/elementor-event-attendee.php:90
+
+msgid "Event Attendee Information"
+msgstr "Informationen für Veranstaltungsteilnehmer"
+
+#: external/elementor-widgets/elementor-event-attendee.php:111
+msgid "Not Found Event"
+msgstr "Nicht gefundenes Ereignis"
+
+#: external/elementor-widgets/elementor-event-attendee.php:117
+msgid "Select Event"
+msgstr "Event auswählen"
+
+#: external/elementor-widgets/elementor-event-attendee.php:127
+msgid "Post Per Page"
+msgstr "Beiträge pro Seite"
+
+#: external/elementor-widgets/elementor-event-attendee.php:168
+
+msgid "No Attendee Found."
+msgstr "Es wurde kein Teilnehmer gefunden."
+
+#: forms/wpem-attendee-information-form-submit-event.php:32
+
+msgid "Attendee Information Collection type"
+msgstr "Art der Erfassung von Teilnehmerinformationen"
+
+#: forms/wpem-attendee-information-form-submit-event.php:47
+
+msgid "Attendee Information to collect"
+msgstr "Zu erfassende Teilnehmerinformationen"
+
+#: shortcodes/wpem-attendee-information-shortcodes.php:89
+msgid "Name"
+msgstr "Name"
+
+#: shortcodes/wpem-attendee-information-shortcodes.php:91
+msgid "Date Received"
+msgstr "Empfangsdatum"
+
+#: wp-event-manager-attendee-information.php:37
+
+msgid ""
+"WP Event Manager is require to use WP Event Manager Attendee Information"
+msgstr ""
+"WP Event Manager muss die Teilnehmerinformationen von WP Event Manager "
+"verwenden"
+
+#: wp-event-manager-attendee-information.php:49
+
+msgid ""
+"WP Event Manager Registrations addon is require to use WP Event Manager "
+"Attendee Information"
+msgstr ""
+"Das WP Event Manager-Registrierungs-Addon ist erforderlich, um WP Event "
+"Manager-Teilnehmerinformationen zu verwenden"
+
+#: wp-event-manager-attendee-information.php:61
+
+msgid ""
+"WP Event Manager Sell Tickets addon is require to use WP Event Manager "
+"Attendee Information"
+msgstr ""
+"Das WP Event Manager Sell Tickets-Addon ist erforderlich, um WP Event "
+"Manager-Teilnehmerinformationen zu verwenden"
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Attendee Information"
+msgstr "WP Event Manager - Teilnehmerinformationen"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/"
+msgstr "http://www.wp-eventmanager.com/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Collect the Information from attendee based on the organizer selected fields."
+msgstr ""
+"Erfassen Sie die Informationen des Teilnehmers basierend auf den vom "
+"Organisator ausgewählten Feldern."
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr "WP Event Manager"

@@ -1,0 +1,312 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Event Manager - Export\n"
+"POT-Creation-Date: 2023-07-28 12:33+0530\n"
+"PO-Revision-Date: 2023-07-28 12:32+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-export.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-export-settings.php:45 templates/event-csv-export.php:58
+#: templates/event-xls-export.php:58 templates/event-xml-export.php:58
+msgid "View Count"
+msgstr ""
+
+#: admin/wpem-export-settings.php:47
+msgid "Export"
+msgstr ""
+
+#: admin/wpem-export-settings.php:52
+msgid "Export Type"
+msgstr ""
+
+#: admin/wpem-export-settings.php:53
+msgid ""
+"You can set event export type either event with meta key and value or "
+"specific column."
+msgstr ""
+
+#: admin/wpem-export-settings.php:56
+msgid "Export file with meta key and value"
+msgstr ""
+
+#: admin/wpem-export-settings.php:57 admin/wpem-export-settings.php:64
+#: admin/wpem-export-settings.php:94 admin/wpem-export-settings.php:123
+msgid "Export file with custome fields"
+msgstr ""
+
+#: admin/wpem-export-settings.php:63 templates/event-csv-export.php:45
+#: templates/event-xls-export.php:45 templates/event-xml-export.php:45
+msgid "Event Fields"
+msgstr ""
+
+#: admin/wpem-export-settings.php:93 templates/organizer-csv-export.php:29
+#: templates/organizer-xls-export.php:30 templates/organizer-xml-export.php:30
+msgid "Organizer Fields"
+msgstr ""
+
+#: admin/wpem-export-settings.php:122 templates/venue-csv-export.php:30
+#: templates/venue-xls-export.php:30 templates/venue-xml-export.php:30
+msgid "Venue Fields"
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:28
+msgid "Download Events CSV "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:31
+msgid "Download Organizers CSV "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:34
+msgid "Download Venues CSV "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:37
+msgid "Download Events Xls "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:40
+msgid "Download Organizers Xls "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:43
+msgid "Download Venues Xls "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:46
+msgid "Download Events Xlsx "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:49
+msgid "Download Organizers Xlsx "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:52
+msgid "Download Venues Xlsx "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:55
+msgid "Download Events XML "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:58
+msgid "Download Organizers XML "
+msgstr ""
+
+#: admin/wpem-export-writepanels.php:61
+msgid "Download Venues XML "
+msgstr ""
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+msgid "License"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr ""
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr ""
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:77
+msgid "Lost your license key?"
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:77
+msgid "Retrieve it here"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:266
+msgid "Activate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:274
+msgid "Deactivate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+
+#: templates/event-csv-export.php:1 templates/event-csv-export.php:5
+msgid "Event CSV Export"
+msgstr ""
+
+#: templates/event-csv-export.php:16 templates/event-xls-export.php:16
+#: templates/event-xml-export.php:16 templates/organizer-csv-export.php:16
+#: templates/organizer-xls-export.php:16 templates/organizer-xml-export.php:16
+#: templates/venue-csv-export.php:16 templates/venue-xls-export.php:16
+#: templates/venue-xml-export.php:16
+msgid "Default"
+msgstr ""
+
+#: templates/event-csv-export.php:21 templates/event-xls-export.php:21
+#: templates/event-xml-export.php:21 templates/organizer-csv-export.php:21
+#: templates/organizer-xls-export.php:21 templates/organizer-xml-export.php:21
+#: templates/venue-csv-export.php:21 templates/venue-xls-export.php:21
+#: templates/venue-xml-export.php:21
+msgid "Custom"
+msgstr ""
+
+#: templates/event-csv-export.php:30 templates/event-xls-export.php:29
+#: templates/event-xml-export.php:30 templates/export-dashboard.php:7
+#: templates/export-dashboard.php:23 templates/export-dashboard.php:39
+msgid "Events"
+msgstr ""
+
+#: templates/event-csv-export.php:69 templates/organizer-csv-export.php:52
+#: templates/venue-csv-export.php:53
+msgid "Download Custom Csv"
+msgstr ""
+
+#: templates/event-xls-export.php:1 templates/event-xls-export.php:5
+msgid "Event XLS Export"
+msgstr ""
+
+#: templates/event-xls-export.php:69 templates/organizer-xls-export.php:53
+#: templates/venue-xls-export.php:53
+msgid "Download Custom Xls"
+msgstr ""
+
+#: templates/event-xml-export.php:1 templates/event-xml-export.php:5
+msgid "Event xml Export"
+msgstr ""
+
+#: templates/event-xml-export.php:69 templates/organizer-xml-export.php:53
+#: templates/venue-xml-export.php:53
+msgid "Download Custom xml"
+msgstr ""
+
+#: templates/export-dashboard.php:3
+msgid "Download CSV File"
+msgstr ""
+
+#: templates/export-dashboard.php:10 templates/export-dashboard.php:26
+#: templates/export-dashboard.php:42
+msgid "Organizers"
+msgstr ""
+
+#: templates/export-dashboard.php:13 templates/export-dashboard.php:29
+#: templates/export-dashboard.php:45
+msgid "Venues"
+msgstr ""
+
+#: templates/export-dashboard.php:19
+msgid "Download XML File"
+msgstr ""
+
+#: templates/export-dashboard.php:35
+msgid "Download XLS File"
+msgstr ""
+
+#: templates/organizer-csv-export.php:1 templates/organizer-csv-export.php:5
+msgid "Organizer CSV Export"
+msgstr ""
+
+#: templates/organizer-xls-export.php:1 templates/organizer-xls-export.php:5
+msgid "Organizer XLS Export"
+msgstr ""
+
+#: templates/organizer-xml-export.php:1 templates/organizer-xml-export.php:5
+msgid "Organizer xml Export"
+msgstr ""
+
+#: templates/venue-csv-export.php:1 templates/venue-csv-export.php:5
+msgid "Venue CSV Export"
+msgstr ""
+
+#: templates/venue-xls-export.php:1 templates/venue-xls-export.php:5
+msgid "Venue XLS Export"
+msgstr ""
+
+#: templates/venue-xml-export.php:1 templates/venue-xml-export.php:5
+msgid "Venue xml Export"
+msgstr ""
+
+#: wp-event-manager-export.php:37
+msgid "WP Event Manager is require to use WP Event Manager - Export"
+msgstr ""
+
+#: wp-event-manager-export.php:114
+msgid "Exports"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Event Manager - Export"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Generate CSV and XML files of all the listed events."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr ""

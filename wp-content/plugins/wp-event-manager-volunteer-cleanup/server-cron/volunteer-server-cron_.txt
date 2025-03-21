@@ -1,0 +1,237 @@
+<?php
+/*
+ ** Server Executing Bulk Alert Mail Cron (e-blast)
+ */
+add_action('rest_api_init', 
+function () {
+	register_rest_route(
+		'volunteer-cron/v1', '/alert-mail',
+		array(
+		  'methods'  => 'GET',
+		  'callback' => 'volunteer_send_alert_mail',
+		  'permission_callback' => '__return_true',
+		)
+	);
+
+});
+
+/**
+ * function called by server cron
+ */
+function volunteer_send_alert_mail(){
+
+   /*  */
+ 
+    $cron_setting = volunteer_conditional_days_range();
+
+    if(is_array( $cron_setting ) && !empty( $cron_setting['start']) && !empty( $cron_setting['end']) ){
+
+        $today = strtotime(date('Y-m-d H:i'));
+
+        global $wpdb;
+		$table_name = $wpdb->prefix.'wpevents_alert_blast_log';
+	
+       
+        // cron start time
+            $current_date = date('Y-m-d');
+            $last_cron_start_timestamp = get_option('volunteer_server_custom_cron_start_time');
+            $last_cron_start =  date('Y-m-d',$last_cron_start_timestamp);
+            $next_six_day_date = date('Y-m-d',strtotime( $last_cron_start.'+ 2 days'));
+            if($last_cron_start_timestamp && $last_cron_start_timestamp >  1){
+                if(strtotime($current_date) > $last_cron_start_timestamp && (strtotime($current_date) >  strtotime($next_six_day_date))){
+                    $wpdb->get_results( "TRUNCATE TABLE $table_name");
+                    update_option('volunteer_server_custom_cron_start_time',$today);
+                }
+            }else{
+                //start never created
+                update_option('volunteer_server_custom_cron_start_time',$today);
+            }
+         // cron start time
+
+        // execute only on particular day
+        $args = array(
+            'post_type'      => 'event_alert', // my custom post type    
+            'post_status'    => 'publish',
+            'posts_per_page'      => 20,
+            'meta_query' => array(
+                'relation' => 'OR',
+               
+                array(
+                    'key' => 'custom_cron_alert_time',
+                    'value' => $cron_setting['end'],
+                    'compare' => '<'
+                ),
+                        
+                array(
+                    'key' => 'custom_cron_alert_time',
+                    'compare' => 'NOT EXISTS' // this should work...
+                   ),
+            ),
+        );
+        $posts = get_posts($args);
+        if($posts){
+           
+            //alert notifier
+            $wp_alert = new WPEM_Alerts_Notifier();
+            // table logging
+            $time = date('Y-m-d H:i');
+        
+            foreach($posts as $post){
+                $alert_id = $post->ID;
+                wp_clear_scheduled_hook( 'event-manager-alert', array( $alert_id ) );
+
+                 update_post_meta($alert_id,'custom_cron_alert_time',$cron_setting['end'] );
+              update_post_meta($alert_id,'custom_cron_alert_runtime',$today );
+                
+                // event alert 
+                $alert = $post;//get_post( $alert_id );
+
+		        $user  = get_user_by( 'id', $alert->post_author );
+		        $events  = $wp_alert->get_matching_events( $alert, true );
+
+                if ( $events->found_posts || ! get_option( 'event_manager_alerts_matches_only' ) == 'no' ) {
+
+                    $email = $wp_alert->format_email( $alert, $user, $events );
+                    $headers = array('Content-Type: text/html; charset=UTF-8');
+
+                    if ( $email ) {
+                        $cron_option = get_option('volunteer_alert_cron_settings');
+                        $checked = (is_array($cron_option) && isset($cron_option['enable_volunteer_send_grid']))?$cron_option['enable_volunteer_send_grid']:0;
+                        if($checked){
+                        wp_mail( $user->user_email, apply_filters( 'event_manager_alerts_subject', sprintf( __( 'Event Alert Results Matching "%s"', 'wp-event-manager-alerts' ), $alert->post_title ), $alert ), $email,$headers );
+                        }
+                       
+                        // logging
+                        $wpdb->insert( 
+                            $table_name, 
+                            array( 
+                                'alert_id' => $alert_id, 
+                                'status' => 'success', 
+                                'reason' => 'done', 
+                                'log_date' => $time,
+                            ) 
+                        );
+                    }else{
+                         // logging
+                         $wpdb->insert( 
+                            $table_name, 
+                            array( 
+                                'alert_id' => $alert_id, 
+                                'status' => 'fail', 
+                                'reason' => 'Email not found', 
+                                'log_date' => $time,
+                            ) 
+                        );
+                    }
+
+                }else{
+                     // logging
+                     $wpdb->insert( 
+                        $table_name, 
+                        array( 
+                            'alert_id' => $alert_id, 
+                            'status' => 'fail', 
+                            'reason' => 'Events not found', 
+                            'log_date' => $time,
+                        ) 
+                    );
+                }
+
+                // Inc sent count
+                update_post_meta( $alert->ID, 'send_count', 1 + absint( get_post_meta( $alert->ID, 'send_count', true ) ) );
+
+              // event alert - finishes
+
+            }
+        
+            // cron end
+                    update_option('volunteer_server_custom_cron_end_time',$today);
+                }
+             }else{
+       //echo 'not';
+    }
+}
+
+
+/**
+ * Compare of current datetime with alert cron settings
+ */
+function volunteer_conditional_days_range(){
+
+    // HERE below, define start / end hours range and time zone (default is 'UTC').
+    $cron_option = get_option('volunteer_alert_cron_settings');
+    
+    if ( is_array($cron_option )) {
+
+        $checked = (is_array($cron_option) && isset($cron_option['enable_volunteer_cron']) && $cron_option['enable_volunteer_cron'] == 1)?$cron_option['enable_volunteer_cron']:0;
+         $start_day = (is_array($cron_option) && isset($cron_option['cron_start_day']))?$cron_option['cron_start_day']:'';
+         $start_time = (is_array($cron_option) && isset($cron_option['cron_start_time']))?$cron_option['cron_start_time']:'';
+         $end_day = (is_array($cron_option) && isset($cron_option['cron_end_day']))?$cron_option['cron_end_day']:'';
+         $end_time = (is_array($cron_option) && isset($cron_option['cron_end_time']))?$cron_option['cron_end_time']:'';
+
+        $start = (!empty($start_day) || $start_day === '0')?true:false;
+        $end = (!empty($end_day) || $end_day === '0')?true:false;
+         
+        if( $checked && $start && $end && !empty($start_time) && !empty($end_time) ){
+
+
+           $dowMap = array( '1' =>  'monday', '2' => 'tuesday', '3' =>'wednesday', '4' =>'thursday', '5' =>'friday', '6' =>'saturday' , '7' =>'sunday');
+
+            $from = $to = '';
+
+            $now = strtotime(date('Y-m-d H:i:s')); // Now time
+         //   $now = strtotime(date('2023-09-20 20:10:10'));
+            // return days
+
+            //$today = date("w");
+            $today = date("w",$now);
+           
+           
+            if($start_day == $end_day){
+                
+
+                $from = date( 'Y-m-d', strtotime( $dowMap[$start_day].' this week' ) ).' '.$start_time;
+
+                $to = date( 'Y-m-d', strtotime( $dowMap[$end_day].' this week' ) ).' '.$end_time;
+              
+               
+
+            }elseif($start_day < $end_day){
+                
+
+                $from = date( 'Y-m-d', strtotime( $dowMap[$start_day].' this week' ) ).' '.$start_time;
+
+                $to = date( 'Y-m-d', strtotime( $dowMap[$end_day].' this week' ) ).' '.$end_time;
+                
+               
+
+            }elseif($start_day <= $today && $end_day <= $today && $start_day > $end_day){
+                   
+
+                    $from = date( 'Y-m-d', strtotime( $dowMap[$start_day].' this week' ) ).' '.$start_time;
+
+                    $to = date( 'Y-m-d', strtotime( $dowMap[$end_day].' next week' ) ).' '.$end_time;
+                  
+
+            }else{
+                    
+                    $from = date( 'Y-m-d', strtotime( $dowMap[$start_day].' last week' ) ).' '.$start_time;
+
+                    $to = date( 'Y-m-d', strtotime( $dowMap[$end_day].' this week' ) ).' '.$end_time;
+
+            }
+           
+
+            if($now >= strtotime($from) && $now <= strtotime($to)){
+
+                return array('start' => $from , 'end' => $to);
+
+            }
+            
+        }
+         
+    }
+    return false;
+}
+
+?>

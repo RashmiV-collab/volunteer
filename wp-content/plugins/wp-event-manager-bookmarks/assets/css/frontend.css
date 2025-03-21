@@ -1,0 +1,20 @@
+#bookmark_notes { resize: vertical !important;}
+
+#event-manager-bookmarks table ul.event-manager-bookmark-actions{margin:0;padding:0;font-size:.92em}
+#event-manager-bookmarks table ul.event-manager-bookmark-actions li{float:none;display:inline;padding:0;margin:0 .5em 0 0;font-weight:400;list-style:none outside}
+#event-manager-bookmarks table ul.event-manager-bookmark-actions li:after{padding:0 0 0 .5em;content:"\2023"}
+#event-manager-bookmarks table ul.event-manager-bookmark-actions li:last-child:after{content:''}
+#event-manager-bookmarks table ul.event-manager-bookmark-actions li a::before{content: "";font-family: wp-event-manager;}
+#event-manager-bookmarks table ul.event-manager-bookmark-actions li .event-manager-bookmark-action-delete::before{content: "\e9ad";}
+#event-manager-bookmarks table tr:focus ul.event-manager-bookmark-actions,#event-manager-bookmarks table tr:hover ul.event-manager-bookmark-actions{ visibility:visible; }
+
+.wp-event-manager-bookmarks-form a.bookmark-notice {  }
+.wp-event-manager-bookmarks-form a.remove-bookmark {  }
+.wp-event-manager-bookmarks-form:focus a.remove-bookmark,
+/* .wp-event-manager-bookmarks-form:hover a.remove-bookmark{ visibility:visible; } */
+
+.wp-event-manager-bookmarks-form.wpem-form-wrapper { margin: 0px; }
+.wp-event-manager-bookmarks-form .bookmark-details { background: #EEEDF2; padding: 25px; margin: 20px 0; border-radius: 5px; }
+.wpem-single-event-page .wpem-single-event-right-content .wpem-single-event-body-sidebar .wpem-icon-text-button span {
+    flex: 1;
+}

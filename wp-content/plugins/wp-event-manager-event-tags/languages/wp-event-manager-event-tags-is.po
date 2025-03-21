@@ -1,0 +1,404 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n%10==1 && n%100!=11);\n"
+"Project-Id-Version: WP Event Manager - Event Tags\n"
+"POT-Creation-Date: 2022-09-12 14:53+0530\n"
+"PO-Revision-Date: 2022-09-12 15:34+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-event-tags.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: is\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-event-tags-settings.php:32
+msgid "Tag Archives"
+msgstr "Merki"
+
+#: admin/wpem-event-tags-settings.php:33
+
+msgid "Enable Tag Archives"
+msgstr "Virkja tag archives"
+
+#: admin/wpem-event-tags-settings.php:34 admin/wpem-event-tags-settings.php:64
+
+msgid ""
+"Enabling tag archives will make event tags (inside events and tag clouds) "
+"link through to an archive of all events with said tag. Please note, tag "
+"archives will look like your post archives unless you create a special "
+"template to handle the display of event listings called <code>taxonomy-"
+"event_listing_tag.php</code> inside your theme. See <a href=\"http://codex."
+"wordpress.org/Template_Hierarchy#Custom_Taxonomies_display\">Template "
+"Hierarchy</a> for more information."
+msgstr ""
+"Með því að virkja merkjasöfn mun atburðarmerki (inni í viðburðum og "
+"merkjaskýjum) tengjast í gegnum skjalasafn allra viðburða með umræddu merki. "
+"Vinsamlegast athugaðu að merkja skjalasöfn munu líta út eins og "
+"póstskjalasöfnin þín nema þú búir til sérstakt sniðmát til að sjá um "
+"birtingu viðburðaskráninga sem kallast <code>taxonomy-event_listing_tag.php</"
+"code> inni í þema þínu. Sjá <a href=\"http://codex.wordpress.org/"
+"Template_Hierarchy#Custom_Taxonomies_display\">Sniðmátastigveldi</a> til að "
+"fá frekari upplýsingar."
+
+#: admin/wpem-event-tags-settings.php:40
+
+msgid "Tags Filter Type"
+msgstr "Tags síu tegund"
+
+#: admin/wpem-event-tags-settings.php:41
+
+msgid "Determines how events are queried when selecting tags."
+msgstr "Ákvarðar hvernig spurt er um atburði við val á merkjum."
+
+#: admin/wpem-event-tags-settings.php:44
+
+msgid "Events will be shown if within ANY chosen tag"
+msgstr "Viðburðir verða sýndir ef þeir eru innan einhvers valins merkis"
+
+#: admin/wpem-event-tags-settings.php:45
+
+msgid "Events will be shown if within ALL chosen tags"
+msgstr "Viðburðir verða sýndir ef innan ALLRA valinna merkja"
+
+#: admin/wpem-event-tags-settings.php:51
+
+msgid "Maximum Event Tags"
+msgstr "Hámarks viðburðarmerki"
+
+#: admin/wpem-event-tags-settings.php:52
+
+msgid ""
+"Enter the number of tags per event submission you wish to allow, or leave "
+"blank for unlimited tags."
+msgstr ""
+"Sláðu inn fjölda merkja fyrir hverja innsendingu viðburðar sem þú vilt "
+"leyfa, eða skildu eftir autt fyrir ótakmarkað merki."
+
+#: admin/wpem-event-tags-settings.php:58
+
+msgid "Tag Input"
+msgstr "Inntak merkis"
+
+#: admin/wpem-event-tags-writepanels.php:29
+msgid "Tags"
+msgstr "Merki"
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Leyfið þitt fyrir <strong>%s</strong> hefur verið virkjað. Takk!"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:38
+#: autoupdater/wpem-updater-license.php:63
+msgid "License"
+msgstr "Leyfisveitandi"
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr "Netfang"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "Netfang"
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr "Gera leyfi óvirkt"
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr "Virkja leyfi"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Leyfið þitt fyrir <strong>%s</strong> hefur verið gert óvirkt."
+
+#: autoupdater/templates/key-input.php:4
+msgid "Licence"
+msgstr "Leyfi"
+
+#: autoupdater/templates/key-input.php:7
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+"Sláðu inn leyfislykilinn þinn og tölvupóst og ýttu á skil. Gildur lykill er "
+"nauðsynlegur fyrir sjálfvirkar uppfærslur."
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr "Fela tilkynningu"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\">Vinsamlegast sláðu inn leyfislykilinn þinn</a> í "
+"viðbótarlistanum hér að neðan til að fá uppfærslur fyrir \"%2$s\"."
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Týndirðu lykillinn þinn? <a href=\"%s\">Sæktu það hér</a>."
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Það er til ný útgáfa af %1$s í boði. <a target=\"_blank\" class=\"thickbox\" "
+"href=\"%2$s\">Skoðaðu útgáfuupplýsingar %3$s</a> eða <a href=\"%4$s"
+"\">uppfærðu núna</a>."
+
+#: autoupdater/wpem-updater-license.php:90
+msgid "Lost your license key?"
+msgstr "Týnirðu leyfislyklinum þínum?"
+
+#: autoupdater/wpem-updater-license.php:90
+msgid "Retrieve it here"
+msgstr "Sæktu það hér"
+
+#: autoupdater/wpem-updater.php:267
+msgid "Activate licence"
+msgstr "Virkja leyfi"
+
+#: autoupdater/wpem-updater.php:275
+msgid "Deactivate licence"
+msgstr "Afvirkja leyfi"
+
+#: autoupdater/wpem-updater.php:420
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+"Ekki var hægt að finna leyfislykil fyrir %1$s. Kannski gleymdirðu að slá inn "
+"leyfislykil þegar þú setur upp %2$s."
+
+#: external/elementor-widgets/elementor-events-by-tag.php:36
+#: external/elementor-widgets/elementor-events-by-tag.php:90
+
+msgid "Event By Tags"
+msgstr "Atburður eftir merkjum"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:97
+#: external/elementor-widgets/elementor-events-by-tag.php:110
+msgid "Show Pagination"
+msgstr "Sýna síðutal"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:101
+
+msgid "Ascending (ASC)"
+msgstr "Hækkandi (ASC)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:102
+
+msgid "Descending  (DESC)"
+msgstr "Lækkandi (DESC)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:114
+msgid "Title"
+msgstr "Titill"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:115
+msgid "ID"
+msgstr "Auðkenni (ID)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:116
+msgid "Name"
+msgstr "Nafn"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:117
+
+msgid "Parent"
+msgstr "Foreldri"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:118
+
+msgid "Rand"
+msgstr "Rand"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:126
+
+msgid "Tags "
+msgstr "Tags "
+
+#: external/elementor-widgets/elementor-events-by-tag.php:128
+
+msgid "Enter Tags by comma separate"
+msgstr "Sláðu inn Tags með kommu aðskildum"
+
+#: forms/wpem-event-tags-form-submit.php:37
+#, php-format
+msgid "Please enter no more than %d tags."
+msgstr "Vinsamlegast ekki slá inn fleiri en %d leitarorð."
+
+#: forms/wpem-event-tags-forms.php:20
+#, php-format
+msgid "Maximum of %d."
+msgstr "Hámarks fjöldi %d."
+
+#: forms/wpem-event-tags-forms.php:25 forms/wpem-event-tags-forms.php:35
+#: forms/wpem-event-tags-forms.php:45
+
+msgid "Event tags"
+msgstr "Merkingar viðburða"
+
+#: forms/wpem-event-tags-forms.php:26
+
+msgid "Choose some tags, such as required drama or festival, for this event."
+msgstr ""
+"Veldu nokkur merki, svo sem nauðsynlegt leiklist eða hátíð, fyrir þennan "
+"viðburð."
+
+#: forms/wpem-event-tags-forms.php:36
+
+msgid ""
+"Comma separate tags, such as required drama, festival or technologies, for "
+"this event."
+msgstr ""
+"Kommu aðskilin merki, svo sem nauðsynleg leiklist, hátíð eða tækni, fyrir "
+"þennan viðburð."
+
+#: forms/wpem-event-tags-forms.php:46
+
+msgid ""
+"Comma separate tags, such as required like event type or content for this "
+"event."
+msgstr ""
+"Kommu aðskilin merki, svo sem krafist er eins og tegund viðburðar eða efni "
+"fyrir þennan atburð."
+
+#: forms/wpem-event-tags-forms.php:49
+
+msgid "e.g. Meeting or Networking Events , Drama"
+msgstr "t.d. funda- eða netviðburðir , leiklist"
+
+#: includes/wpem-event-tags-category.php:30
+
+msgid "Event Tag"
+msgstr "Viðburðarmerki"
+
+#: includes/wpem-event-tags-category.php:31
+#: wp-event-manager-event-tags-template.php:48
+
+msgid "Event Tags"
+msgstr "Merkingar á viðburði"
+
+#: includes/wpem-event-tags-category.php:43
+#, php-format
+msgid "Search %s"
+msgstr "Leita %s"
+
+#: includes/wpem-event-tags-category.php:44
+#, php-format
+msgid "All %s"
+msgstr "Allt %s"
+
+#: includes/wpem-event-tags-category.php:45
+#, php-format
+msgid "Parent %s"
+msgstr "Foreldri %s"
+
+#: includes/wpem-event-tags-category.php:46
+#, php-format
+msgid "Parent %s:"
+msgstr "Foreldri %s:"
+
+#: includes/wpem-event-tags-category.php:47
+#, php-format
+msgid "Edit %s"
+msgstr "Breyta %s"
+
+#: includes/wpem-event-tags-category.php:48
+#, php-format
+msgid "Update %s"
+msgstr "Uppfæra %s"
+
+#: includes/wpem-event-tags-category.php:49
+#, php-format
+msgid "Add New %s"
+msgstr "Bæta við nýju %s"
+
+#: includes/wpem-event-tags-category.php:50
+#, php-format
+msgid "New %s Name"
+msgstr "Auðkenni %sar"
+
+#: includes/wpem-event-tags-category.php:61
+
+msgctxt "permalink"
+msgid "event-tag"
+msgstr "viðburðar-merki"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:73
+msgid "Filter by tag:"
+msgstr "Sía eftir leitarorði:"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:193
+msgid "tagged"
+msgstr "merkt"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:278
+#, php-format
+msgid "No events found tagged with %s."
+msgstr "Engir atburðir fundust merktir með %s."
+
+#: shortcodes/wpem-event-tags-shortcodes.php:319
+#, php-format
+msgid "%s event"
+msgid_plural "%s events"
+msgstr[0] "%s viðburðir"
+msgstr[1] "%s viðburður"
+
+#: wp-event-manager-event-tags.php:39
+
+msgid "WP Event Manager is require to use WP Event Manager - Event Tags"
+msgstr "WP Viðburðastjóri þarf að nota WP viðburðastjóra - Viðburðamerki"
+
+#: wp-event-manager-event-tags.php:135
+msgid "Tagged as:"
+msgstr "Merkt með:"
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Event Tags"
+msgstr "WP viðburðastjóri - Merkingar á viðburðum"
+
+#. Plugin URI of the plugin/theme
+
+msgid "http://www.wp-eventmanager.com/plugins/"
+msgstr "http://www.wp-eventmanager.com/plugins/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Adds tags to Event Manager for tagging events with requried place and event "
+"flavour. Also adds some extra shortcodes."
+msgstr ""
+"Bætir merkjum við viðburðastjóra til að merkja viðburði með endurnýjuðum "
+"stað og viðburðarbragði. Bætir einnig við nokkrum auka stuttkóðum."
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr "WP viðburðastjóri"
+
+#. Author URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/"
+msgstr "http://www.wp-eventmanager.com/"

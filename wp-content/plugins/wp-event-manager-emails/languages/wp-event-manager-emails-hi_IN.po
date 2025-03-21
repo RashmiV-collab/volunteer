@@ -1,0 +1,671 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: WP Event Manager - Emails\n"
+"POT-Creation-Date: 2023-08-14 15:01+0530\n"
+"PO-Revision-Date: 2023-08-14 16:18+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-emails.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: hi_IN\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/templates/wpem-email-template-add-new.php:15
+
+msgid "Add new template"
+msgstr "नया टेम्पलेट जोड़ें"
+
+#: admin/templates/wpem-email-template-add-new.php:19
+
+msgid "Template Name"
+msgstr "टेम्पलेट का नाम"
+
+#: admin/templates/wpem-email-template-add-new.php:23
+#: admin/wpem-email-template-table.php:42
+msgid "Post Type"
+msgstr "पोस्ट प्रकार"
+
+#: admin/templates/wpem-email-template-add-new.php:34
+
+msgid "Status before"
+msgstr "पहले की स्थिति"
+
+#: admin/templates/wpem-email-template-add-new.php:50
+
+msgid "Status after"
+msgstr "बाद की स्थिति"
+
+#: admin/templates/wpem-email-template-add-new.php:64
+#: admin/wpem-emails-notifications.php:210
+#: admin/wpem-emails-notifications.php:263
+#: admin/wpem-emails-notifications.php:316
+#: admin/wpem-emails-notifications.php:371
+msgid "Email Subject"
+msgstr "ईमेल विषय"
+
+#: admin/templates/wpem-email-template-add-new.php:67
+#: admin/wpem-emails-notifications.php:214
+#: admin/wpem-emails-notifications.php:267
+#: admin/wpem-emails-notifications.php:320
+#: admin/wpem-emails-notifications.php:375
+msgid "Email Content"
+msgstr "ईमेल सामग्री"
+
+#: admin/templates/wpem-email-template-add-new.php:71
+msgid "To"
+msgstr "सेवा"
+
+#: admin/templates/wpem-email-template-add-new.php:75
+
+msgid "CC"
+msgstr "प्रतिलिपि"
+
+#: admin/templates/wpem-email-template-add-new.php:79
+msgid "From"
+msgstr "और से"
+
+#: admin/templates/wpem-email-template-add-new.php:83
+
+msgid "Reply to"
+msgstr "का उत्तर दें"
+
+#: admin/templates/wpem-email-template-add-new.php:87
+msgid "Active"
+msgstr "सक्रिय"
+
+#: admin/templates/wpem-email-template-list-table.php:6
+
+msgid "Email Reminder/Templates"
+msgstr "ईमेल अनुस्मारक/"
+
+#: admin/templates/wpem-email-template-list-table.php:8
+msgid "Add New"
+msgstr "नया जोड़ें"
+
+#: admin/wpem-email-template-table.php:40
+msgid "ID"
+msgstr "आईडी"
+
+#: admin/wpem-email-template-table.php:41
+msgid "Name"
+msgstr "नाम"
+
+#: admin/wpem-email-template-table.php:43
+
+msgid "Status Before"
+msgstr "पहले की स्थिति"
+
+#: admin/wpem-email-template-table.php:44
+#: admin/wpem-email-template-table.php:45
+
+msgid "Status After"
+msgstr "स्थिति के बाद"
+
+#: admin/wpem-email-template-table.php:46
+msgid "Date"
+msgstr "दिनांक"
+
+#: admin/wpem-email-template-table.php:47
+msgid "Action"
+msgstr "कार्य"
+
+#: admin/wpem-emails-notifications.php:18
+#: admin/wpem-emails-notifications.php:50
+
+msgid "Email Notifications"
+msgstr "ईमेल सूचनाएं"
+
+#: admin/wpem-emails-notifications.php:41
+
+msgid "Notification Settings"
+msgstr "सूचना सेटिंग्स"
+
+#: admin/wpem-emails-notifications.php:42
+#: admin/wpem-emails-notifications.php:114
+
+msgid "New Event Notification"
+msgstr "नई इवेंट सूचना"
+
+#: admin/wpem-emails-notifications.php:43
+
+msgid "Published Event Notification"
+msgstr "प्रकाशित इवेंट अधिसूचना"
+
+#: admin/wpem-emails-notifications.php:44
+
+msgid "Expired Event Notification"
+msgstr "समय सीमा समाप्त इवेंट सूचना"
+
+#: admin/wpem-emails-notifications.php:45
+#: admin/wpem-emails-notifications.php:138
+
+msgid "Admin Event Notification"
+msgstr "व्यवस्थापक इवेंट सूचना"
+
+#: admin/wpem-emails-notifications.php:46
+
+msgid "Email Templates (NEW)"
+msgstr "ईमेल टेम्प्लेट (नया)"
+
+#: admin/wpem-emails-notifications.php:117
+
+msgid ""
+"The email is sent to the Organizer when the new event is submitted on the "
+"website and the event status is pending for approval."
+msgstr ""
+"वेबसाइट पर नया ईवेंट सबमिट होने पर आयोजक को ईमेल भेजा जाता है और ईवेंट की स्थिति "
+"अनुमोदन के लिए लंबित होती है."
+
+#: admin/wpem-emails-notifications.php:122
+
+msgid "Publish Event Notification"
+msgstr "इवेंट सूचना प्रकाशित करें"
+
+#: admin/wpem-emails-notifications.php:125
+#: admin/wpem-emails-notifications.php:133
+
+msgid "The email that is sent to an Organizer after the event is published."
+msgstr "ईवेंट प्रकाशित होने के बाद किसी आयोजक को भेजा जाने वाला ईमेल."
+
+#: admin/wpem-emails-notifications.php:130
+
+msgid ""
+"The email that is sent to an Organizer after the event has been expired."
+msgstr "ईवेंट के बाद किसी आयोजक को भेजे गए ईमेल की समय सीमा समाप्त हो चुकी है."
+
+#: admin/wpem-emails-notifications.php:141
+
+msgid ""
+"The email that is sent to admin when a new event posted on the website by an "
+"Organizer."
+msgstr ""
+"वह ईमेल जो किसी आयोजक द्वारा वेबसाइट पर पोस्ट किए जाने पर व्यवस्थापक को भेजा जाता है."
+
+#: admin/wpem-emails-notifications.php:147
+#: admin/wpem-emails-notifications.php:150
+
+msgid "Mail send to organizer email account"
+msgstr "आयोजक को मेल भेजें ईमेल खाते"
+
+#: admin/wpem-emails-notifications.php:148
+#: admin/wpem-emails-notifications.php:151
+
+msgid "Mail send to event registration email account"
+msgstr "ईवेंट पंजीकरण ईमेल खाते को मेल भेजें"
+
+#: admin/wpem-emails-notifications.php:156
+
+msgid "The email will sent on selected email account."
+msgstr "ईमेल चयनित ईमेल खाते पर भेजा जाएगा।"
+
+#: admin/wpem-emails-notifications.php:160
+#: admin/wpem-emails-notifications.php:220
+#: admin/wpem-emails-notifications.php:273
+#: admin/wpem-emails-notifications.php:326
+#: admin/wpem-emails-notifications.php:381
+msgid "Save Changes"
+msgstr "बदलाव सहेजें"
+
+#: admin/wpem-emails-notifications.php:186
+
+msgid "Settings successfully saved."
+msgstr "सेटिंग्स सफलतापूर्वक सहेजी गईं"
+
+#: admin/wpem-emails-notifications.php:199
+#: admin/wpem-emails-notifications.php:252
+#: admin/wpem-emails-notifications.php:305
+#: admin/wpem-emails-notifications.php:358
+msgid "The email was successfully reset."
+msgstr "ईमेल सफलतापूर्वक रीसेट किया गया था।"
+
+#: admin/wpem-emails-notifications.php:207
+
+msgid ""
+"Below you will find the email that is sent to an Organizer when event status "
+"is pending for approval."
+msgstr ""
+"नीचे आपको वह ईमेल मिलेगा जो किसी आयोजक को तब भेजा जाता है जब ईवेंट स्थिति अनुमोदन के "
+"लिए लंबित होती है."
+
+#: admin/wpem-emails-notifications.php:211
+#: admin/wpem-emails-notifications.php:264
+#: admin/wpem-emails-notifications.php:317
+#: admin/wpem-emails-notifications.php:372
+msgid "Subject"
+msgstr "विषय"
+
+#: admin/wpem-emails-notifications.php:219
+#: admin/wpem-emails-notifications.php:272
+#: admin/wpem-emails-notifications.php:325
+#: admin/wpem-emails-notifications.php:380
+msgid "Reset to defaults"
+msgstr "डिफ़ॉल्ट पर रीसेट करें"
+
+#: admin/wpem-emails-notifications.php:239
+#: admin/wpem-emails-notifications.php:292
+#: admin/wpem-emails-notifications.php:345
+#: admin/wpem-emails-notifications.php:400
+msgid "The email was successfully saved."
+msgstr "ईमेल सफलतापूर्वक सहेजा गया था।"
+
+#: admin/wpem-emails-notifications.php:260
+
+msgid ""
+"Below you will find the email that is sent to an Organizer after event is "
+"published."
+msgstr ""
+"नीचे आपको वह ईमेल मिलेगा जो इवेंट प्रकाशित होने के बाद किसी आयोजक को भेजा जाता है।"
+
+#: admin/wpem-emails-notifications.php:313
+
+msgid ""
+"Below you will find the email that is sent to an Organizer after event is "
+"expired."
+msgstr "नीचे आपको वह ईमेल मिलेगा जो इवेंट समाप्त होने के बाद किसी आयोजक को भेजा जाता है।"
+
+#: admin/wpem-emails-notifications.php:367
+
+msgid ""
+"Below you will find the email that is sent to admin when new event posted."
+msgstr "नीचे आपको वह ईमेल मिलेगा जो नई घटना पोस्ट होने पर व्यवस्थापक को भेजा जाता है।"
+
+#: admin/wpem-emails-notifications.php:459
+
+msgid "Template name is required."
+msgstr "टेम्पलेट नाम आवश्यक है."
+
+#: admin/wpem-emails-notifications.php:464
+
+msgid "To is not valid email."
+msgstr "सहभागी <strong> %s </strong>कोई मान्य ई-मेल नहीं है."
+
+#: admin/wpem-emails-notifications.php:468
+
+msgid "CC is not valid email."
+msgstr "CC मान्य ईमेल नहीं है."
+
+#: admin/wpem-emails-notifications.php:472
+
+msgid "From is not valid email."
+msgstr "से मान्य ईमेल नहीं है."
+
+#: admin/wpem-emails-notifications.php:476
+
+msgid "Reply-To is not valid email."
+msgstr "उत्तर देना मान्य ईमेल नहीं है."
+
+#: admin/wpem-emails-notifications.php:503
+
+msgid "Email template saved successfully."
+msgstr "ईमेल टेम्पलेट सफलतापूर्वक सहेजा गया."
+
+#: admin/wpem-emails-notifications.php:515
+msgid "The following tags can be used to add content dynamically:"
+msgstr "निम्न टैग्स का उपयोग गतिशील रूप से सामग्री जोड़ने के लिए किया जा सकता है:"
+
+#: admin/wpem-emails-notifications.php:521
+msgid ""
+"All tags can be passed a prefix and a suffix which is only output when the "
+"value is set e.g. <code>[event_title prefix=\"Event Title: \" suffix=\".\"]</"
+"code>"
+msgstr ""
+"सभी टैग को एक उपसर्ग और एक प्रत्यय पारित किया जा सकता है जो केवल आउटपुट होता है जब "
+"मूल्य सेट किया जाता है उदा। <code>[event_title prefix=\"Event Title: \" suffix="
+"\".\"]</code>"
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "के लिए <strong>%s</strong> आपका लाइसेंस सक्रिय कर दिया गया है. धन्यवाद!"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:57
+msgid "License"
+msgstr "लाइसेंस"
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr "ईमेल"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "ईमेल पता"
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr "लायसेंस सक्रिय करें"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "के लिए <strong>%s</strong> आपका लाइसेंस निष्क्रिय कर दिया गया है."
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr "सूचना छुपाएँ"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"कृपया \"%2$s\" के लिए अपडेट प्राप्त करने के लिए नीचे दी गई प्लगइन सूची में <a href=\"%1$s"
+"\">अपनी लाइसेंस कुंजी दर्ज करें</a>।"
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "अपनी चाबी खो दी है? <a href=\"%s\">इसे यहाँ पुनर्प्राप्त करें</a>।"
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"%1$s का नया संस्करण उपलब्ध है. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">संस्करण देखें%3$s विवरण</a> या <a href=\"%4$s\">अब अद्यतन</a>करें."
+
+#: autoupdater/wpem-updater-license.php:76
+msgid "Lost your license key?"
+msgstr "अपनी लाइसेंस कुंजी खो दी है?"
+
+#: autoupdater/wpem-updater-license.php:76
+msgid "Retrieve it here"
+msgstr "इसे यहाँ पुनर्प्राप्त करें"
+
+#: autoupdater/wpem-updater.php:266
+msgid "Activate licence"
+msgstr "लाइसेंस सक्रिय करें"
+
+#: autoupdater/wpem-updater.php:274
+msgid "Deactivate licence"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+"%1$s के लिए लाइसेंस कुंजी नहीं मिल सकी। हो सकता है कि आप %2$s सेट करते समय लाइसेंस कुंजी "
+"दर्ज करना भूल गए हों।"
+
+#: forms/wpem-emails-form-submit.php:20
+
+msgid "Send Event Mail Notification"
+msgstr "इवेंट मेल सूचना भेजें"
+
+#: forms/wpem-emails-form-submit.php:24
+
+msgid "Publish Event"
+msgstr "इवेंट प्रकाशित करें"
+
+#: forms/wpem-emails-form-submit.php:25
+
+msgid "Update Event"
+msgstr "इवेंट अद्यतन करें"
+
+#: includes/wpem-emails-post-types.php:29
+
+msgid "WPEM Emails"
+msgstr "WPEM ईमेल"
+
+#: includes/wpem-emails-post-types.php:30
+
+msgid "WPEM Email templates"
+msgstr "WPEM ईमेल टेम्पलेट्स"
+
+#: includes/wpem-emails-post-types.php:31
+
+msgid "WPEM Email template"
+msgstr "WPEM ईमेल टेम्पलेट"
+
+#: includes/wpem-emails-post-types.php:39
+#, php-format
+msgid "All %s"
+msgstr "सभी %s"
+
+#: includes/wpem-emails-post-types.php:40
+#, php-format
+msgid "Add New %s"
+msgstr "नया %s जोड़ें"
+
+#: includes/wpem-emails-post-types.php:41
+#, php-format
+msgid "Add %s"
+msgstr "%s जोड़ें"
+
+#: includes/wpem-emails-post-types.php:42
+#: includes/wpem-emails-post-types.php:43
+#, php-format
+msgid "Edit %s"
+msgstr "संपादन %s"
+
+#: includes/wpem-emails-post-types.php:44
+#, php-format
+msgid "New %s"
+msgstr "नई %s"
+
+#: includes/wpem-emails-post-types.php:45
+#: includes/wpem-emails-post-types.php:46
+#, php-format
+msgid "View %s"
+msgstr "देखना %s"
+
+#: includes/wpem-emails-post-types.php:47
+#, php-format
+msgid "Search %s"
+msgstr "%s दी खोज करो"
+
+#: includes/wpem-emails-post-types.php:48
+#, php-format
+msgid "No %s found"
+msgstr "कोई %s नहीं मिला"
+
+#: includes/wpem-emails-post-types.php:49
+#, php-format
+msgid "No %s found in trash"
+msgstr "कूड़े में नहीं मिला %s"
+
+#: includes/wpem-emails-post-types.php:50
+#, php-format
+msgid "Parent %s"
+msgstr "माता-पिता %s"
+
+#: includes/wpem-emails-post-types.php:52
+
+msgid "This is where you can edit and view zoom."
+msgstr "यह वह जगह है जहां आप ज़ूम को संपादित और देख सकते हैं।"
+
+#: templates/send-email-to-new-registered-user.php:44
+
+msgid "Welcome to"
+msgstr "में आपका स्वागत है"
+
+#: templates/send-email-to-new-registered-user.php:47
+
+msgid ""
+"s leading event site for all your Events, Business Conferences, Expo & Trade "
+"Fairs."
+msgstr ""
+"अपने सभी कार्यक्रमों, व्यापार सम्मेलनों, एक्सपो और व्यापार मेलों के लिए अग्रणी कार्यक्रम "
+"साइट।"
+
+#: templates/send-email-to-new-registered-user.php:51
+
+msgid ""
+"With your new account, you can now create event listings for your organizer "
+"and/or register for events."
+msgstr ""
+"अपने नए खाते के साथ, अब आप अपने आयोजक के लिए ईवेंट लिस्टिंग बना सकते हैं और / या ईवेंट के "
+"लिए पंजीकरण कर सकते हैं।"
+
+#: templates/send-email-to-new-registered-user.php:55
+
+msgid "Your login information "
+msgstr "आपकी लॉगिन जानकारी "
+
+#: templates/send-email-to-new-registered-user.php:57
+
+msgid "Email :"
+msgstr "ईमेल पता"
+
+#: templates/send-email-to-new-registered-user.php:59
+
+msgid "Username :"
+msgstr "उपयोगकर्ता नाम"
+
+#: templates/send-email-to-new-registered-user.php:65
+
+msgid ""
+"is the Fastest growing B2B Event Discovery Platform that connects "
+"Exhibitors, Organizers and Event Attendees all at one Place."
+msgstr ""
+"सबसे तेजी से बढ़ता बी 2 बी इवेंट डिस्कवरी प्लेटफॉर्म है जो प्रदर्शकों, आयोजकों और इवेंट "
+"उपस्थित लोगों को एक ही स्थान पर जोड़ता है।"
+
+#: templates/send-email-to-new-registered-user.php:68
+
+msgid ""
+"We Mean Business and helps Businesses across the Globe to Find Latest and "
+"Most Innovative Events in your Industry."
+msgstr ""
+"हमारा मतलब व्यवसाय है और दुनिया भर के व्यवसायों को आपके उद्योग में नवीनतम और सबसे नवीन "
+"घटनाओं को खोजने में मदद करता है।"
+
+#: templates/send-email-to-new-registered-user.php:72
+
+msgid "Get Started :"
+msgstr "आरंभ:"
+
+#: templates/send-email-to-new-registered-user.php:79
+
+msgid "we look forward to having you onboard!"
+msgstr "हम आपको जहाज पर लाने के लिए तत्पर हैं!"
+
+#: templates/send-email-to-new-registered-user.php:82
+
+msgid "Best wishes,"
+msgstr "शुभकामनाएँ"
+
+#: templates/send-email-to-new-registered-user.php:91
+
+msgid "&quot;We do all the work, and you get all the credit.&quot;"
+msgstr "&quot;हम सभी काम करते हैं, और आपको सारा श्रेय मिलता है।"
+
+#: wp-event-manager-emails.php:38
+
+msgid "WP Event Manager is require to use WP Event Manager Emails"
+msgstr "WP इवेंट मैनेजर को WP इवेंट मैनेजर ईमेल का उपयोग करने की आवश्यकता है"
+
+#: wp-event-manager-emails.php:149 wp-event-manager-emails.php:150
+#: wp-event-manager-emails.php:177 wp-event-manager-emails.php:178
+#: wp-event-manager-emails.php:224 wp-event-manager-emails.php:225
+#: wp-event-manager-emails.php:312 wp-event-manager-emails.php:313
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: wpem-emails-functions.php:37
+
+msgid "New Event \"[event_title]\" Submited Successfully"
+msgstr "नई घटना \"[event_title]\" सफलतापूर्वक सबमिट की गई"
+
+#: wpem-emails-functions.php:83
+
+msgid "Event \"[event_title]\" Published Successfully"
+msgstr "इवेंट \"[event_title]\" सफलतापूर्वक प्रकाशित"
+
+#: wpem-emails-functions.php:128
+
+msgid "Event \"[event_title]\" Expired"
+msgstr "इवेंट \"[event_title]\" की समय सीमा समाप्त हो गई"
+
+#: wpem-emails-functions.php:174
+
+msgid "New Event \"[event_title]\" Posted"
+msgstr "नई घटना \"[event_title]\" पोस्ट किया गया"
+
+#: wpem-emails-functions.php:191
+
+msgid "Site Admin Email"
+msgstr "साइट व्यवस्थापक ईमेल"
+
+#: wpem-emails-functions.php:192
+msgid "Organizer Email"
+msgstr "आयोजक ईमेल"
+
+#: wpem-emails-functions.php:193
+msgid "Name of the organizer which submitted the event listing"
+msgstr "इवेंट लिस्टिंग सबमिट करने वाले आयोजक का नाम"
+
+#: wpem-emails-functions.php:194
+msgid "Event Type"
+msgstr "इवेंट प्रकार"
+
+#: wpem-emails-functions.php:195
+msgid "Event Category"
+msgstr "इवेंट श्रेणी"
+
+#: wpem-emails-functions.php:197
+msgid "Event ID"
+msgstr "इवेंट आईडी"
+
+#: wpem-emails-functions.php:198
+msgid "Event Title"
+msgstr "इवेंट का शीर्षक"
+
+#: wpem-emails-functions.php:199
+
+msgid "Event Description"
+msgstr "इवेंट का विवरण"
+
+#: wpem-emails-functions.php:200
+msgid ""
+"Some meta data from the event. e.g. <code>[event_post_meta key="
+"\"_event_location\"]</code>"
+msgstr ""
+"घटना से कुछ मेटा डेटा। उदा. <code>[event_post_meta key=\"_event_location\"]</"
+"code>"
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Emails"
+msgstr "WP इवेंट मैनेजर - ईमेल"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/"
+msgstr "http://www.wp-eventmanager.com"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Changes the default user email templates. When new user register then send "
+"mail with own defined template."
+msgstr ""
+"डिफ़ॉल्ट उपयोगकर्ता ईमेल टेम्पलेट परिवर्तित करता है। जब नया उपयोगकर्ता पंजीकरण करता है "
+"तो स्वयं के परिभाषित टेम्पलेट के साथ मेल भेजें।"
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr "डब्ल्यूपी इवेंट मैनेजर"

@@ -1,0 +1,695 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Event Manager - Event Recurring\n"
+<<<<<<< HEAD
+"POT-Creation-Date: 2022-11-07 14:36+0530\n"
+"PO-Revision-Date: 2022-11-07 14:36+0530\n"
+=======
+"POT-Creation-Date: 2020-12-17 16:51+0530\n"
+"PO-Revision-Date: 2020-12-17 16:51+0530\n"
+>>>>>>> 686c5e97b23464f6a818cc2b5445466746dbab0d
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+<<<<<<< HEAD
+"X-Generator: Poedit 2.4.3\n"
+=======
+"X-Generator: Poedit 2.4.2\n"
+>>>>>>> 686c5e97b23464f6a818cc2b5445466746dbab0d
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-recurring-events.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+<<<<<<< HEAD
+#: admin/wpem-recurring-events-listing.php:69
+msgid "ID"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:70
+msgid "Event Title"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:71
+msgid "Start Date"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:72
+msgid "End Date"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:73
+msgid "Action"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:111
+#: admin/wpem-recurring-events-listing.php:125
+=======
+#: admin/wpem-recurring-events-listing.php:71
+msgid "ID"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:72
+msgid "Event Title"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:73
+msgid "Start Date"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:74
+msgid "End Date"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:75
+msgid "Action"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:106
+#: admin/wpem-recurring-events-listing.php:109
+>>>>>>> 686c5e97b23464f6a818cc2b5445466746dbab0d
+#, php-format
+msgid "%s"
+msgstr ""
+
+<<<<<<< HEAD
+#: admin/wpem-recurring-events-listing.php:113
+#: admin/wpem-recurring-events-listing.php:127
+msgid "-"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:133
+msgid "Duplicate all occurrence again"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:133
+msgid "Duplicate all occurrence"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:136
+msgid "Duplicate all occurrences"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:139
+msgid "View"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:140
+msgid "Delete occurrence"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:155
+msgid "No record found in the database."
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:100
+msgid "Event Recurring"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:105
+msgid "Duplicate Recurring Events"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:106
+msgid "Enable Duplicate Recurring Events"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:107
+=======
+#: admin/wpem-recurring-events-listing.php:114
+msgid "Duplicate all occurrence again"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:114
+msgid "Duplicate all occurrence"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:118
+msgid "Duplicate all occurrences"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:123
+msgid "View"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:125
+msgid "Delete occurrence"
+msgstr ""
+
+#: admin/wpem-recurring-events-listing.php:141
+msgid "No record found in the database."
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:55
+msgid "Event Recurring"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:60
+msgid "Duplicate Recurring Events"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:62
+msgid "Enable Duplicate Recurring Events"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:64
+>>>>>>> 686c5e97b23464f6a818cc2b5445466746dbab0d
+msgid ""
+"If enabled, recurring events creates duplicate events, else Cron schedules "
+"and updates current event after event end."
+msgstr ""
+
+<<<<<<< HEAD
+#: admin/wpem-recurring-writepanels.php:126
+msgid "Select All Events"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:130
+msgid "Parent Events"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:169
+#: forms/wpem-recurring-form-submit.php:26
+msgid "day(s)"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:170
+#: forms/wpem-recurring-form-submit.php:27
+msgid "week(s) on"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:171
+#: forms/wpem-recurring-form-submit.php:28
+msgid "month(s) on"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:172
+#: forms/wpem-recurring-form-submit.php:29
+msgid "of the month(s)"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:173
+#: forms/wpem-recurring-form-submit.php:30
+msgid "year(s) on"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:201
+#: forms/wpem-recurring-form-submit.php:57
+msgid "Event Recurrence"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:207
+#: forms/wpem-recurring-form-submit.php:61
+msgid "Don't repeat"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:208
+#: forms/wpem-recurring-form-submit.php:62
+msgid "Daily"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:209
+#: forms/wpem-recurring-form-submit.php:63
+msgid "Weekly"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:210
+#: forms/wpem-recurring-form-submit.php:64
+msgid "Monthly"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:211
+#: forms/wpem-recurring-form-submit.php:65
+msgid "Yearly"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:215
+#: forms/wpem-recurring-form-submit.php:71
+msgid "Repeat Every"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:224
+#: forms/wpem-recurring-form-submit.php:80
+msgid "On The"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:229
+#: forms/wpem-recurring-form-submit.php:85
+msgid "same day"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:230
+#: forms/wpem-recurring-form-submit.php:86
+msgid "specific day"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:234
+#: forms/wpem-recurring-form-submit.php:90
+msgid "Day Number"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:239
+#: forms/wpem-recurring-form-submit.php:95
+msgid "First"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:240
+#: forms/wpem-recurring-form-submit.php:96
+msgid "Second"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:241
+#: forms/wpem-recurring-form-submit.php:97
+msgid "Third"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:242
+#: forms/wpem-recurring-form-submit.php:98
+msgid "Fourth"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:243
+#: forms/wpem-recurring-form-submit.php:99
+msgid "Last"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:248
+#: forms/wpem-recurring-form-submit.php:103
+msgid "Day Name"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:253
+#: forms/wpem-recurring-form-submit.php:108
+msgid "Sunday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:254
+#: forms/wpem-recurring-form-submit.php:109
+msgid "Monday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:255
+#: forms/wpem-recurring-form-submit.php:110
+msgid "Tuesday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:256
+#: forms/wpem-recurring-form-submit.php:111
+msgid "Wednesday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:257
+#: forms/wpem-recurring-form-submit.php:112
+msgid "Thursday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:258
+#: forms/wpem-recurring-form-submit.php:113
+msgid "Friday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:259
+#: forms/wpem-recurring-form-submit.php:114
+msgid "Saturday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:263
+#: forms/wpem-recurring-form-submit.php:118
+msgid "Repeat untill"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:440
+#: admin/wpem-recurring-writepanels.php:486
+msgid "Opps! something went wrong."
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:484
+msgid "Successfully! delete recurring events."
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:496
+msgid "Recurring Events"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:509
+msgid "Recurring Event List"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:514
+msgid "Event duplicated successfully."
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:519
+msgid "Recurrece event deleted successfully."
+=======
+#: admin/wpem-recurring-writepanels.php:87
+msgid "Select All Events"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:94
+msgid "Parent Events"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:135
+#: forms/wpem-recurring-form-submit.php:31
+msgid "day(s)"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:136
+#: forms/wpem-recurring-form-submit.php:32
+msgid "week(s) on"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:137
+#: forms/wpem-recurring-form-submit.php:33
+msgid "month(s) on"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:138
+#: forms/wpem-recurring-form-submit.php:34
+msgid "of the month(s)"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:139
+#: forms/wpem-recurring-form-submit.php:35
+msgid "year(s) on"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:171
+#: forms/wpem-recurring-form-submit.php:65
+msgid "Event Recurrence"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:177
+msgid "Dont't repeat"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:178
+#: forms/wpem-recurring-form-submit.php:70
+msgid "Daily"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:179
+#: forms/wpem-recurring-form-submit.php:71
+msgid "Weekly"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:180
+#: forms/wpem-recurring-form-submit.php:72
+msgid "Monthly"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:181
+#: forms/wpem-recurring-form-submit.php:73
+msgid "Yearly"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:186
+#: forms/wpem-recurring-form-submit.php:81
+msgid "Repeat Every"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:196
+#: forms/wpem-recurring-form-submit.php:91
+msgid "On The"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:201
+#: forms/wpem-recurring-form-submit.php:96
+msgid "same day"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:202
+#: forms/wpem-recurring-form-submit.php:97
+msgid "specific day"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:207
+#: forms/wpem-recurring-form-submit.php:102
+msgid "Day Number"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:212
+#: forms/wpem-recurring-form-submit.php:107
+msgid "First"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:213
+#: forms/wpem-recurring-form-submit.php:108
+msgid "Second"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:214
+#: forms/wpem-recurring-form-submit.php:109
+msgid "Third"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:215
+#: forms/wpem-recurring-form-submit.php:110
+msgid "Fourth"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:216
+#: forms/wpem-recurring-form-submit.php:111
+msgid "Last"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:222
+#: forms/wpem-recurring-form-submit.php:116
+msgid "Day Name"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:227
+#: forms/wpem-recurring-form-submit.php:121
+msgid "Sunday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:228
+#: forms/wpem-recurring-form-submit.php:122
+msgid "Monday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:229
+#: forms/wpem-recurring-form-submit.php:123
+msgid "Tuesday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:230
+#: forms/wpem-recurring-form-submit.php:124
+msgid "Wednesday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:231
+#: forms/wpem-recurring-form-submit.php:125
+msgid "Thursday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:232
+#: forms/wpem-recurring-form-submit.php:126
+msgid "Friday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:233
+#: forms/wpem-recurring-form-submit.php:127
+msgid "Saturday"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:238
+#: forms/wpem-recurring-form-submit.php:132
+msgid "Repeat untill"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:441
+#: admin/wpem-recurring-writepanels.php:490
+msgid "Opps! something went wrong."
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:487
+msgid "Successfully! delete recurring events."
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:500
+msgid "Recurring Events"
+msgstr ""
+
+#: admin/wpem-recurring-writepanels.php:515
+msgid "Recurring Event List"
+>>>>>>> 686c5e97b23464f6a818cc2b5445466746dbab0d
+msgstr ""
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:38
+#: autoupdater/wpem-updater-license.php:63
+msgid "License"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr ""
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr ""
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr ""
+
+#: autoupdater/templates/key-input.php:4
+msgid "Licence"
+msgstr ""
+
+#: autoupdater/templates/key-input.php:7
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr ""
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:90
+msgid "Lost your license key?"
+<<<<<<< HEAD
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:90
+msgid "Retrieve it here"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:267
+msgid "Activate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:275
+msgid "Deactivate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:420
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+
+=======
+msgstr ""
+
+#: autoupdater/wpem-updater-license.php:90
+msgid "Retrieve it here"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:267
+msgid "Activate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:275
+msgid "Deactivate licence"
+msgstr ""
+
+#: autoupdater/wpem-updater.php:420
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+
+#: forms/wpem-recurring-form-submit.php:69
+msgid "Don't repeat"
+msgstr ""
+
+>>>>>>> 686c5e97b23464f6a818cc2b5445466746dbab0d
+#: wp-event-manager-recurring-events.php:38
+msgid "WP Event Manager is require to use Wp Event Manager - Event Recurring"
+msgstr ""
+
+<<<<<<< HEAD
+#: wp-event-manager-recurring-events.php:151
+msgid "Once Weekly"
+msgstr ""
+
+#: wp-event-manager-recurring-events.php:155
+msgid "Once a month"
+msgstr ""
+
+#: wp-event-manager-recurring-events.php:159
+=======
+#: wp-event-manager-recurring-events.php:167
+msgid "Once Weekly"
+msgstr ""
+
+#: wp-event-manager-recurring-events.php:171
+msgid "Once a month"
+msgstr ""
+
+#: wp-event-manager-recurring-events.php:175
+>>>>>>> 686c5e97b23464f6a818cc2b5445466746dbab0d
+msgid "Once Yearly"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Event Manager - Event Recurring"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/product-category/plugins/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Repeated events after specific time like daily, weekly, monthly or yearly."
+"Automatically relist event.Your event will be republished after a specific "
+"time."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.wp-eventmanager.com/"
+msgstr ""

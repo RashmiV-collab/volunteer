@@ -1,0 +1,84 @@
+# Copyright (C) 2020 WP Sheet Editor
+# This file is distributed under the same license as the WP Sheet Editor - Custom Tables plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Sheet Editor - Custom Tables 1.1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/custom-tables\n"
+"Language-Team: Hanno Bolte IT Consulting <info@bsoft.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-10-20T18:03:00+00:00\n"
+"PO-Revision-Date: 2020-11-06 10:23+0100\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Hanno Bolte <xlate@bsoft.de>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+
+#. Plugin Name of the plugin
+msgid "WP Sheet Editor - Custom Tables"
+msgstr "WP Sheet Editor - Benutzerdefinierte Tabellen"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/extensions/custom-database-tables-spreadsheet/?"
+"utm_source=wp-admin&utm_medium=plugins-list&utm_campaign=custom-tables"
+msgstr ""
+"https://wpsheeteditor.com/extensions/custom-database-tables-spreadsheet/?"
+"utm_source=wp-admin&utm_medium=plugins-list&utm_campaign=custom-tables"
+
+#. Description of the plugin
+msgid "Create spreadsheet editors for custom database tables"
+msgstr ""
+"Erstellen von Arbeitsblatteditoren für benutzerdefinierte "
+"Datenbanktabellen"
+
+#. Author of the plugin
+msgid "WP Sheet Editor"
+msgstr "WP Sheet Editor"
+
+#. Author URI of the plugin
+msgid ""
+"http://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-"
+"list&utm_campaign=wc-orders"
+msgstr ""
+"http://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-"
+"list&utm_campaign=wc-orders"
+
+#: custom-tables.php:79
+msgid ""
+"Please update the WP Sheet Editor plugin and all its extensions to the "
+"latest version. The features of the plugin \""
+msgstr ""
+"Bitte aktualisiere das WP Sheet Editor Plugin und alle seine "
+"Erweiterungen auf die neueste Version. Die Eigenschaften des Plugins \""
+
+#: inc/bootstrap.php:18
+msgid "Edit custom database tables"
+msgstr "Bearbeiten benutzerdefinierter Datenbanktabellen"
+
+#: inc/bootstrap.php:42
+msgid "ID"
+msgstr "ID"
+
+#: inc/sheet.php:219
+msgid "Status"
+msgstr "Status"
+
+#: views/welcome-page-content.php:4
+msgid "Thank you for installing our plugin."
+msgstr "Vielen Dank für die Installation unseres Plugins."
+
+#: views/welcome-page-content.php:26
+msgid "We could not find any custom tables in your database."
+msgstr ""
+"Wir konnten keine benutzerdefinierten Tabellen in deiner Datenbank finden."
+
+#: views/welcome-page-content.php:28
+msgid ""
+"We have generated spreadsheets for the custom tables below. Just click on "
+"the table you want to edit:  %s"
+msgstr ""
+"Wir haben Arbeitsblätter für die untenstehenden benutzerdefinierten "
+"Tabellen erstellt. Klick einfach auf die Tabelle, die du bearbeiten "
+"möchtest: %s"

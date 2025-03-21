@@ -1,0 +1,469 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Event Manager - WooCommerce Paid Listings\n"
+"POT-Creation-Date: 2019-08-02 20:56+0530\n"
+"PO-Revision-Date: 2019-08-02 20:56+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-wc-paid-listings.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:61
+msgid "Package Type"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:65
+#: admin/wp-event-manager-wcpl-admin-packages.php:64
+#: admin/wp-event-manager-wcpl-admin.php:134
+msgid "Event Package"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:71
+msgid "Listing Limit"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:72
+msgid "How many listings should this package allow the user to post?"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:75
+#: admin/wp-event-manager-wcpl-admin-packages.php:62
+#: templates/admin/html-event-package-data.php:24 templates/my-packages.php:29
+msgid "Unlimited"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:80
+msgid "Listing Count"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:81
+msgid "How many listings has the user already posted with this package?"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:89
+#: templates/my-packages.php:18
+msgid "Listing Duration"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:90
+msgid "How many days should listings posted with this package be active?"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:93
+msgid "Default"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:98
+#: templates/admin/html-event-package-data.php:49
+msgid "Feature Listings?"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:106
+#: admin/wp-event-manager-wcpl-admin-packages.php:90
+msgid "User"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:111
+#: admin/wp-event-manager-wcpl-admin-add-package.php:113
+msgid "Guest"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:122
+#: admin/wp-event-manager-wcpl-admin-packages.php:92
+msgid "Product"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:123
+msgid "Optionally link this package to a product."
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:126
+msgid "Choose a product&hellip;"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:157
+#: admin/wp-event-manager-wcpl-admin-packages.php:96
+msgid "Order ID"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:158
+msgid "Optionally link this package to an order."
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:161
+msgid "N/A"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:167
+msgid "Save Package"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-add-package.php:227
+msgid "Package successfully saved"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-packages.php:46
+#: admin/wp-event-manager-wcpl-admin-packages.php:53
+#: admin/wp-event-manager-wcpl-admin-packages.php:56
+msgid "n/a"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-packages.php:60
+#, php-format
+msgid "%d Days"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-packages.php:62
+#, php-format
+msgid "%s Posted"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-packages.php:76
+msgid "Edit"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-packages.php:77
+msgid "Delete"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-packages.php:91
+msgid "Type"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-packages.php:93
+msgid "Limit"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-packages.php:94
+msgid "Duration"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-packages.php:95
+#: templates/my-packages.php:20
+msgid "Featured?"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin-packages.php:97
+msgid "Actions"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin.php:46
+msgid "WooCommerce"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin.php:56
+#: admin/wp-event-manager-wcpl-admin.php:87
+msgid "Listing Packages"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin.php:76
+msgid "Package successfully deleted"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin.php:87
+#: admin/wp-event-manager-wcpl-admin.php:106
+msgid "Add User Package"
+msgstr ""
+
+#: admin/wp-event-manager-wcpl-admin.php:137
+msgid "Event Package Subscription"
+msgstr ""
+
+#: autoupdater/gam-plugin-updater.php:408
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr ""
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr ""
+
+#: autoupdater/templates/key-input.php:4
+msgid "Licence"
+msgstr ""
+
+#: autoupdater/templates/key-input.php:7
+msgid ""
+"Enter your licence key and email and hit return. A valid key is required for "
+"automatic updates."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr ""
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: core/wp-event-manager-wcpl-cart.php:117
+#: core/wp-event-manager-wcpl-cart.php:136
+#: core/wp-event-manager-wcpl-cart.php:153
+msgid "Event Listing"
+msgstr ""
+
+#: core/wp-event-manager-wcpl-orders.php:58
+#, php-format
+msgid "%s has been submitted successfully and will be visible once approved."
+msgstr ""
+
+#: core/wp-event-manager-wcpl-orders.php:62
+#, php-format
+msgid ""
+"%s has been submitted successfully and will be visible once payment has been "
+"confirmed."
+msgstr ""
+
+#: core/wp-event-manager-wcpl-orders.php:65
+#, php-format
+msgid "%s has been submitted successfully."
+msgstr ""
+
+#: core/wp-event-manager-wcpl-orders.php:72
+msgid "View Listing"
+msgstr ""
+
+#: core/wp-event-manager-wcpl-orders.php:74
+msgid "View Dashboard"
+msgstr ""
+
+#: core/wp-event-manager-wcpl-product-event-package.php:56
+msgid "Add to cart"
+msgstr ""
+
+#: core/wp-event-manager-wcpl-product-event-package.php:56
+msgid "Read More"
+msgstr ""
+
+#: core/wp-event-manager-wcpl-submit-event-form.php:71
+msgid "Choose a package &rarr;"
+msgstr ""
+
+#: core/wp-event-manager-wcpl-submit-event-form.php:134
+#: core/wp-event-manager-wcpl-submit-event-form.php:189
+msgid "Choose a package"
+msgstr ""
+
+#: core/wp-event-manager-wcpl-submit-event-form.php:186
+msgid "Submit"
+msgstr ""
+
+#: core/wp-event-manager-wcpl-submit-event-form.php:186
+msgid "Select package"
+msgstr ""
+
+#: core/wp-event-manager-wcpl-submit-event-form.php:217
+#: core/wp-event-manager-wcpl-submit-event-form.php:220
+#: core/wp-event-manager-wcpl-submit-event-form.php:225
+msgid "Invalid Package"
+msgstr ""
+
+#: core/wp-event-manager-wcpl-submit-event-form.php:236
+msgid "You already have this subscription."
+msgstr ""
+
+#: templates/admin/html-event-package-data.php:9
+msgid "Subscription Type"
+msgstr ""
+
+#: templates/admin/html-event-package-data.php:10
+msgid "Choose how subscriptions affect this package"
+msgstr ""
+
+#: templates/admin/html-event-package-data.php:14
+msgid ""
+"Link the subscription to the package (renew listing limit every subscription "
+"term)"
+msgstr ""
+
+#: templates/admin/html-event-package-data.php:15
+msgid ""
+"Link the subscription to posted listings (renew posted listings every "
+"subscription term)"
+msgstr ""
+
+#: templates/admin/html-event-package-data.php:21
+msgid "Event listing limit"
+msgstr ""
+
+#: templates/admin/html-event-package-data.php:22
+msgid "The number of event listings a user can post with this package."
+msgstr ""
+
+#: templates/admin/html-event-package-data.php:35
+msgid "Event listing duration"
+msgstr ""
+
+#: templates/admin/html-event-package-data.php:36
+msgid "The number of days that the event listing will be active."
+msgstr ""
+
+#: templates/admin/html-event-package-data.php:50
+msgid "Feature this event listing - it will be styled differently and sticky."
+msgstr ""
+
+#: templates/my-packages.php:11
+msgid "My Event Packages"
+msgstr ""
+
+#: templates/my-packages.php:15
+msgid "Package Name"
+msgstr ""
+
+#: templates/my-packages.php:16
+msgid "Remaining"
+msgstr ""
+
+#: templates/my-packages.php:31
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/my-packages.php:33
+msgid "Yes"
+msgstr ""
+
+#: templates/my-packages.php:33
+msgid "No"
+msgstr ""
+
+#: templates/package-selection.php:8
+msgid "Your Packages:"
+msgstr ""
+
+#: templates/package-selection.php:20
+#, php-format
+msgid "%1$s event posted out of %2$d"
+msgid_plural "%1$s events posted out of %2$d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:22
+#, php-format
+msgid "%s event posted"
+msgid_plural "%s events posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:25 templates/package-selection.php:64
+#, php-format
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:38
+msgid "Purchase Package:"
+msgstr ""
+
+#: templates/package-selection.php:63
+#, php-format
+msgid "%1$s for %2$s event"
+msgid_plural "%1$s for %2$s events"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:63
+msgid "unlimited"
+msgstr ""
+
+#: templates/package-selection.php:79
+msgid "No packages found"
+msgstr ""
+
+#: wp-event-manager-wc-paid-listings.php:39
+msgid ""
+"WP Event Manager is require to use WP Event Manager Woocommerce Paid Listings"
+msgstr ""
+
+#: wp-event-manager-wc-paid-listings.php:54
+msgid "Woocommerce is require to use WooCommerce Paid Listings"
+msgstr ""
+
+#: wp-event-manager-wc-paid-listings.php:122
+msgctxt "event_listing"
+msgid "Pending Payment"
+msgstr ""
+
+#: wp-event-manager-wc-paid-listings.php:127
+#, php-format
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-event-manager-wc-paid-listings.php:150
+msgid "Pending Payment"
+msgstr ""
+
+#: wp-event-manager-wc-paid-listings.php:174
+msgid "Paid Listings Flow"
+msgstr ""
+
+#: wp-event-manager-wc-paid-listings.php:175
+msgid "Define when the user should choose a package for submission."
+msgstr ""
+
+#: wp-event-manager-wc-paid-listings.php:178
+msgid "Choose a package after entering event details"
+msgstr ""
+
+#: wp-event-manager-wc-paid-listings.php:179
+msgid "Choose a package before entering event details"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Event Manager - WooCommerce Paid Listings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "paid listing with woocommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr ""

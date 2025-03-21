@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" bootstrap="tests/bootstrap.php" backupGlobals="false" colors="true" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.1/phpunit.xsd">
+
+  <testsuites>
+    <testsuite name="e-signature">
+      <directory prefix="test" suffix=".php">./tests/</directory>
+      <directory prefix="test" suffix=".php">./tests/controller/</directory>
+      <directory prefix="test" suffix=".php">./tests/models/</directory>
+      <directory prefix="test" suffix=".php">./tests/includes/</directory>
+      <exclude>./tests/test-sample.php</exclude>
+    </testsuite>
+  </testsuites>
+  <logging>
+  <junit outputFile="./tests/esig-test-result.xml"/>
+  </logging>
+</phpunit>

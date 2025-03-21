@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: WP Event Manager - Attendee Information\n"
+"POT-Creation-Date: 2023-07-21 10:52+0530\n"
+"PO-Revision-Date: 2023-07-21 10:53+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-attendee-information.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: hi_IN\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-attendee-information-writepanels.php:31
+
+msgid "WP Event Manager Attendee Information"
+msgstr "WP इवेंट प्रबंधक सहभागी जानकारी"
+
+#: admin/wpem-attendee-information-writepanels.php:45
+
+msgid "Event Attendee List"
+msgstr "इवेंट सहभागी सूची"
+
+#: admin/wpem-attendee-information-writepanels.php:46
+
+msgid "This will return all attendee of particular event"
+msgstr "यह विशेष ईवेंट के सभी सहभागियों को वापस कर देगा।"
+
+#: admin/wpem-attendee-information-writepanels.php:71
+
+msgid "Attendee Information Collection Type"
+msgstr "सहभागी जानकारी संग्रह प्रकार"
+
+#: admin/wpem-attendee-information-writepanels.php:74
+#: forms/wpem-attendee-information-form-submit-event.php:35
+
+msgid "Buyer Only"
+msgstr "केवल खरीदार"
+
+#: admin/wpem-attendee-information-writepanels.php:75
+#: forms/wpem-attendee-information-form-submit-event.php:36
+
+msgid "Each Attendee"
+msgstr "प्रत्येक उपस्थित व्यक्ति"
+
+#: admin/wpem-attendee-information-writepanels.php:83
+#: forms/wpem-attendee-information-form-submit-event.php:44
+msgid "There is no any field in registration form"
+msgstr "रजिस्ट्रेशन फॉर्म में कोई फील्ड नहीं है।"
+
+#: admin/wpem-attendee-information-writepanels.php:83
+#: forms/wpem-attendee-information-form-submit-event.php:44
+
+msgid ""
+"Based on selected fields, you will collect information from the attendee"
+msgstr "चयनित फ़ील्ड के आधार पर, आप सहभागी से जानकारी एकत्र करेंगे"
+
+#: admin/wpem-attendee-information-writepanels.php:85
+
+msgid "Attendee Information To Collect"
+msgstr "सहभागी जानकारी एकत्र करने के लिए"
+
+#: admin/wpem-attendee-information-writepanels.php:104
+#: external/elementor-widgets/elementor-event-attendee.php:36
+#: templates/attendee-listings.php:7
+
+msgid "Attendee Information"
+msgstr "सहभागी जानकारी"
+
+#: admin/wpem-attendee-information-writepanels.php:109
+
+msgid "Show Attendee"
+msgstr "सहभागी दिखाएँ"
+
+#: admin/wpem-attendee-information-writepanels.php:110
+
+msgid "Show attendee Publicly"
+msgstr "सार्वजनिक रूप से शो में भाग लेने वाला"
+
+#: admin/wpem-attendee-information-writepanels.php:111
+
+msgid "Show attendee publicly at single event page."
+msgstr "सहभागी को एकल ईवेंट पृष्ठ पर सार्वजनिक रूप से दिखाएँ."
+
+#: admin/wpem-attendee-information-writepanels.php:117
+
+msgid "Attendee Per Page"
+msgstr "सहभागी प्रति पृष्ठ"
+
+#: admin/wpem-attendee-information-writepanels.php:118
+
+msgid "Show attendee per page"
+msgstr "सहभागी प्रति पृष्ठ दिखाएँ"
+
+#: admin/wpem-attendee-information-writepanels.php:119
+
+msgid "Default 10 attendee show at single event page."
+msgstr "डिफ़ॉल्ट रूप से 10 सहभागी एकल ईवेंट पृष्ठ पर दिखाएँ."
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "के लिए <strong>%s</strong> आपका लाइसेंस सक्रिय कर दिया गया है. धन्यवाद!"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+msgid "License"
+msgstr "लाइसेंस"
+
+#: autoupdater/templates/addon-licence.php:14
+#: shortcodes/wpem-attendee-information-shortcodes.php:90
+msgid "Email"
+msgstr "ईमेल"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "ईमेल पता"
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr "लायसेंस सक्रिय करें"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "के लिए <strong>%s</strong> आपका लाइसेंस निष्क्रिय कर दिया गया है."
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr "सूचना छुपाएँ"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"कृपया \"%2$s\" के लिए अपडेट प्राप्त करने के लिए नीचे दी गई प्लगइन सूची में <a href=\"%1$s"
+"\">अपनी लाइसेंस कुंजी दर्ज करें</a>।"
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "अपनी चाबी खो दी है? <a href=\"%s\">इसे यहाँ पुनर्प्राप्त करें</a>।"
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"%1$s का नया संस्करण उपलब्ध है. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">संस्करण देखें%3$s विवरण</a> या <a href=\"%4$s\">अब अद्यतन</a>करें."
+
+#: autoupdater/wpem-updater-license.php:77
+msgid "Lost your license key?"
+msgstr "अपनी लाइसेंस कुंजी खो दी है?"
+
+#: autoupdater/wpem-updater-license.php:77
+msgid "Retrieve it here"
+msgstr "इसे यहाँ पुनर्प्राप्त करें"
+
+#: autoupdater/wpem-updater.php:266
+msgid "Activate licence"
+msgstr "लाइसेंस सक्रिय करें"
+
+#: autoupdater/wpem-updater.php:274
+msgid "Deactivate licence"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+"%1$s के लिए लाइसेंस कुंजी नहीं मिल सकी। हो सकता है कि आप %2$s सेट करते समय लाइसेंस कुंजी "
+"दर्ज करना भूल गए हों।"
+
+#: external/elementor-widgets/elementor-event-attendee.php:90
+
+msgid "Event Attendee Information"
+msgstr "इवेंट सहभागी जानकारी"
+
+#: external/elementor-widgets/elementor-event-attendee.php:111
+msgid "Not Found Event"
+msgstr "ईवेंट नहीं मिला"
+
+#: external/elementor-widgets/elementor-event-attendee.php:117
+msgid "Select Event"
+msgstr "इवेंट का चयन करें"
+
+#: external/elementor-widgets/elementor-event-attendee.php:127
+msgid "Post Per Page"
+msgstr "पृष्ठ प्रति पोस्ट"
+
+#: external/elementor-widgets/elementor-event-attendee.php:168
+
+msgid "No Attendee Found."
+msgstr "कोई सहभागी नहीं मिला."
+
+#: forms/wpem-attendee-information-form-submit-event.php:32
+
+msgid "Attendee Information Collection type"
+msgstr "सहभागी सूचना संग्रह प्रकार"
+
+#: forms/wpem-attendee-information-form-submit-event.php:47
+
+msgid "Attendee Information to collect"
+msgstr "सहभागी जानकारी एकत्र करने के लिए"
+
+#: shortcodes/wpem-attendee-information-shortcodes.php:89
+msgid "Name"
+msgstr "नाम"
+
+#: shortcodes/wpem-attendee-information-shortcodes.php:91
+msgid "Date Received"
+msgstr "प्राप्त दिनांक"
+
+#: wp-event-manager-attendee-information.php:37
+
+msgid ""
+"WP Event Manager is require to use WP Event Manager Attendee Information"
+msgstr "WP इवेंट प्रबंधक को WP इवेंट प्रबंधक सहभागी जानकारी का उपयोग करने की आवश्यकता है"
+
+#: wp-event-manager-attendee-information.php:49
+
+msgid ""
+"WP Event Manager Registrations addon is require to use WP Event Manager "
+"Attendee Information"
+msgstr ""
+"WP इवेंट प्रबंधक सहभागी जानकारी का उपयोग करने के लिए WP इवेंट प्रबंधक पंजीकरण ऐडऑन की "
+"आवश्यकता है"
+
+#: wp-event-manager-attendee-information.php:61
+
+msgid ""
+"WP Event Manager Sell Tickets addon is require to use WP Event Manager "
+"Attendee Information"
+msgstr ""
+"WP इवेंट प्रबंधक बिक्री टिकट ऐडऑन WP इवेंट प्रबंधक सहभागी जानकारी का उपयोग करने के लिए "
+"आवश्यक है"
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Attendee Information"
+msgstr "WP इवेंट मैनेजर - सहभागी जानकारी"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/"
+msgstr "http://www.wp-eventmanager.com"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Collect the Information from attendee based on the organizer selected fields."
+msgstr "आयोजक चयनित फ़ील्ड्स के आधार पर सहभागी से जानकारी एकत्रित करें."
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr "डब्ल्यूपी इवेंट मैनेजर"

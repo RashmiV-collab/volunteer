@@ -1,0 +1,573 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Project-Id-Version: WP Event Manager - Event Tags\n"
+"POT-Creation-Date: 2023-07-28 11:14+0530\n"
+"PO-Revision-Date: 2023-07-28 11:15+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-event-tags.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: hi_IN\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-event-tags-admin.php:26
+
+msgid "WP Event Manager Event Tags"
+msgstr "WP इवेंट प्रबंधक इवेंट टैग"
+
+#: admin/wpem-event-tags-admin.php:40
+
+msgid "Events by Tag"
+msgstr "टैग के अनुसार ईवेंट"
+
+#: admin/wpem-event-tags-admin.php:46
+
+msgid "Event Tag Cloud"
+msgstr "इवेंट टैग क्लाउड"
+
+#: admin/wpem-event-tags-admin.php:60
+msgid "Settings"
+msgstr "भाषा बदलें"
+
+#: admin/wpem-event-tags-admin.php:117
+msgid "Registrations"
+msgstr "पंजीकृत उपयोगकर्ता"
+
+#: admin/wpem-event-tags-admin.php:159
+msgid "Attendee name"
+msgstr "सहभागी का नाम"
+
+#: admin/wpem-event-tags-admin.php:174 admin/wpem-event-tags-admin.php:177
+msgid "Event registration updated."
+msgstr "इवेंट पंजीकरण अद्यतन किया गया."
+
+#: admin/wpem-event-tags-admin.php:175
+msgid "Custom field updated."
+msgstr "कस्टम फ़ील्ड सम्पादित किया गया।"
+
+#: admin/wpem-event-tags-admin.php:176
+msgid "Custom field deleted."
+msgstr "कस्टम फ़ील्ड हटाई गई."
+
+#: admin/wpem-event-tags-admin.php:179
+msgid "Event registration published."
+msgstr "इवेंट पंजीकरण प्रकाशित किया गया।"
+
+#: admin/wpem-event-tags-admin.php:180
+msgid "Event registration saved."
+msgstr "इवेंट पंजीकरण सहेजा गया."
+
+#: admin/wpem-event-tags-admin.php:181
+msgid "Event registration submitted."
+msgstr "इवेंट पंजीकरण प्रस्तुत किया गया।"
+
+#: admin/wpem-event-tags-admin.php:183
+msgid "Event registration draft updated."
+msgstr "इवेंट पंजीकरण ड्राफ्ट अद्यतन किया गया."
+
+#: admin/wpem-event-tags-admin.php:201
+msgid "Attendee"
+msgstr "सहभागी"
+
+#: admin/wpem-event-tags-admin.php:202
+msgid "Avatar"
+msgstr "अवतार"
+
+#: admin/wpem-event-tags-admin.php:203
+msgid "Event registered for"
+msgstr "इवेंट के लिए पंजीकृत"
+
+#: admin/wpem-event-tags-admin.php:204
+msgid "Notes"
+msgstr "नोट्स"
+
+#: admin/wpem-event-tags-admin.php:205
+msgid "Posted"
+msgstr "द्वारा पोस्ट किया गया"
+
+#: admin/wpem-event-tags-admin.php:206
+msgid "Organizers"
+msgstr "आयोजकों"
+
+#: admin/wpem-event-tags-admin.php:207
+msgid "Status"
+msgstr "स्थिति"
+
+#: admin/wpem-event-tags-admin.php:208 admin/wpem-event-tags-admin.php:284
+msgid "Check in"
+msgstr "चेक इन करो"
+
+#: admin/wpem-event-tags-admin.php:209
+msgid "Actions"
+msgstr "कार्रवाइयाँ"
+
+#: admin/wpem-event-tags-admin.php:231
+#, php-format
+msgid "Organizer ID: %d"
+msgstr "आयोजक ID: %d"
+
+#: admin/wpem-event-tags-admin.php:246
+#, php-format
+msgid "Registration ID: %d"
+msgstr "रजिस्ट्रेशन आईडी: %d"
+
+#: admin/wpem-event-tags-admin.php:251
+msgid "Show more details"
+msgstr "अधिक विवरण दिखाएँ"
+
+#: admin/wpem-event-tags-admin.php:260
+#, php-format
+msgid "Event ID: %d"
+msgstr "इवेंट आईडी: %d"
+
+#: admin/wpem-event-tags-admin.php:268
+#, php-format
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "%d नोट"
+msgstr[1] "%d नोट्स"
+
+#: admin/wpem-event-tags-admin.php:271
+msgid "M j, Y"
+msgstr "एम जे, वाई"
+
+#: admin/wpem-event-tags-admin.php:272
+msgid "by a guest"
+msgstr "अतिथि उपयोगकर्ता"
+
+#: admin/wpem-event-tags-admin.php:272
+#, php-format
+msgid "by %s"
+msgstr "%s द्वारा"
+
+#: admin/wpem-event-tags-admin.php:285
+msgid "Undo Check in"
+msgstr "चेक इन पूर्ववत् करें"
+
+#: admin/wpem-event-tags-admin.php:294
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: admin/wpem-event-tags-admin.php:299
+msgid "Delete"
+msgstr "हटाएं"
+
+#: admin/wpem-event-tags-admin.php:329
+msgid "Registrations for all events"
+msgstr "सभी घटनाओं के लिए पंजीकरण"
+
+#: admin/wpem-event-tags-admin.php:354
+msgid "Select Organizer"
+msgstr "आयोजक का चयन करें"
+
+#: admin/wpem-event-tags-admin.php:484
+msgid "Export Registrations"
+msgstr "निर्यात पंजीकरण"
+
+#: admin/wpem-event-tags-admin.php:568
+msgid "registrations"
+msgstr "पंजीकृत उपयोगकर्ता"
+
+#: admin/wpem-event-tags-admin.php:574
+msgid "Event id"
+msgstr "इवेंट आईडी"
+
+#: admin/wpem-event-tags-admin.php:575
+msgid "Registration id"
+msgstr "रजिस्ट्रेशन आईडी"
+
+#: admin/wpem-event-tags-admin.php:576
+msgid "Registration date"
+msgstr "रजिस्ट्रेशन की तारीख"
+
+#: admin/wpem-event-tags-admin.php:577
+msgid "Registration status"
+msgstr "पंजीकरण की स्थिति"
+
+#: admin/wpem-event-tags-admin.php:673
+msgid "Edit Event"
+msgstr "इवेंट संपादित करें"
+
+#: admin/wpem-event-tags-settings.php:31
+
+msgid "Tag Archives"
+msgstr "टैग अभिलेखागार"
+
+#: admin/wpem-event-tags-settings.php:32
+
+msgid "Enable Tag Archives"
+msgstr "टैग अभिलेखागार सक्षम करें"
+
+#: admin/wpem-event-tags-settings.php:33 admin/wpem-event-tags-settings.php:63
+
+msgid ""
+"Enabling tag archives will make event tags (inside events and tag clouds) "
+"link through to an archive of all events with said tag. Please note, tag "
+"archives will look like your post archives unless you create a special "
+"template to handle the display of event listings called <code>taxonomy-"
+"event_listing_tag.php</code> inside your theme. See <a href=\"http://codex."
+"wordpress.org/Template_Hierarchy#Custom_Taxonomies_display\">Template "
+"Hierarchy</a> for more information."
+msgstr ""
+"टैग अभिलेखागार को सक्षम करने से इवेंट टैग (घटनाओं और टैग बादलों के अंदर) उक्त टैग के साथ "
+"सभी घटनाओं के संग्रह के माध्यम से लिंक हो जाएगा। कृपया ध्यान दें, टैग अभिलेखागार आपके पोस्ट "
+"अभिलेखागार की तरह दिखेंगे जब तक कि आप अपनी थीम के अंदर बुलाए गए <code>taxonomy-"
+"event_listing_tag.php</code> इवेंट लिस्टिंग के प्रदर्शन को संभालने के लिए एक विशेष "
+"टेम्पलेट नहीं बनाते हैं। अधिक जानकारी के लिए <a href=\"http://codex.wordpress.org/"
+"Template_Hierarchy#Custom_Taxonomies_display\">टेम्पलेट पदानुक्रम</a> देखें."
+
+#: admin/wpem-event-tags-settings.php:39
+
+msgid "Tags Filter Type"
+msgstr "टैग फ़िल्टर प्रकार"
+
+#: admin/wpem-event-tags-settings.php:40
+
+msgid "Determines how events are queried when selecting tags."
+msgstr "निर्धारित करता है कि टैग का चयन करते समय ईवेंट ्स को कैसे क्वेरी किया जाता है."
+
+#: admin/wpem-event-tags-settings.php:43
+
+msgid "Events will be shown if within ANY chosen tag"
+msgstr "किसी भी चुने हुए टैग के भीतर ईवेंट दिखाए जाएंगे"
+
+#: admin/wpem-event-tags-settings.php:44
+
+msgid "Events will be shown if within ALL chosen tags"
+msgstr "सभी चुने हुए टैग के भीतर ईवेंट दिखाए जाएंगे"
+
+#: admin/wpem-event-tags-settings.php:50
+
+msgid "Maximum Event Tags"
+msgstr "अधिकतम इवेंट टैग"
+
+#: admin/wpem-event-tags-settings.php:51
+
+msgid ""
+"Enter the number of tags per event submission you wish to allow, or leave "
+"blank for unlimited tags."
+msgstr ""
+"प्रति इवेंट सबमिशन टैग की संख्या दर्ज करें जिसे आप अनुमति देना चाहते हैं, या असीमित टैग के "
+"लिए रिक्त छोड़ दें।"
+
+#: admin/wpem-event-tags-settings.php:57
+
+msgid "Tag Input"
+msgstr "टैग इनपुट"
+
+#: admin/wpem-event-tags-settings.php:59
+
+msgid "Text box (comma select tags)"
+msgstr "पाठ बॉक्स (अल्पविराम चयनित टैग)"
+
+#: admin/wpem-event-tags-settings.php:60
+
+msgid "Multiselect (list of pre-defined tags)"
+msgstr "मल्टीसिलेक्ट (पूर्व-परिभाषित टैग की सूची)"
+
+#: admin/wpem-event-tags-settings.php:61
+
+msgid "Checkboxes (list of pre-defined tags)"
+msgstr "चेकबॉक्स (पूर्व-निर्धारित टैग की सूची)"
+
+#: admin/wpem-event-tags-writepanels.php:27
+msgid "Tags"
+msgstr "टैग"
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "के लिए <strong>%s</strong> आपका लाइसेंस सक्रिय कर दिया गया है. धन्यवाद!"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+msgid "License"
+msgstr "लाइसेंस"
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr "ईमेल"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "ईमेल पता"
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr "लायसेंस सक्रिय करें"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "के लिए <strong>%s</strong> आपका लाइसेंस निष्क्रिय कर दिया गया है."
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr "सूचना छुपाएँ"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"कृपया \"%2$s\" के लिए अपडेट प्राप्त करने के लिए नीचे दी गई प्लगइन सूची में <a href="
+"\"%1$s\">अपनी लाइसेंस कुंजी दर्ज करें</a>।"
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "अपनी चाबी खो दी है? <a href=\"%s\">इसे यहाँ पुनर्प्राप्त करें</a>।"
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"%1$s का नया संस्करण उपलब्ध है. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">संस्करण देखें%3$s विवरण</a> या <a href=\"%4$s\">अब अद्यतन</a>करें."
+
+#: autoupdater/wpem-updater-license.php:76
+msgid "Lost your license key?"
+msgstr "अपनी लाइसेंस कुंजी खो दी है?"
+
+#: autoupdater/wpem-updater-license.php:76
+msgid "Retrieve it here"
+msgstr "इसे यहाँ पुनर्प्राप्त करें"
+
+#: autoupdater/wpem-updater.php:266
+msgid "Activate licence"
+msgstr "लाइसेंस सक्रिय करें"
+
+#: autoupdater/wpem-updater.php:274
+msgid "Deactivate licence"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+"%1$s के लिए लाइसेंस कुंजी नहीं मिल सकी। हो सकता है कि आप %2$s सेट करते समय लाइसेंस कुंजी "
+"दर्ज करना भूल गए हों।"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:36
+#: external/elementor-widgets/elementor-events-by-tag.php:90
+
+msgid "Event By Tags"
+msgstr "टैग्स द्वारा इवेंट"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:97
+#: external/elementor-widgets/elementor-events-by-tag.php:110
+msgid "Show Pagination"
+msgstr "पृष्ठांकन दिखाएँ"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:101
+msgid "Ascending (ASC)"
+msgstr "आरोही (एएससी)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:102
+msgid "Descending  (DESC)"
+msgstr "अवरोही (डीईएससी)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:114
+msgid "Title"
+msgstr "शीर्षक"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:115
+msgid "ID"
+msgstr "आईडी"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:116
+msgid "Name"
+msgstr "नाम"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:117
+msgid "Parent"
+msgstr "जनक"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:118
+msgid "Rand"
+msgstr "रैंड"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:126
+
+msgid "Tags "
+msgstr "टैग"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:128
+
+msgid "Enter Tags by comma separate"
+msgstr "अल्पविराम द्वारा टैग अलग से दर्ज करें"
+
+#: forms/wpem-event-tags-form-submit.php:35
+#, php-format
+msgid "Please enter no more than %d tags."
+msgstr "कृपया %d से अधिक टैग दर्ज न करें."
+
+#: forms/wpem-event-tags-forms.php:20
+#, php-format
+msgid "Maximum of %d."
+msgstr "अधिकतम %d।"
+
+#: forms/wpem-event-tags-forms.php:25 forms/wpem-event-tags-forms.php:35
+#: forms/wpem-event-tags-forms.php:45
+
+msgid "Event tags"
+msgstr "इवेंट टैग"
+
+#: forms/wpem-event-tags-forms.php:26
+
+msgid "Choose some tags, such as required drama or festival, for this event."
+msgstr "इस ईवेंट के लिए कुछ टैग, जैसे आवश्यक नाटक या त्योहार चुनें."
+
+#: forms/wpem-event-tags-forms.php:36
+
+msgid ""
+"Comma separate tags, such as required drama, festival or technologies, for "
+"this event."
+msgstr "इस ईवेंट के लिए कॉमा अलग टैग, जैसे आवश्यक नाटक, त्योहार या प्रौद्योगिकियां."
+
+#: forms/wpem-event-tags-forms.php:46
+
+msgid ""
+"Comma separate tags, such as required like event type or content for this "
+"event."
+msgstr "इस ईवेंट के लिए इवेंट प्रकार या सामग्री जैसे आवश्यक टैग अलग करें."
+
+#: forms/wpem-event-tags-forms.php:49
+
+msgid "e.g. Meeting or Networking Events , Drama"
+msgstr "जैसे मीटिंग या नेटवर्किंग इवेंट, नाटक"
+
+#: includes/wpem-event-tags-category.php:26
+msgid "Event Tag"
+msgstr "इवेंट टैग"
+
+#: includes/wpem-event-tags-category.php:27
+#: wp-event-manager-event-tags-template.php:44
+msgid "Event Tags"
+msgstr "इवेंट टैग"
+
+#: includes/wpem-event-tags-category.php:39
+#, php-format
+msgid "Search %s"
+msgstr "%s दी खोज करो"
+
+#: includes/wpem-event-tags-category.php:40
+#, php-format
+msgid "All %s"
+msgstr "सभी %s"
+
+#: includes/wpem-event-tags-category.php:41
+#, php-format
+msgid "Parent %s"
+msgstr "माता-पिता %s"
+
+#: includes/wpem-event-tags-category.php:42
+#, php-format
+msgid "Parent %s:"
+msgstr "माता-पिता %s:"
+
+#: includes/wpem-event-tags-category.php:43
+#, php-format
+msgid "Edit %s"
+msgstr "संपादन %s"
+
+#: includes/wpem-event-tags-category.php:44
+#, php-format
+msgid "Update %s"
+msgstr "अपडेट %s"
+
+#: includes/wpem-event-tags-category.php:45
+#, php-format
+msgid "Add New %s"
+msgstr "नया %s जोड़ें"
+
+#: includes/wpem-event-tags-category.php:46
+#, php-format
+msgid "New %s Name"
+msgstr "नया %s नाम"
+
+#: includes/wpem-event-tags-category.php:57
+
+msgctxt "permalink"
+msgid "event-tag"
+msgstr "इवेंट टैग"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:71
+
+msgid "Filter by tag:"
+msgstr "टैग के आधार पर फ़िल्टर करें:"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:190
+
+msgid "tagged"
+msgstr "चिन्हित"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:265
+#, php-format
+msgid "No events found tagged with %s."
+msgstr "कोई ईवेंट नहीं मिला %s."
+
+#: shortcodes/wpem-event-tags-shortcodes.php:305
+#, php-format
+msgid "%s event"
+msgid_plural "%s events"
+msgstr[0] "%s ईवेंट अपडेट नहीं हुआ है, तो कोई इसे संपादित कर रहा है।"
+msgstr[1] "%s घटनाओं को ट्रैश से बहाल किया गया।"
+
+#: wp-event-manager-event-tags.php:38
+
+msgid "WP Event Manager is require to use WP Event Manager - Event Tags"
+msgstr "WP इवेंट मैनेजर WP इवेंट मैनेजर - इवेंट टैग का उपयोग करने के लिए आवश्यक है"
+
+#: wp-event-manager-event-tags.php:125
+
+msgid "Tagged as:"
+msgstr "के रूप में टैग की गईं:"
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Event Tags"
+msgstr "WP इवेंट मैनेजर - इवेंट टैग"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/plugins/"
+msgstr "http://www.wp-eventmanager.com/plugins/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Adds tags to Event Manager for tagging events with required place and event "
+"flavour. Also adds some extra shortcodes."
+msgstr ""
+"आवश्यक स्थान और ईवेंट स्वाद के साथ ईवेंट ्स को टैग करने के लिए इवेंट मैनेजर में टैग जोड़ता है. "
+"इसके अलावा कुछ अतिरिक्त शॉर्टकोड जोड़ता है।"
+
+#. Author of the plugin/theme
+msgid "WP Event Manager"
+msgstr "डब्ल्यूपी इवेंट मैनेजर"
+
+#. Author URI of the plugin/theme
+msgid "http://www.wp-eventmanager.com/"
+msgstr "http://www.wp-eventmanager.com"

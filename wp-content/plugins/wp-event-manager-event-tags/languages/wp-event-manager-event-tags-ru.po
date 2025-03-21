@@ -1,0 +1,392 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Project-Id-Version: WP Event Manager - Event Tags\n"
+"POT-Creation-Date: 2022-12-30 11:36+0530\n"
+"PO-Revision-Date: 2022-12-30 11:50+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-event-manager-event-tags.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/wpem-event-tags-settings.php:31
+msgid "Tag Archives"
+msgstr "Архивы по тегу"
+
+#: admin/wpem-event-tags-settings.php:32
+msgid "Enable Tag Archives"
+msgstr "Включить метку архивов"
+
+#: admin/wpem-event-tags-settings.php:33 admin/wpem-event-tags-settings.php:63
+
+msgid ""
+"Enabling tag archives will make event tags (inside events and tag clouds) "
+"link through to an archive of all events with said tag. Please note, tag "
+"archives will look like your post archives unless you create a special "
+"template to handle the display of event listings called <code>taxonomy-"
+"event_listing_tag.php</code> inside your theme. See <a href=\"http://codex."
+"wordpress.org/Template_Hierarchy#Custom_Taxonomies_display\">Template "
+"Hierarchy</a> for more information."
+msgstr ""
+"Включение архивов тегов приведет к тому, что теги событий (внутри событий и "
+"облаков тегов) будут связаны с архивом всех событий с указанным тегом. "
+"Обратите внимание, что архивы тегов будут выглядеть как ваши почтовые "
+"архивы, если вы не создадите специальный шаблон для обработки отображения "
+"списков событий, вызываемых <code>taxonomy-event_listing_tag.php</code> "
+"внутри вашей темы. Дополнительные сведения см. в <a href=\"http://codex."
+"wordpress.org/Template_Hierarchy#Custom_Taxonomies_display\">разделе "
+"Иерархия шаблонов</a> ."
+
+#: admin/wpem-event-tags-settings.php:39
+msgid "Tags Filter Type"
+msgstr "Тип фильтра меток"
+
+#: admin/wpem-event-tags-settings.php:40
+
+msgid "Determines how events are queried when selecting tags."
+msgstr "Определяет способ запроса событий при выборе тегов."
+
+#: admin/wpem-event-tags-settings.php:43
+
+msgid "Events will be shown if within ANY chosen tag"
+msgstr "События будут показаны, если в любом выбранном теге"
+
+#: admin/wpem-event-tags-settings.php:44
+
+msgid "Events will be shown if within ALL chosen tags"
+msgstr "События будут показаны, если в пределах ВСЕХ выбранных тегов"
+
+#: admin/wpem-event-tags-settings.php:50
+
+msgid "Maximum Event Tags"
+msgstr "Максимальное количество тегов событий"
+
+#: admin/wpem-event-tags-settings.php:51
+
+msgid ""
+"Enter the number of tags per event submission you wish to allow, or leave "
+"blank for unlimited tags."
+msgstr ""
+"Введите количество тегов для каждой отправки события, которое вы хотите "
+"разрешить, или оставьте пустым для неограниченного количества тегов."
+
+#: admin/wpem-event-tags-settings.php:57
+msgid "Tag Input"
+msgstr "Ввод метки"
+
+#: admin/wpem-event-tags-writepanels.php:27
+msgid "Tags"
+msgstr "Теги"
+
+#: autoupdater/templates/activated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been activated. Thanks!"
+msgstr "Лицензионный ключ <strong>%s</strong> активирован. Спасибо!"
+
+#: autoupdater/templates/addon-licence.php:10
+#: autoupdater/wpem-updater-license.php:35
+#: autoupdater/wpem-updater-license.php:58
+msgid "License"
+msgstr "Лицензия"
+
+#: autoupdater/templates/addon-licence.php:14
+msgid "Email"
+msgstr "Email"
+
+#: autoupdater/templates/addon-licence.php:15
+msgid "Email address"
+msgstr "Адрес электронной почты"
+
+#: autoupdater/templates/addon-licence.php:19
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+#: autoupdater/templates/addon-licence.php:21
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: autoupdater/templates/deactivated-key.php:2
+#, php-format
+msgid "Your licence for <strong>%s</strong> has been deactivated."
+msgstr "Лицензия <strong>%s</strong> деактивирована."
+
+#: autoupdater/templates/key-notice.php:2
+msgid "Hide notice"
+msgstr "Скрыть уведомление"
+
+#: autoupdater/templates/key-notice.php:3
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Please enter your licence key</a> in the plugin list below "
+"to get updates for \"%2$s\"."
+msgstr ""
+"<a href=\"%1$s\">Пожалуйста, введите свой лицензионный ключ</a> в список "
+"плагинов ниже, чтобы получать обновления для \"%2$s\"."
+
+#: autoupdater/templates/key-notice.php:4
+#, php-format
+msgid "Lost your key? <a href=\"%s\">Retrieve it here</a>."
+msgstr "Потеряли ключ? <a href=\"%s\">Извлеките его здесь</a>."
+
+#: autoupdater/templates/ms-update.php:6
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Доступна новая версия %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">Посмотреть детали %3$s версии</a> или <a href=\"%4$s\">обновить "
+"сейчас</a>."
+
+#: autoupdater/wpem-updater-license.php:76
+
+msgid "Lost your license key?"
+msgstr "Потеряли лицензионный ключ?"
+
+#: autoupdater/wpem-updater-license.php:76
+
+msgid "Retrieve it here"
+msgstr "Восстановите его здесь"
+
+#: autoupdater/wpem-updater.php:266
+
+msgid "Activate licence"
+msgstr "Активировать лицензию"
+
+#: autoupdater/wpem-updater.php:274
+
+msgid "Deactivate licence"
+msgstr "Деактивировать лицензию"
+
+#: autoupdater/wpem-updater.php:410
+#, php-format
+msgid ""
+"A licence key for %1$s could not be found. Maybe you forgot to enter a "
+"licence key when setting up %2$s."
+msgstr ""
+"Не удалось найти лицензионный ключ для %1$s. Возможно, вы забыли ввести "
+"лицензионный ключ при настройке %2$s."
+
+#: external/elementor-widgets/elementor-events-by-tag.php:36
+#: external/elementor-widgets/elementor-events-by-tag.php:90
+
+msgid "Event By Tags"
+msgstr "Событие по тегам"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:97
+#: external/elementor-widgets/elementor-events-by-tag.php:110
+msgid "Show Pagination"
+msgstr "Показать разбивку на страницы"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:101
+
+msgid "Ascending (ASC)"
+msgstr "По возрастанию (ASC)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:102
+
+msgid "Descending  (DESC)"
+msgstr "По убыванию (DESC)"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:114
+msgid "Title"
+msgstr "Заголовок"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:115
+msgid "ID"
+msgstr "ID"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:116
+msgid "Name"
+msgstr "Имя"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:117
+msgid "Parent"
+msgstr "Родитель"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:118
+msgid "Rand"
+msgstr "Случайно"
+
+#: external/elementor-widgets/elementor-events-by-tag.php:126
+msgid "Tags "
+msgstr "Метки "
+
+#: external/elementor-widgets/elementor-events-by-tag.php:128
+
+msgid "Enter Tags by comma separate"
+msgstr "Ввод тегов раздельными запятыми"
+
+#: forms/wpem-event-tags-form-submit.php:36
+#, php-format
+msgid "Please enter no more than %d tags."
+msgstr "Пожалуйста, введите не более %d тегов."
+
+#: forms/wpem-event-tags-forms.php:20
+#, php-format
+msgid "Maximum of %d."
+msgstr "Максимум %d."
+
+#: forms/wpem-event-tags-forms.php:25 forms/wpem-event-tags-forms.php:35
+#: forms/wpem-event-tags-forms.php:45
+msgid "Event tags"
+msgstr "Метки событий"
+
+#: forms/wpem-event-tags-forms.php:26
+
+msgid "Choose some tags, such as required drama or festival, for this event."
+msgstr ""
+"Выберите некоторые теги, такие как обязательная драма или фестиваль, для "
+"этого события."
+
+#: forms/wpem-event-tags-forms.php:36
+
+msgid ""
+"Comma separate tags, such as required drama, festival or technologies, for "
+"this event."
+msgstr ""
+"Запятая отдельные теги, такие как обязательная драма, фестиваль или "
+"технологии, для этого события."
+
+#: forms/wpem-event-tags-forms.php:46
+
+msgid ""
+"Comma separate tags, such as required like event type or content for this "
+"event."
+msgstr ""
+"Запятая отдельные теги, например обязательные, например тип события или "
+"содержимое для этого события."
+
+#: forms/wpem-event-tags-forms.php:49
+
+msgid "e.g. Meeting or Networking Events , Drama"
+msgstr "Например, встречи или сетевые мероприятия, драма"
+
+#: includes/wpem-event-tags-category.php:26
+msgid "Event Tag"
+msgstr "Метка для Мероприятия"
+
+#: includes/wpem-event-tags-category.php:27
+#: wp-event-manager-event-tags-template.php:44
+msgid "Event Tags"
+msgstr "Теги события"
+
+#: includes/wpem-event-tags-category.php:39
+#, php-format
+msgid "Search %s"
+msgstr "Поиск %s"
+
+#: includes/wpem-event-tags-category.php:40
+#, php-format
+msgid "All %s"
+msgstr "Все %s"
+
+#: includes/wpem-event-tags-category.php:41
+#, php-format
+msgid "Parent %s"
+msgstr "Родитель %s"
+
+#: includes/wpem-event-tags-category.php:42
+#, php-format
+msgid "Parent %s:"
+msgstr "Родитель %s:"
+
+#: includes/wpem-event-tags-category.php:43
+#, php-format
+msgid "Edit %s"
+msgstr "Редактировать %s"
+
+#: includes/wpem-event-tags-category.php:44
+#, php-format
+msgid "Update %s"
+msgstr "Обновить %s"
+
+#: includes/wpem-event-tags-category.php:45
+#, php-format
+msgid "Add New %s"
+msgstr "Добавить новый %s"
+
+#: includes/wpem-event-tags-category.php:46
+#, php-format
+msgid "New %s Name"
+msgstr "Новое %s имя"
+
+#: includes/wpem-event-tags-category.php:57
+
+msgctxt "permalink"
+msgid "event-tag"
+msgstr "тег события"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:75
+msgid "Filter by tag:"
+msgstr "Сортировать по тэгам:"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:196
+msgid "tagged"
+msgstr "помечено"
+
+#: shortcodes/wpem-event-tags-shortcodes.php:274
+#, php-format
+msgid "No events found tagged with %s."
+msgstr "Не найдено событий с тегами %s."
+
+#: shortcodes/wpem-event-tags-shortcodes.php:314
+#, php-format
+msgid "%s event"
+msgid_plural "%s events"
+msgstr[0] "%s событие"
+msgstr[1] ""
+msgstr[2] ""
+
+#: wp-event-manager-event-tags.php:36
+
+msgid "WP Event Manager is require to use WP Event Manager - Event Tags"
+msgstr ""
+"WP Event Manager требует использования WP Event Manager - Теги событий"
+
+#: wp-event-manager-event-tags.php:123
+msgid "Tagged as:"
+msgstr "Метки: "
+
+#. Plugin Name of the plugin/theme
+
+msgid "WP Event Manager - Event Tags"
+msgstr "WP Event Manager - Теги событий"
+
+#. Plugin URI of the plugin/theme
+
+msgid "http://www.wp-eventmanager.com/plugins/"
+msgstr "http://www.wp-eventmanager.com/plugins/"
+
+#. Description of the plugin/theme
+
+msgid ""
+"Adds tags to Event Manager for tagging events with requried place and event "
+"flavour. Also adds some extra shortcodes."
+msgstr ""
+"Добавляет теги в Event Manager для пометки событий с требуемым местом и "
+"вкусом события. Также добавляется несколько дополнительных шорткодов."
+
+#. Author of the plugin/theme
+
+msgid "WP Event Manager"
+msgstr "Менеджер событий WP"
+
+#. Author URI of the plugin/theme
+
+msgid "http://www.wp-eventmanager.com/"
+msgstr "http://www.wp-eventmanager.com/"

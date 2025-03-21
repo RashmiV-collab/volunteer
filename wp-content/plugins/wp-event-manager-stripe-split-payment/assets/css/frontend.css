@@ -1,0 +1,38 @@
+.wpem-stripe-shortcode-container .wpem-stripe-shortcode-wrapper {
+    align-items: center;
+}
+.wpem-stripe-shortcode-container {
+    padding: 25px 15px;
+    margin: 10px 0px;
+    border-radius: 3px;
+    background: #F1F1F1;
+}
+.wpem-stripe-shortcode-container .wpem-stripe-shortcode-wrapper .wpem-stripe-img {
+    position: relative;
+    text-align: center;
+    margin: 10px 0px;
+}
+.wpem-stripe-shortcode-container .wpem-stripe-shortcode-wrapper .wpem-stripe-img img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin: 0 auto;
+}
+.wpem-stripe-shortcode-container .wpem-stripe-shortcode-wrapper .wpem-stripe-info p.wpem-stripe-desc {
+    margin: 0;
+}
+.wpem-stripe-shortcode-container .wpem-stripe-shortcode-wrapper .wpem-stripe-info .wpem-heading-text {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.wpem-stripe-shortcode-container .wpem-stripe-shortcode-wrapper .wpem-stripe-button {
+    text-align: center;
+    margin: 10px 0px;
+    word-break: break-all;
+}
+@media (max-width:768px){
+    .wpem-stripe-shortcode-container .wpem-stripe-shortcode-wrapper .wpem-stripe-info {
+    text-align:center;
+    margin: 20px 0px;
+}

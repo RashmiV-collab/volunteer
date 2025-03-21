@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cron Logger\n"
+"POT-Creation-Date: 2017-11-30 17:01+0100\n"
+"PO-Revision-Date: 2017-11-30 17:03+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/compats/wp-cron.php:44
+msgid ""
+"No registered hooks? Something went wrong. There should be at least "
+"WordPress core cron hooks."
+msgstr ""
+"Keine registrierten Hooks? Irgendwas lief schief. Es müssten zumindest die "
+"WordPress Core Cron Hooks gefunden werden."
+
+#: inc/compats/wp-cron.php:46
+#, php-format
+msgid "Registered hooks: %s"
+msgstr "Registrierte Hooks: %s"
+
+#: inc/page.php:28 inc/page.php:29
+msgid "Cron Logs"
+msgstr "Cron Protokoll"
+
+#: inc/page.php:63
+msgid ""
+"Missing »timezone_string« entry in options table. Please fix! Otherwise "
+"execution times could be wrong."
+msgstr ""
+"»timezone_string« Eintrag in der options Tabelle fehlt. Bitte beheben! "
+"Andernfalls könnten die Ausführungszeitpunkte falsch angezeigt werden."
+
+#: inc/page.php:72
+msgid "Minimum duration of x seconds"
+msgstr "Mindestlaufzeit von x Sekunden"
+
+#: inc/page.php:79
+msgid "Page"
+msgstr "Seite"
+
+#: inc/page.php:85
+msgid "Logs per Page"
+msgstr "Einträge pro Seite"
+
+#: inc/page.php:93
+msgid "Filter"
+msgstr "Filter"
+
+#: inc/page.php:97
+msgid "Toggle open/close log details"
+msgstr "Alle Protokolle öffnen/schließen"
+
+#: inc/page.php:104
+msgid "Executed"
+msgstr "Ausgeführt"
+
+#: inc/page.php:106
+msgid "Duration"
+msgstr "Laufzeit"
+
+#: inc/page.php:107
+msgid "Info"
+msgstr "Info"
+
+#. Plugin Name of the plugin/theme
+msgid "Cron Logger"
+msgstr "Cron Protokoll"
+
+#. Description of the plugin/theme
+msgid "Logs for cron runs."
+msgstr "Protokolliert Cron Prozesse."
+
+#. Author of the plugin/theme
+msgid "Palasthotel <rezeption@palasthotel.de> (Edward Bock)"
+msgstr "Palasthotel <rezeption@palasthotel.de> (Edward Bock)"
+
+#. Author URI of the plugin/theme
+msgid "https://palasthotel.de"
+msgstr "https://palasthotel.de"
