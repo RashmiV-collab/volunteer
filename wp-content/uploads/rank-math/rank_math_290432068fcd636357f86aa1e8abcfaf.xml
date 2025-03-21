@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//volunteercleanup.org/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://volunteercleanup.org/category/uncategorized/</loc>
+		<lastmod>2023-10-02T12:36:51+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://volunteercleanup.org/category/activism/</loc>
+		<lastmod>2023-08-05T17:55:25+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://volunteercleanup.org/category/government-policy/</loc>
+		<lastmod>2023-08-05T17:55:25+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://volunteercleanup.org/category/business-changes/</loc>
+		<lastmod>2023-08-05T17:54:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://volunteercleanup.org/category/plastic-reduction/</loc>
+		<lastmod>2023-08-05T17:55:25+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://volunteercleanup.org/category/win-jar/</loc>
+		<lastmod>2023-10-02T12:36:51+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://volunteercleanup.org/category/individual-behaviors/</loc>
+		<lastmod>2023-08-05T17:55:25+00:00</lastmod>
+	</url>
+</urlset>

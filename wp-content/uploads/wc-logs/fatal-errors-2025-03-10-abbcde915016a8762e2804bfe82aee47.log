@@ -1,0 +1,6 @@
+2025-03-10T05:16:18+00:00 CRITICAL Cannot redeclare add_cohost_meta_box() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:181) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 179
+
+2025-03-10T05:23:55+00:00 CRITICAL Cannot redeclare add_cohost_meta_box() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:181) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 179
+
+2025-03-10T05:36:08+00:00 CRITICAL Cannot redeclare add_cohost_meta_box() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:181) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 179
+

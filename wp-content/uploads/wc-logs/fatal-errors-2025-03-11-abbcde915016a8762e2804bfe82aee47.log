@@ -1,0 +1,18 @@
+2025-03-11T09:47:10+00:00 CRITICAL Cannot redeclare handle_cohost_requests() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:136) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 136
+
+2025-03-11T09:55:18+00:00 CRITICAL Cannot redeclare handle_cohost_requests() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:136) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 136
+
+2025-03-11T09:59:17+00:00 CRITICAL Cannot redeclare display_cohost_dashboard_alert() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:174) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 173
+
+2025-03-11T10:00:06+00:00 CRITICAL Cannot redeclare display_cohost_dashboard_alert() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:174) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 173
+
+2025-03-11T10:08:08+00:00 CRITICAL Cannot redeclare display_cohost_dashboard_alert() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:174) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 173
+
+2025-03-11T10:08:43+00:00 CRITICAL Cannot redeclare display_cohost_dashboard_alert() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:174) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 173
+
+2025-03-11T12:05:10+00:00 CRITICAL Cannot redeclare display_cohost_dashboard_alert() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:174) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 173
+
+2025-03-11T12:07:42+00:00 CRITICAL Cannot redeclare display_cohost_dashboard_alert() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:174) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 173
+
+2025-03-11T12:11:54+00:00 CRITICAL Cannot redeclare handle_cohost_removal() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:189) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 188
+

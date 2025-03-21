@@ -1,0 +1,147 @@
+/******* WP Event Manager *****/
+/* Titles */
+.wpem-dashboard-main-title, ..wpem-dashboard-main-title.wpem-dashboard-main-filter {
+	display: none; }
+
+/* WPEM - Post Event */
+.page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:first-child, .page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(3),
+.page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(4), .page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(5), 
+.page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(6), .page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(7),
+.page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(8), .page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(9),
+.page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(10), .page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(11),
+.page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(12) {
+  display: none; }
+.page-id-10 .event-manager-form .fieldset-event_timezone #event_timezone optgroup:nth-child(2) option:first-child {
+  display: none; }
+.page-id-10 .wpem-form-group:nth-of-type(1) .wpem-form-label-text {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.42; 
+	text-transform: capitalize; }
+.page-id-10 .wpem-form-group .field.account-sign-in.wpem-alert.wpem-alert-info {
+	margin-left: 25px; }
+.page-id-10 .wpem-event-details-heading-custom {
+	margin-top: 25px; }
+.page-id-10 .wpem-form-event-details-section-custom {
+	margin-left: 25px; }
+.page-id-10 .wpem-form-section-title-custom {
+	font-size: 20px; 
+	text-decoration: underline; }
+.page-id-10 .wpem-form-section-title-custom:not(:first-of-type) {
+	padding-top: 15px; }
+.page-id-10 .fieldset-private_event small.description {
+	font-size: 100%; }
+.page-id-10 .fieldset-free_tickets .field {
+	margin-top: 10px; }
+.page-id-10 .fieldset-free_tickets small.description {
+	display: none !important; }
+.page-id-10 .fieldset-free_tickets a.wpem-theme-text-button.event_ticket_add_link {
+	font-size: 0px; }
+.page-id-10 .fieldset-free_tickets a.wpem-theme-text-button.event_ticket_add_link::before {
+	content: "Click Here To Add Free Ticket";
+    font-size: 20px; 
+	font-weight: bold;
+	text-decoration: underline;}
+.page-id-10 .fieldset-ticket_description .wpem-form-label-text {
+	font-size: 16px !important;
+	font-weight: 600 !important;
+	text-transform: initial !important; }
+.page-id-10 .fieldset-attendee_information_fields small.description {
+	display: none !important; }
+.page-id-10 .wpem-organizer-details-heading-custom {
+	margin-top: 25px; }
+.page-id-10 .wpem-form-organizer-details-section-custom {
+	margin-left: 25px; }
+/* WPEM - Single Event */
+.single-event_listing .wpem-single-event-header-top .wpem-event-single-image {
+	text-align: center; }
+.single-event_listing .wpem-single-event-header-top .wpem-event-single-image img {
+	width: 500px !important; 
+    display: inline-block !important; }
+#event_preview .event_listing_preview .wpem-event-single-image {
+		text-align: center; }
+#event_preview .event_listing_preview .wpem-event-single-image img {
+	width: 500px !important; 
+    display: inline-block !important; }
+
+/* WPEM - Alerts */
+
+/* WPEM - Organizer Dashboard */
+.single-page #event-manager-event-registrations .event-manager-registration-edit-form .wpem-form-footer .delete_event_registration {
+	display: none; }
+
+/* Cart */
+.woocommerce-cart .elementor-jet-cart-totals h2 {
+	display: none; }
+
+/* Checkout */
+.waiver-checkbox-custom #billing_wooccm11-description {
+	display: inline-block; }
+#wcpfc_extra_product_fields_area_after_billing_form h3 {
+	font-size: 1.2em;
+	margin-bottom: 10px; 
+    margin-top: 15px; }
+.woocommerce-checkout .woocommerce-billing-fields h3, .elementor-jet-checkout-order-review h3, .woocommerce-additional-fields > h3:first-child {
+	display: none; }
+.woocommerce-checkout .woocommerce-additional-fields h3:nth-of-type(2) {
+	margin-top: 50px;
+	text-align: center; }
+.woocommerce-checkout .woocommerce-additional-fields h3:nth-child(n+4):nth-child(-n+1000) {
+	margin-top: 25px;
+	font-size: 1.5em; }
+.woocommerce-order-received .woocommerce-order-details h2 {
+	display: none; }
+.woocommerce-order-received .elementor-element-e25cf2c a {
+	color: #ffffff;
+	background: #159BC2; 
+	text-align: center; }
+
+/* Menu */
+.wpem-main-vmenu-dashboard-nav-menu {
+	display: none; }
+
+.menu-secondary-custom ul li {
+	border-bottom: 1px solid #E4E4E4; }
+
+/* Login Page */
+.page-id-213 .xoo-el-form-container ul.xoo-el-tabs li.xoo-el-active {
+	display: none; }
+.page-id-213 .xoo-el-header .xoo-el-login-tgr {
+	text-decoration: underline; }
+.xoo-aff-group input[type="text"], .xoo-aff-group input[type="password"], .xoo-aff-group input[type="email"] {
+	font-size: 16px; }
+
+/* Fluent Forms */
+.fluentform .ff-el-input--label label {
+	font-size: 16px !important;
+}
+.frm-fluent-form .ff-btn {
+	background-color: #5BBF59 !important;
+	font-size: 1.1em !important; 
+	font-weight: bold !important;
+	border-radius: 5px !important; 
+	padding: 10px 25px !important; }
+.frm-fluent-form .ff-btn:hover {
+	background-color: #0000FF !important; 
+	opacity: 1 !important ;}
+
+/* User Registration 
+#user-registration {
+	box-shadow: none; }
+*/
+
+/* Alerts Page */
+.page-id-21550 .page-header h1 {
+	display: none; }
+/* Alerts Thank You Page */
+.page-id-21670 .page-header h1 {
+	display: none; }
+
+
+@media all and (min-width: 768px) {
+	
+	.wpem-col-md-9 {
+		flex: auto;
+		max-width: 100%; }
+	
+}

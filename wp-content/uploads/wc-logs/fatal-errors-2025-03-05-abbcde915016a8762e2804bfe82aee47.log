@@ -1,0 +1,56 @@
+2025-03-05T09:40:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function disable_rank_math_meta_keywords_for_event_listing(), 1 passed in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php:37
+Stack trace:
+#0 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php(310): disable_rank_math_meta_keywords_for_event_listing()
+#1 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/plugin.php(256): WP_Hook->apply_filters()
+#2 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/traits/class-hooker.php(102): apply_filters_ref_array()
+#3 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/frontend/paper/class-paper.php(325): RankMath\Paper\Paper->do_filter()
+#4 /home/956818.clou in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php on line 37
+
+2025-03-05T09:40:40+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function disable_rank_math_meta_keywords_for_event_listing(), 1 passed in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php:37
+Stack trace:
+#0 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php(310): disable_rank_math_meta_keywords_for_event_listing()
+#1 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/plugin.php(256): WP_Hook->apply_filters()
+#2 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/traits/class-hooker.php(102): apply_filters_ref_array()
+#3 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/frontend/paper/class-paper.php(325): RankMath\Paper\Paper->do_filter()
+#4 /home/956818.clou in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php on line 37
+
+2025-03-05T09:41:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function disable_rank_math_meta_keywords_for_event_listing(), 1 passed in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php:17
+Stack trace:
+#0 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php(310): disable_rank_math_meta_keywords_for_event_listing()
+#1 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/plugin.php(256): WP_Hook->apply_filters()
+#2 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/traits/class-hooker.php(102): apply_filters_ref_array()
+#3 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/frontend/paper/class-paper.php(325): RankMath\Paper\Paper->do_filter()
+#4 /home/956818.clou in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php on line 17
+
+2025-03-05T09:41:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function disable_rank_math_meta_keywords_for_event_listing(), 1 passed in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php:17
+Stack trace:
+#0 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php(310): disable_rank_math_meta_keywords_for_event_listing()
+#1 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/plugin.php(256): WP_Hook->apply_filters()
+#2 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/traits/class-hooker.php(102): apply_filters_ref_array()
+#3 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/frontend/paper/class-paper.php(325): RankMath\Paper\Paper->do_filter()
+#4 /home/956818.clou in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php on line 17
+
+2025-03-05T09:42:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function disable_rank_math_meta_keywords_for_event_listing(), 1 passed in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php:17
+Stack trace:
+#0 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php(310): disable_rank_math_meta_keywords_for_event_listing()
+#1 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/plugin.php(256): WP_Hook->apply_filters()
+#2 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/traits/class-hooker.php(102): apply_filters_ref_array()
+#3 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/frontend/paper/class-paper.php(325): RankMath\Paper\Paper->do_filter()
+#4 /home/956818.clou in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php on line 17
+
+2025-03-05T09:42:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function disable_rank_math_meta_keywords_for_event_listing(), 1 passed in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php:17
+Stack trace:
+#0 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php(310): disable_rank_math_meta_keywords_for_event_listing()
+#1 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/plugin.php(256): WP_Hook->apply_filters()
+#2 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/traits/class-hooker.php(102): apply_filters_ref_array()
+#3 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/frontend/paper/class-paper.php(325): RankMath\Paper\Paper->do_filter()
+#4 /home/956818.clou in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php on line 17
+
+2025-03-05T09:42:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function disable_rank_math_meta_keywords_for_event_listing(), 1 passed in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php on line 310 and exactly 2 expected in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php:17
+Stack trace:
+#0 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php(310): disable_rank_math_meta_keywords_for_event_listing()
+#1 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/plugin.php(256): WP_Hook->apply_filters()
+#2 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/traits/class-hooker.php(102): apply_filters_ref_array()
+#3 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-by-rank-math/includes/frontend/paper/class-paper.php(325): RankMath\Paper\Paper->do_filter()
+#4 /home/956818.clou in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/seo-event-automation-volunteer-cleanup/seo-event-automation-volunteer-cleanup.php on line 17
+

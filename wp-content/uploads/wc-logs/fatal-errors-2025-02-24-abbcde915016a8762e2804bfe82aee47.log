@@ -1,0 +1,30 @@
+2025-02-24T07:27:32+00:00 CRITICAL Cannot redeclare add_co_host_field() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:102) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 113
+
+2025-02-24T07:29:44+00:00 CRITICAL Cannot redeclare add_co_host_field() (previously declared in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:102) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 113
+
+2025-02-24T07:43:08+00:00 CRITICAL Uncaught Error: Call to undefined function get_users_by_location() in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:123
+Stack trace:
+#0 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/wp-event-manager-template.php(42): include()
+#1 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/forms/wp-event-manager-form-submit-event.php(632): get_event_manager_template()
+#2 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/forms/wp-event-manager-form-abstract.php(75): WP_Event_Manager_Form_Submit_Event->submit()
+#3 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/forms/wp-event-manager-forms.php(83): WP_Event_Manager_Form->output()
+#4 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/shortcodes/wp-event-manager-shortcodes.php(79) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 123
+
+2025-02-24T07:43:16+00:00 CRITICAL Uncaught Error: Call to undefined function get_users_by_location() in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php:123
+Stack trace:
+#0 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/wp-event-manager-template.php(42): include()
+#1 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/forms/wp-event-manager-form-submit-event.php(632): get_event_manager_template()
+#2 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/forms/wp-event-manager-form-abstract.php(75): WP_Event_Manager_Form_Submit_Event->submit()
+#3 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/forms/wp-event-manager-forms.php(83): WP_Event_Manager_Form->output()
+#4 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/shortcodes/wp-event-manager-shortcodes.php(79) in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/event-submit.php on line 123
+
+2025-02-24T13:34:52+00:00 CRITICAL Uncaught Error: Call to undefined function add_cohost_meta_box() in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/content-single-event_listing.php:18
+Stack trace:
+#0 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/template.php(787): require()
+#1 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/wp-event-manager-template.php(99): load_template()
+#2 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager/includes/wp-event-manager-post-types.php(380): get_event_manager_template_part()
+#3 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/class-wp-hook.php(310): WP_Event_Manager_Post_Types->event_content()
+#4 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters()
+#5 /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-includes/post-template.php(256): apply_filters()
+#6 /home/9 in /home/956818.cloudwaysapps.com/rgfebxqaye/public_html/wp-content/plugins/wp-event-manager-volunteer-cleanup/wpem-templates/content-single-event_listing.php on line 18
+
